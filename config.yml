@@ -1,0 +1,15 @@
+site:
+  language: en
+  title: "cécile ricordeau"
+  baseline: "creative director"
+  baseurl: https://www.cecillie.fr/
+  description: "Cécile Ricordeau, Creative Director"
+  links:
+    Behance: https://www.behance.net/cecillie
+    Linkedin: https://www.linkedin.com/in/digitalcreation/
+    Twitter: https://www.twitter.com/onibd
+    CV: cecile-ricordeau-cv.pdf
+    Contact: mailto:cecile@cecillie.fr
+  author:
+    name: Cécile Ricordeau
+    url: https://www.cecillie.fr
