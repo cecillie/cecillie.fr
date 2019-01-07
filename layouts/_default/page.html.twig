@@ -1,6 +1,6 @@
 {% set title = site.title ~ ' &middot; ' ~ site.baseline %}
 <!doctype html>
-<html lang="en">
+<html lang="{{ site.language }}">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -33,7 +33,7 @@
             </div>
 {% block header %}
             <header>
-              {{ page.content }}
+                {{ page.content }}
             </header>
 {% endblock %}
 {% block footer %}
@@ -41,7 +41,7 @@
                 <div>
                     <h2>
 {% for link, url in site.links %}
-                      <a target="_blank" href="{{ url }}">{{ link }}</a>
+                        <a target="_blank" href="{{ url }}">{{ link }}</a>
 {% endfor %}
                     </h2>
                 </div>
