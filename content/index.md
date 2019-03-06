@@ -1,8 +1,3 @@
----
-title: Home
-layout: index.html
----
-
 Hey there, put yourself at ease, pick a drink, and let's talk.
 
 I'm Cécile, a creative and art director in Paris. I specialize in creative strategy and believe in the power of a good and human creative process. And I hate uppercase. Sorry.
