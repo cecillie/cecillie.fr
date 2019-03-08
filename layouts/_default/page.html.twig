@@ -1,53 +1,54 @@
 {% set title = site.title ~ ' &middot; ' ~ site.baseline %}
 <!doctype html>
 <html lang="{{ site.language }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>{{ title }}</title>
-        <meta name="title" content="{{ title }}">
-        <meta name="description" content="{{ site.description }}">
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="{{ url('', {canonical: true}) }}">
-        <meta property="og:title" content="{{ title }}">
-        <meta property="og:description" content="{{ site.description }}">
-        <meta property="og:image" content="{{ url('apple-touch-icon.png', {canonical: true}) }}">
-        <meta property="twitter:card" content="summary_large_image">
-        <meta property="twitter:url" content="{{ url('', {canonical: true}) }}">
-        <meta property="twitter:title" content="{{ title }}">
-        <meta property="twitter:description" content="{{ site.description }}">
-        <meta property="twitter:image" content="{{ url('apple-touch-icon.png', {canonical: true}) }}">
-        <link rel="apple-touch-icon" href="{{ url('apple-touch-icon.png') }}">
-        <link rel="shortcut icon" href="{{ url('favicon.ico') }}">
-        <link href="https://fonts.googleapis.com/css?family=Wire+One" rel="stylesheet">
-        <link rel="stylesheet" href="{{ url(minify('css/normalize.css')) }}">
-        <link rel="stylesheet" href="{{ url(minify('css/styles.css')) }}">
-    </head>
-    <body>
-        <article>
-            <div id="logo">
-                <div class="logo">
-                    <img src="{{ url('img/logo.svg') }}" alt="Logo">
-                </div>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ title }}</title>
+    <meta name="title" content="{{ title }}">
+    <meta name="description" content="{{ site.description }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ url('', {canonical: true}) }}">
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:image" content="{{ url('apple-touch-icon.png', {canonical: true}) }}">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{{ url('', {canonical: true}) }}">
+    <meta property="twitter:title" content="{{ title }}">
+    <meta property="twitter:description" content="{{ site.description }}">
+    <meta property="twitter:image" content="{{ url('apple-touch-icon.png', {canonical: true}) }}">
+    <link rel="apple-touch-icon" href="{{ url('apple-touch-icon.png') }}">
+    <link rel="shortcut icon" href="{{ url('favicon.ico') }}">
+    <link href="https://fonts.googleapis.com/css?family=Wire+One" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url(minify('css/normalize.css')) }}">
+    <link rel="stylesheet" href="{{ url(minify('css/styles.css')) }}">
+{% include 'partials/alternates.html.twig' %}
+</head>
+<body>
+    <article>
+        <div id="logo">
+            <div class="logo">
+                <img src="{{ url('img/logo.svg') }}" alt="Logo">
             </div>
+        </div>
 {% block header %}
-            <header>
-                {{ page.content }}
-            </header>
+        <header>
+            {{ page.content }}
+        </header>
 {% endblock %}
 {% block footer %}
-            <footer>
-                <div>
-                    <h2>
+        <footer>
+            <div>
+                <h2>
 {% for link, url in site.links %}
-                        <a target="_blank" href="{{ url }}">{{ link }}</a>
+                    <a target="_blank" href="{{ url }}">{{ link }}</a>
 {% endfor %}
-                    </h2>
-                </div>
-            </footer>
+                </h2>
+            </div>
+        </footer>
 {% endblock %}
-        </article>
-        {% include 'includes/googleanalytics.js.twig' %}
-    </body>
+    </article>
+{% include 'partials/googleanalytics.js.twig' %}
+</body>
 </html>

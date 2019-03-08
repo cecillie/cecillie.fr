@@ -104,6 +104,7 @@ article {
   font-size: 14px;
 }
 article a {
+  color: #000;
   text-decoration: none;
 }
 article header {
@@ -130,8 +131,6 @@ article footer a {
   line-height: 50px;
   margin: 30px 5px;
   height: 40px;
-  color: #000;
-  text-decoration: none;
 }
 
 /**
