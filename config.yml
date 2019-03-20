@@ -14,3 +14,6 @@ site:
   author:
     name: "Cécile Ricordeau"
     url: https://www.cecillie.fr
+  output:
+    pagetypeformats:
+      homepage: html, json
