@@ -1,9 +1,9 @@
 site:
-  language: en
   title: "cécile ricordeau"
-  baseline: "creative and art director"
   baseurl: https://www.cecillie.fr/
+  baseline: "creative and art director"
   description: "i'm cécile, a creative and art director in paris. i specialize in creative strategy and believe in the power of a good and human creative process."
+  language: en
   links:
     Behance: https://www.behance.net/cecillie
     Vimeo: https://vimeo.com/cecillie
