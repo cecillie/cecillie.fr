@@ -1,7 +1,7 @@
 ---
 title: "About me"
 date: 2019-03-08
-output: html
+output: [html, json]
 ---
 Hey there, put yourself at ease, pick a drink, and let’s talk.
 
