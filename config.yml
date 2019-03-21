@@ -16,5 +16,5 @@ site:
     url: https://www.cecillie.fr
   output:
     pagetypeformats:
-      homepage: html
-      page: html
+      homepage: [html]
+      page: [html]
