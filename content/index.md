@@ -1,5 +1,7 @@
 ---
-title: About me
+title: "About me"
+date: 2019-03-08
+output: html
 ---
 Hey there, put yourself at ease, pick a drink, and let’s talk.
 
