@@ -11,4 +11,4 @@ For 15 years I’ve been glad to work with talented folks at Ultranoir, Publicis
 
 I’m also a proud member of the [Ethical Designer’s association](https://designersethiques.org) and a picky judge at [theFWA](https://thefwa.com). ✊
 
-Take a look at my [Behance portfolio](https://www.behance.net/cecillie), check [my resume](https://www.cecillie.fr/cecile-ricordeau-cv.pdf), and [contact me](mailto:cecile.ricordeau@gmail.com) if you want to discuss or pick another drink.
+Take a look at my [Behance portfolio](https://www.behance.net/cecillie), check [my resume](https://www.cecillie.fr/cecile-ricordeau-cv.pdf), and [contact me](mailto:hello@cecillie.fr) if you want to discuss or pick another drink.
