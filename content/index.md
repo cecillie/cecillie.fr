@@ -1,5 +1,5 @@
 ---
-title: "About me"
+title: "Cécile Ricordeau, Creative and Art direction, UI and UX design"
 date: 2019-04-10
 output: [html, json]
 ---
