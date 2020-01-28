@@ -44,12 +44,12 @@
         }
     </style>
     {% endfilter %}
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Wire+One" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="preload" href="{{ url('css/normalize.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="preload" href="{{ url('css/styles.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Wire+One" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Wire+One"></noscript>
     <noscript><link rel="stylesheet" href="{{ url('css/normalize.css') }}"></noscript>
     <noscript><link rel="stylesheet" href="{{ url('css/styles.css') }}"></noscript>
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Wire+One"></noscript>
 {% include 'partials/alternates.html.twig' %}
 </head>
 <body>
