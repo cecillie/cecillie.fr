@@ -4,9 +4,5 @@
   X-Content-Type-Options: nosniff
 /css/*
   Cache-Control: public, max-age=360000
-/fonts/*
-  Cache-Control: public, max-age=360000
-/images/*
-  Cache-Control: public, max-age=360000
-/js/*
+/img/*
   Cache-Control: public, max-age=360000
