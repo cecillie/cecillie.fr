@@ -1,7 +1,7 @@
 ---
 title: "Cécile Ricordeau, Creative and Art direction, UI and UX design"
 date: 2019-04-10
-output: [html, json]
+output: [html, json, xml]
 ---
 Hey there, put yourself at ease, pick a drink, and let’s talk.
 
