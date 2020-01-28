@@ -20,9 +20,12 @@
     <meta property="twitter:image" content="{{ url('apple-touch-icon.png', {canonical: true}) }}">
     <link rel="apple-touch-icon" href="{{ url('apple-touch-icon.png') }}">
     <link rel="shortcut icon" href="{{ url('favicon.ico') }}">
-    <link href="https://fonts.googleapis.com/css?family=Wire+One" rel="stylesheet">
-    <link rel="stylesheet" href="{{ url('css/normalize.css') }}">
-    <link rel="stylesheet" href="{{ url('css/styles.css') }}">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Wire+One" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Wire+One"></noscript>
+    <link rel="preload" href="{{ url('css/normalize.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="{{ url('css/normalize.css') }}"></noscript>
+    <link rel="preload" href="{{ url('css/styles.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="{{ url('css/styles.css') }}"></noscript>
 {% include 'partials/alternates.html.twig' %}
 </head>
 <body>
