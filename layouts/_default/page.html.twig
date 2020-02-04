@@ -9,20 +9,47 @@
     <meta name="title" content="{{ title }}">
     <meta name="description" content="{{ site.description }}">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="{{ url('', {canonical: true}) }}">
+    <meta property="og:url" content="{{ url(page, {canonical: true}) }}">
     <meta property="og:title" content="{{ title }}">
     <meta property="og:description" content="{{ site.description }}">
     <meta property="og:image" content="{{ url('apple-touch-icon.png', {canonical: true}) }}">
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="{{ url('', {canonical: true}) }}">
+    <meta property="twitter:url" content="{{ url(page, {canonical: true}) }}">
     <meta property="twitter:title" content="{{ title }}">
     <meta property="twitter:description" content="{{ site.description }}">
     <meta property="twitter:image" content="{{ url('apple-touch-icon.png', {canonical: true}) }}">
     <link rel="apple-touch-icon" href="{{ url('apple-touch-icon.png') }}">
     <link rel="shortcut icon" href="{{ url('favicon.ico') }}">
-    <link href="https://fonts.googleapis.com/css?family=Wire+One" rel="stylesheet">
-    <link rel="stylesheet" href="{{ url(minify('css/normalize.css')) }}">
-    <link rel="stylesheet" href="{{ url(minify('css/styles.css')) }}">
+    {% filter minifyCSS %}
+    <style type="text/css">
+        html {
+          -webkit-font-smoothing: antialiased;
+          -webkit-text-stroke-width: 0;
+          -moz-osx-font-smoothing: grayscale;
+          -moz-hyphens: auto;
+          -webkit-hyphens: auto;
+          hyphens: auto;
+          box-sizing: border-box;
+          background: #fff;
+          position: relative;
+        }
+        body {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          z-index: 0;
+          -webkit-animation: backgroundscale 1s ease-out forwards;
+          animation: backgroundscale 1s ease-out forwards;
+          background: #fff;
+        }
+    </style>
+    {% endfilter %}
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Wire+One" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="{{ url('css/normalize.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="{{ url('css/styles.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Wire+One"></noscript>
+    <noscript><link rel="stylesheet" href="{{ url('css/normalize.css') }}"></noscript>
+    <noscript><link rel="stylesheet" href="{{ url('css/styles.css') }}"></noscript>
 {% include 'partials/alternates.html.twig' %}
 </head>
 <body>
@@ -44,7 +71,7 @@
             <div>
                 <h2>
 {% for link, url in site.links %}
-                    <a target="_blank" href="{{ url }}">{{ link }}</a>
+                    <a href="{{ url }}" target="_blank" rel="noopener">{{ link }}</a>
 {% endfor %}
                 </h2>
             </div>
