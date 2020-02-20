@@ -3,14 +3,22 @@ baseurl: https://www.cecillie.fr/
 baseline: "Creative and Art direction, UI and UX design"
 description: "Cécile Ricordeau, freelance creative and art director in paris, ui and ux designer, specialized in creative strategy and conception."
 links:
-  Behance: https://www.behance.net/cecillie
-  Vimeo: https://vimeo.com/cecillie
-  Linkedin: https://www.linkedin.com/in/digitalcreation/
-  Twitter: https://www.twitter.com/onibd
-  Medium: https://medium.com/@cecile.ricordeau
-  Book: http://bitly.com/cecillie
-  CV: cecile-ricordeau-cv.pdf
-  hello[at]cecillie.fr: mailto:hello@cecillie.fr
+  - name: Behance
+    url: https://www.behance.net/cecillie
+  - name: Vimeo
+    url: https://vimeo.com/cecillie
+  - name: Linkedin
+    url: https://www.linkedin.com/in/digitalcreation/
+  - name: Twitter
+    url: https://www.twitter.com/onibd
+  - name: Medium
+    url: https://medium.com/@cecile.ricordeau
+  - name: Book
+    url: http://bitly.com/cecillie
+  - name: CV
+    url: cecile-ricordeau-cv.pdf
+  - name: hello[at]cecillie.fr
+    url: mailto:hello@cecillie.fr
 author:
   name: "Cécile Ricordeau"
   url: https://www.cecillie.fr
