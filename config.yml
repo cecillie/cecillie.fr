@@ -5,8 +5,6 @@ baseline: Creative and Art direction, UI and UX design
 description: Cécile Ricordeau, freelance creative and art director in paris, ui and
   ux designer, specialized in creative strategy and conception.
 links:
-- name: hello[at]cecillie.fr
-  url: mailto:hello@cecillie.fr
 - name: Behance
   url: https://www.behance.net/cecillie
 - name: Vimeo
@@ -21,6 +19,8 @@ links:
   url: http://bitly.com/cecillie
 - name: CV
   url: "/cecile-ricordeau-cv.pdf"
+- name: hello[at]cecillie.fr
+  url: mailto:hello@cecillie.fr
 author:
   name: Cécile Ricordeau
   url: https://www.cecillie.fr
