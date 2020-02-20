@@ -16,7 +16,7 @@ links:
   - name: Book
     url: http://bitly.com/cecillie
   - name: CV
-    url: cecile-ricordeau-cv.pdf
+    url: /cecile-ricordeau-cv.pdf
   - name: hello[at]cecillie.fr
     url: mailto:hello@cecillie.fr
 author:
