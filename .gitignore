@@ -1,3 +1,4 @@
 .cecil/
 .DS_Store
 _site
+.cache/
