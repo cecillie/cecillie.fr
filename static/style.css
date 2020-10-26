@@ -414,7 +414,7 @@ ul {
  */
 
 html {
-  font-family: nunito, sans-serif; /* 1 */
+  font-family: Roboto Condensed, sans-serif; /* 1 */
   line-height: 1.5; /* 2 */
 }
 
@@ -10302,7 +10302,7 @@ video {
 }
 
 .font-sans {
-  font-family: nunito, sans-serif;
+  font-family: Roboto Condensed, sans-serif;
 }
 
 .font-hairline {
@@ -31347,7 +31347,7 @@ video {
   }
 
   .sm\:font-sans {
-    font-family: nunito, sans-serif;
+    font-family: Roboto Condensed, sans-serif;
   }
 
   .sm\:font-hairline {
@@ -52327,7 +52327,7 @@ video {
   }
 
   .md\:font-sans {
-    font-family: nunito, sans-serif;
+    font-family: Roboto Condensed, sans-serif;
   }
 
   .md\:font-hairline {
@@ -73307,7 +73307,7 @@ video {
   }
 
   .lg\:font-sans {
-    font-family: nunito, sans-serif;
+    font-family: Roboto Condensed, sans-serif;
   }
 
   .lg\:font-hairline {
@@ -94287,7 +94287,7 @@ video {
   }
 
   .xl\:font-sans {
-    font-family: nunito, sans-serif;
+    font-family: Roboto Condensed, sans-serif;
   }
 
   .xl\:font-hairline {
