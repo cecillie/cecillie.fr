@@ -2,7 +2,7 @@ module.exports = {
   theme: {
     // Some useful comment
     fontFamily: {
-      'sans': ['nunito', 'sans-serif'],
+      'sans': ['Roboto Condensed', 'sans-serif'],
     },
   },
   variants: {
