@@ -23,7 +23,7 @@
             <span class="text-sm font-thin pl-2">{{ site.author.email }}</span>
           </a>
         </div>
-        <div class="flex w-full pt-2 content-center justify-between md:w-1/2 md:justify-end">
+        <div class="flex w-full md:pt-2 pt-6 content-center justify-between md:w-1/2 md:justify-end">
           <ul class="list-reset flex justify-between flex-1 items-center">
           {%- for link in site.links ~%}
             <li>
@@ -34,7 +34,7 @@
         </div>
       </div>
     </nav>
-    <div class="my-24 md:mx-24">
+    <div class="md:my-24 md:mx-24">
       {%- block content ~%}
       <div class="leading-normal mb-4 my-4">
         {{- page.content ~}}
