@@ -5,10 +5,4 @@ module.exports = {
       'sans': ['Roboto Condensed', 'sans-serif'],
     },
   },
-  variants: {
-    // Some useful comment
-  },
-  plugins: [
-    // Some useful comment
-  ]
 }
