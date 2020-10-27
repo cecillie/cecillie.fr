@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     {%~ include 'partials/metatags.html.twig' ~%}
     <link href="/style.css" rel="stylesheet">
-    <style>
+    <style>{% apply minify_css %}
       p {
         margin-bottom: 1rem;
       }
@@ -23,14 +23,14 @@
         pointer-events: none;
         opacity: .05;
       }
-    </style>
+    {% endapply %}</style>
   </head>
   <body class="font-sans leading-normal tracking-normal m-10">
     <nav class="p-2 mt-0 w-full">
       <div class="container mx-auto flex flex-wrap items-center">
         <div class="flex w-full md:w-1/2 justify-center md:justify-start font-extrabold">
           <a class="no-underline hover:no-underline" href="{{ url() }}">
-            <img src="{{ url('/img/logo.svg') }}" class="w-8" />
+            <img src="{{ url('/img/logo.svg') }}" class="w-8" width="75" height="75" alt="The 'C' logo" />
           </a>
           <a class="no-underline hover:no-underline mt-2 ml-10" href="mailto:{{ site.author.email }}">
             <span class="text-sm font-thin pl-2">{{ site.author.email }}</span>
