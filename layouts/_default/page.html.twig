@@ -32,7 +32,7 @@
           <a class="no-underline hover:no-underline" href="{{ url() }}">
             <img src="{{ url('/img/logo.svg') }}" class="w-8" width="75" height="75" alt="The 'C' logo" />
           </a>
-          <a class="no-underline hover:no-underline mt-2 ml-10" href="mailto:{{ site.author.email }}">
+          <a class="no-underline hover:underline mt-2 ml-10" href="mailto:{{ site.author.email }}">
             <span class="text-sm font-thin pl-2">{{ site.author.email }}</span>
           </a>
         </div>
@@ -40,7 +40,7 @@
           <ul class="list-reset flex justify-between flex-1 items-center">
           {%- for link in site.links ~%}
             <li>
-              <a class="text-sm inline-block no-underline hover:text-underline font-thin lowercase" href="{{ link.url }}" target="_blank" rel="noopener">{{ link.name }}</a>
+              <a class="text-sm inline-block no-underline hover:underline font-thin lowercase" href="{{ link.url }}" target="_blank" rel="noopener">{{ link.name }}</a>
             </li>
           {%- endfor ~%}
           </ul>
