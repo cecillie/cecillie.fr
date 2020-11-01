@@ -26,6 +26,30 @@
         pointer-events: none;
         opacity: .05;
       }
+      /* Pink links */
+      a:not(.logo) {
+        position: relative;
+      }
+      a:not(.logo)::after {
+        content: '';
+        transform-origin: 0 0;
+        transform: scaleX(0);
+        position: absolute;
+        bottom: 0.01em;
+        left: 0;
+        right: 0;
+        height: .4em;
+        background: #F5B2A5;
+        z-index: -1;
+        opacity: 0.8;
+        transition: transform .3s;
+      }
+      a:not(.logo):hover::after {
+        transform: scaleX(1);
+      }
+      nav a:not(.logo)::after {
+        bottom: 0.22em;
+      }
     {% endapply %}</style>
   </head>
   <body class="font-sans leading-normal tracking-normal md:m-10">
@@ -33,7 +57,7 @@
       <div class="container mx-auto flex flex-wrap items-center">
         <div class="flex w-full md:w-3/4 justify-center md:justify-start font-extrabold">
           {#- logo ~#}
-          <a class="no-underline hover:no-underline" href="{{ url() }}">
+          <a class="no-underline hover:no-underline logo" href="{{ url() }}">
             <img src="{{ url('/img/logo.svg') }}" class="w-8" width="75" height="75" alt="The 'C' logo" />
           </a>
           {#- email ~#}
@@ -46,7 +70,7 @@
           <ul class="list-reset flex justify-between flex-1 items-center">
           {%- for link in site.links ~%}
             <li>
-              <a class="inline-block no-underline hover:underline font-light lowercase" href="{{ link.url }}" target="_blank" rel="noopener">{{ link.name }}</a>
+              <a class="inline-block no-underline hover:no-underline font-light lowercase" href="{{ link.url }}" target="_blank" rel="noopener">{{ link.name }}</a>
             </li>
           {%- endfor ~%}
           </ul>
