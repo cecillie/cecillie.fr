@@ -6,6 +6,8 @@ description: Cécile Ricordeau, freelance creative and art director in paris, ui
 image: /img/twitter-card.png
 author:
   name: Cécile Ricordeau
+  firstname: Cécile
+  lastname: Ricordeau
   url: https://www.cecillie.fr
   email: hello@cecillie.fr
 links:
