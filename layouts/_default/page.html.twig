@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     {%~ include 'partials/metatags.html.twig' ~%}
-    <link href="/style.css" rel="stylesheet">
+    <link href="{{ url ('style.css') }}" rel="stylesheet">
     <style>{% apply minify_css %}
+      /* Paragraphes */
       p {
         margin-bottom: 1rem;
       }
@@ -16,6 +17,7 @@
       p > a:hover {
         text-decoration: none;
       }
+      /* Background noise effect */
       .noise {
         z-index: 100;
         position: fixed;
