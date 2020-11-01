@@ -6,7 +6,7 @@ My portfolio 2019.
 
 ```bash
 npm install tailwindcss
-npx tailwindcss build -o static/style.css
+npx tailwindcss build ./static/styles.css -o ./static/css/styles.css
 curl -LO https://cecil.app/cecil.phar
 php cecil.phar serve -vv
 ```

@@ -5,54 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     {%~ include 'partials/metatags.html.twig' ~%}
-    <link href="{{ url ('style.css') }}" rel="stylesheet">
-    <style>{% apply minify_css %}
-      /* Paragraphes */
-      p {
-        margin-bottom: 1rem;
-      }
-      p > a {
-        text-decoration: underline;
-      }
-      p > a:hover {
-        text-decoration: none;
-      }
-      /* Background noise effect */
-      .noise {
-        z-index: 100;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        pointer-events: none;
-        opacity: .05;
-      }
-      /* Pink links */
-      a:not(.logo) {
-        position: relative;
-      }
-      a:not(.logo)::after {
-        content: '';
-        transform-origin: 0 0;
-        transform: scaleX(0);
-        position: absolute;
-        bottom: 0.01em;
-        left: 0;
-        right: 0;
-        height: .4em;
-        background: #F5B2A5;
-        z-index: -1;
-        opacity: 0.8;
-        transition: transform .3s;
-      }
-      a:not(.logo):hover::after {
-        transform: scaleX(1);
-      }
-      nav a:not(.logo)::after {
-        bottom: 0.22em;
-      }
-    {% endapply %}</style>
+    <link href="{{ url ('css/styles.css') }}" rel="stylesheet">
   </head>
   <body class="font-sans leading-normal tracking-normal md:m-10">
     {#- header ~#}
