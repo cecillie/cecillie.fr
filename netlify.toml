@@ -1,0 +1,9 @@
+[build]
+  command = "chmod +x .netlify/build.sh && bash .netlify/build.sh"
+  publish = "_site"
+
+[context.deploy-preview]
+  command = "chmod +x .netlify/build.sh && bash .netlify/build.sh preview"
+
+[context.branch-deploy]
+  command = "chmod +x .netlify/build.sh && bash .netlify/build.sh preview"
