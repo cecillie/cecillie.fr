@@ -11,12 +11,14 @@ author:
   url: https://www.cecillie.fr
   email: hello@cecillie.fr
 links:
+- name: Shop
+  url: https://shop.cecillie.fr/
 - name: Instagram
   url: https://www.instagram.com/cecile.ricordeau/
 - name: Behance
   url: https://www.behance.net/cecillie
-- name: Vimeo
-  url: https://vimeo.com/cecillie
+#- name: Vimeo
+#  url: https://vimeo.com/cecillie
 - name: Linkedin
   url: https://www.linkedin.com/in/digitalcreation/
 #- name: Twitter
