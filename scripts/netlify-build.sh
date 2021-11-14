@@ -2,7 +2,11 @@ CECIL_CACHE_DIR=${CECIL_CACHE_DIR%/}
 CECIL_CACHE_DIR="$CECIL_CACHE_DIR/$BRANCH"
 
 echo "Downloading Cecil"
-curl -sSOL $CECIL_PHAR_URL
+if [ -z $CECIL_VERSION ]; then
+  curl -sSOL https://cecil.app/cecil.phar
+else
+  curl -sSOL https://cecil.app/download/$CECIL_VERSION/cecil.phar
+fi
 php cecil.phar --version
 
 # Build CSS
