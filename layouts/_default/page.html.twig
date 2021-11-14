@@ -7,6 +7,7 @@
     {%~ include 'partials/metatags.html.twig' ~%}
     {%- if getenv('CECIL_ENV') == 'production' ~%}
     <style>
+      {{- asset('styles.css', {minify: true})|inline ~}}
     </style>
     {%- else ~%}
     <link rel="stylesheet" href="{{ asset('styles.css', {minify: false, fingerprint: false}) }}"/>
