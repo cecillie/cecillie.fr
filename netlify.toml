@@ -3,6 +3,8 @@
   command = "chmod +x ./scripts/netlify-build.sh && bash ./scripts/netlify-build.sh"
 [build.environment]
   NODE_VERSION = "12.16"
+  CECIL_ENV = "production"
+  CECIL_CACHE_DIR = "/opt/build/cache/"
   CSS_INPUT = "static/tailwind.css"
   CSS_OUPUT = "static/styles.css"
 
