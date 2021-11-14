@@ -9,6 +9,18 @@ author:
   lastname: Ricordeau
   url: https://www.cecillie.fr
   email: hello@cecillie.fr
+language: en
+languages:
+  - code: en
+    name: English
+    locale: en_US
+  - code: fr
+    name: Français
+    locale: fr_FR
+    config:
+      baseline: Direction créative et artistique, conception UI et UX
+      description: Cécile Ricordeau, directrice créative et artisitique freelance à Paris, conceptrice ui et
+        ux, spécialisée dans la stratégie et la conception créative.
 links:
 - name: Instagram
   url: https://www.instagram.com/cecile.ricordeau/
