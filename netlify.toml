@@ -1,9 +1,13 @@
 [build]
-  command = "chmod +x .netlify/build.sh && bash .netlify/build.sh"
   publish = "_site"
+  command = "chmod +x ./scripts/netlify-build.sh && bash ./scripts/netlify-build.sh"
+[build.environment]
+  NODE_VERSION = "12.16"
+  CSS_INPUT = "static/tailwind.css"
+  CSS_OUPUT = "static/styles.css"
 
-[context.deploy-preview]
-  command = "chmod +x .netlify/build.sh && bash .netlify/build.sh preview"
+[context.deploy-preview.environment]
+  CECIL_ENV = "preview"
 
-[context.branch-deploy]
-  command = "chmod +x .netlify/build.sh && bash .netlify/build.sh preview"
+[context.branch-deploy.environment]
+  CECIL_ENV = "branch"

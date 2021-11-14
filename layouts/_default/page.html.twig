@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     {%~ include 'partials/metatags.html.twig' ~%}
-    {#- <link href="{{ url('css/styles.css') }}" rel="stylesheet"> ~#}
+    {%- if getenv('CECIL_ENV') == 'production' ~%}
     <style>
-      {{- asset('css/styles.css')|inline ~}}
     </style>
+    {%- else ~%}
+    <link rel="stylesheet" href="{{ asset('styles.css', {minify: false, fingerprint: false}) }}"/>
+    {%- endif ~%}
   </head>
   <body class="font-sans leading-normal tracking-normal md:m-10">
     {#- header ~#}
