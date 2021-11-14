@@ -29,7 +29,7 @@
         </div>
         {#- menu ~#}
         <div class="flex w-full md:pt-2 pt-6 content-center justify-between md:w-1/4 md:justify-end">
-          <ul class="list-reset flex justify-between flex-1 items-center">
+          <ul class="list-reset flex justify-between flex-1 items-center space-x-4">
           {%- for link in site.links ~%}
             <li>
               <a class="inline-block no-underline hover:no-underline font-light lowercase" href="{{ link.url }}" target="_blank" rel="noopener">{{ link.name }}</a>
