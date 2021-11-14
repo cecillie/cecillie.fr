@@ -44,4 +44,4 @@ links:
 #  url: mailto:hello@cecillie.fr
 defaultpages:
   sitemap:
-    published: false
+    published: true
