@@ -45,3 +45,11 @@ links:
 defaultpages:
   sitemap:
     published: true
+theme:
+  - netlify
+netlify:
+  redirects:
+    - from: https://cecillie.netlify.com/*
+      to: https://cecillie.fr/:splat
+      status: 301
+      force: true
