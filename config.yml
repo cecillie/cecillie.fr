@@ -21,6 +21,7 @@ languages:
       baseline: Direction créative et artistique, conception UI et UX
       description: Cécile Ricordeau, directrice créative et artisitique freelance à Paris, conceptrice ui et
         ux, spécialisée dans la stratégie et la conception créative.
+    enabled: false
 links:
 - name: Instagram
   url: https://www.instagram.com/cecile.ricordeau/
