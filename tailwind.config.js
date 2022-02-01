@@ -7,4 +7,7 @@ module.exports = {
       'sans': ['Roboto Condensed', 'sans-serif'],
     },
   },
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 }
