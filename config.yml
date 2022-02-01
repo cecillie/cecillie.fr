@@ -62,8 +62,8 @@ body:
     caption:
       enabled: true      # adds <figcaption> to images with a title (`false` by default)
     resize:
-      enabled: false     # enables image resizing by using the `width` extra attribute (`false` by default)
+      enabled: true     # enables image resizing by using the `width` extra attribute (`false` by default)
     responsive:
-      enabled: false     # creates responsive images (`false` by default)
+      enabled: true     # creates responsive images (`false` by default)
     webp:
-      enabled: false     # creates webp images (`false` by default)
+      enabled: true     # creates webp images (`false` by default)
