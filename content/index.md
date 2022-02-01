@@ -1,14 +1,15 @@
 ---
-title: "About me"
+title: I'm Cécile Ricordeau, a global art and creative director based in Paris.
+description: Thanks to my global expertise, I help you bring emotion, depth and consistency to your brand.
 date: 2019-04-10
-output: [html, json]
+updated: 2020-10-20
+output:
+- html
+- json
 ---
-Hey there, put yourself at ease, pick a drink, and let’s talk.
+Former Creative director of Ultranoir, Uzful and Baobaz, trained at Publicis, I now work as a freelance.
+For 15 years I’ve been glad to collaborate with fine brands such as [Galeries Lafayette](https://www.behance.net/gallery/74355515/galeries-lafayette), [Dior](https://www.behance.net/gallery/73040331/dior-backstage), [Leroy Merlin](https://www.behance.net/gallery/74693899/du-cot-de-chez-vous), [Bayard Jeunesse](https://www.behance.net/gallery/73864429/bayard-jeunesse) and many more.
 
-I’m Cécile, a creative and art director in Paris, works now in freelance. I specialize in creative strategy and conception, UI and UX, and believe in the power of a good and human creative process. And I hate uppercase. Sorry.
+I also draw a lot of *Paysages à Vélo* on [shop.cecillie.fr](https://shop.cecillie.fr).
 
-For 15 years I’ve been glad to work with talented folks at Ultranoir, Publicis Nurun, Digitas, Uzful... For some nice brands such as [Galeries Lafayette](https://www.behance.net/gallery/74355515/galeries-lafayette), [Dior](https://www.behance.net/gallery/73040331/dior-backstage), [Leroy Merlin](https://www.behance.net/gallery/74693899/du-cot-de-chez-vous), [Bayard Jeunesse](https://www.behance.net/gallery/73864429/bayard-jeunesse) and many more.
-
-I’m also a proud member of the [Ethical Designer’s association](https://designersethiques.org) and a picky judge at [theFWA](https://thefwa.com). ✊
-
-Take a look at my [PDF book](http://bitly.com/cecillie), check my [Behance portfolio](https://www.behance.net/cecillie), and [contact me](mailto:hello@cecillie.fr) if you want to discuss or pick another drink.
+Take a look at my [Instagram feed](https://www.instagram.com/cecile.ricordeau/) to discover more.

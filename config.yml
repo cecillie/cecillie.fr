@@ -1,17 +1,69 @@
-title: "cécile ricordeau"
+title: cécile ricordeau
 baseurl: https://www.cecillie.fr/
-baseline: "Creative and Art direction, UI and UX design"
-description: "Cécile Ricordeau, freelance creative and art director in paris, ui and ux designer, specialized in creative strategy and conception."
-language: en
-links:
-  Behance: https://www.behance.net/cecillie
-  Vimeo: https://vimeo.com/cecillie
-  Linkedin: https://www.linkedin.com/in/digitalcreation/
-  Twitter: https://www.twitter.com/onibd
-  Medium: https://medium.com/@cecile.ricordeau
-  Book: http://bitly.com/cecillie
-  CV: cecile-ricordeau-cv.pdf
-  hello[at]cecillie.fr: mailto:hello@cecillie.fr
+baseline: Creative and Art direction, UI and UX design
+description: Cécile Ricordeau, freelance creative and art director in paris, ui and
+  ux designer, specialized in creative strategy and conception.
+image: /img/twitter-card.png
 author:
-  name: "Cécile Ricordeau"
+  firstname: Cécile
+  lastname: Ricordeau
   url: https://www.cecillie.fr
+  email: hello@cecillie.fr
+language: en
+languages:
+  - code: en
+    name: English
+    locale: en_US
+  - code: fr
+    enabled: false
+    name: Français
+    locale: fr_FR
+    config:
+      baseline: Direction créative et artistique, conception UI et UX
+      description: Cécile Ricordeau, directrice créative et artisitique freelance à Paris, conceptrice ui et
+        ux, spécialisée dans la stratégie et la conception créative.
+links:
+- name: Instagram
+  url: https://www.instagram.com/cecile.ricordeau/
+- name: Behance
+  url: https://www.behance.net/cecillie
+#- name: Vimeo
+#  url: https://vimeo.com/cecillie
+- name: Linkedin
+  url: https://www.linkedin.com/in/digitalcreation/
+#- name: Twitter
+#  url: https://www.twitter.com/onibd
+- name: Medium
+  url: https://medium.com/@cecile.ricordeau
+- name: Shop
+  url: https://shop.cecillie.fr/
+#- name: Book
+#  url: http://bitly.com/cecillie
+#- name: CV
+#  url: "/cecile-ricordeau-cv.pdf"
+#- name: hello[at]cecillie.fr
+#  url: mailto:hello@cecillie.fr
+defaultpages:
+  sitemap:
+    published: true
+theme:
+  - netlify
+netlify:
+  redirects:
+    - from: https://cecillie.netlify.com/*
+      to: https://cecillie.fr/:splat
+      status: 301
+      force: true
+
+body:
+  images:                # how to handle images
+    lazy:
+      enabled: true      # enables lazy loading (`true` by default)
+    caption:
+      enabled: true      # adds <figcaption> to images with a title (`false` by default)
+    resize:
+      enabled: false     # enables image resizing by using the `width` extra attribute (`false` by default)
+    responsive:
+      enabled: false     # creates responsive images (`false` by default)
+    webp:
+      enabled: false     # creates webp images (`false` by default)
