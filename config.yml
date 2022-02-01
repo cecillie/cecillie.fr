@@ -15,13 +15,13 @@ languages:
     name: English
     locale: en_US
   - code: fr
+    enabled: false
     name: Français
     locale: fr_FR
     config:
       baseline: Direction créative et artistique, conception UI et UX
       description: Cécile Ricordeau, directrice créative et artisitique freelance à Paris, conceptrice ui et
         ux, spécialisée dans la stratégie et la conception créative.
-    enabled: false
 links:
 - name: Instagram
   url: https://www.instagram.com/cecile.ricordeau/
@@ -54,3 +54,16 @@ netlify:
       to: https://cecillie.fr/:splat
       status: 301
       force: true
+
+body:
+  images:                # how to handle images
+    lazy:
+      enabled: true      # enables lazy loading (`true` by default)
+    caption:
+      enabled: true      # adds <figcaption> to images with a title (`false` by default)
+    resize:
+      enabled: false     # enables image resizing by using the `width` extra attribute (`false` by default)
+    responsive:
+      enabled: false     # creates responsive images (`false` by default)
+    webp:
+      enabled: false     # creates webp images (`false` by default)
