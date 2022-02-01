@@ -1,0 +1,16 @@
+{% extends '_default/list.html.twig' %}
+
+{% block content %}
+      {{ page.content }}
+      {%- for p in pages ~%}
+      <article class="mx-auto max-w-screen-md prose md:prose-lg lg:prose-xl">
+        <ul>
+          <li>
+            <h2><a href="{{ url(p) }}">{{ p.title|e }}</a></h2>
+            <time>{{ p.date|date("j M Y") }}</time> · {{ readtime(p.content) }} min
+          </li>
+        </ul>
+      </article>
+      {%- endfor ~%}
+      {%~ include 'partials/pagination.html.twig' with {'page': page} only ~%}
+{% endblock content %}
