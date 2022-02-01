@@ -30,7 +30,7 @@ Travail déguisé, perte des droits d’auteur, exploitation … **les abus ont 
 
 ![img](https://miro.medium.com/max/1084/1*Y8gAVwL9V98MebXqjTy_Ow.png)
 
-Mais la majorité des concours organisés par des marques ont été décriés et leur image s’en est vue dégradée, générant vives critiques et *bad-buzz*. **Les marques les moins scrupuleuses ont même rejoint la longue** [**liste noire des concours abusifs**](http://www.alliance-francaise-des-designers.org/blog/liste-noire-des-appels-d-offres-de-design-et-de-communication-1.html)**, créé par l’**[**alliance française des designers**](http://www.alliance-francaise-des-designers.org/)*.* En effet, ces dispositifs ne valorisent que rarement les efforts et les engagements des participants : **l’organisateur, passif, n’offre aucun accompagnement** et demeure juste les bras croisés en attente de résultats, qu’ils soient bons à prendre ou à jeter. **C’est la règle du \*Winner takes all\*, la loi du \*Talion\* moderne.**
+Mais la majorité des concours organisés par des marques ont été décriés et leur image s’en est vue dégradée, générant vives critiques et *bad-buzz*. **Les marques les moins scrupuleuses ont même rejoint la longue [liste noire des concours abusifs](http://www.alliance-francaise-des-designers.org/blog/liste-noire-des-appels-d-offres-de-design-et-de-communication-1.html), créé par l’[alliance française des designers](http://www.alliance-francaise-des-designers.org/)**. En effet, ces dispositifs ne valorisent que rarement les efforts et les engagements des participants : **l’organisateur, passif, n’offre aucun accompagnement** et demeure juste les bras croisés en attente de résultats, qu’ils soient bons à prendre ou à jeter. **C’est la règle du *Winner takes all*, la loi du *Talion* moderne.**
 
 ## Prendre le temps d’expliquer
 
@@ -46,7 +46,7 @@ Afin de désamorcer les critiques et prévenir le risque de *bad-buzz*, le dispo
 
 Les candidatures sont ouvertes à tous et à toutes, sans travail imposé. **Les profils sont sélectionnés sur leur book.** On présente cependant le thème de la future collection, afin de laisser la possibilité aux candidats de proposer une note d’intention sous forme de moodboard. Mais l’essentiel est là : pas de travail non rémunéré, pas de vol de droits d’auteur, pas de liste des souhaits digne d’un enfant de 5 ans comme on le voit systématiquement dans les concours de design (“*Fais moi 3 logos, 1 affiche A4, 6 bannières, 1 jingle, gratos et asap. Merci bisous*”). **En bref : ceci n’est pas un concours, mais un appel à projet, sérieux, responsable et professionnel.**
 
-
+<!-- insta -->
 
 La promesse de notre appel à projet bienveillant porte ses fruits, et, en seulement 3 semaines, plus de 430 designers soumettent leur candidature ! **Un résultat qui dépasse nettement nos ambitions et prévisions** : ce succès prometteur nous conforte dans nos convictions et nous apporte encore plus de crédibilité face à notre client. S’il en doutait, nous lui avons désormais définitivement prouvé que respecter sa cible permet de développer son audience et son image. De plus, gagner la confiance des professionnels du design a permis d’élever le niveau des participations : de nombreux jeunes professionnels, qui n’auraient pas participé à un concours de “*gratuiste*s”, ont proposé leurs candidatures.
 
@@ -68,13 +68,16 @@ J’espère que cette brève étude de cas vous donnera quelques astuces et argu
 
 J’ai eu la chance de poursuivre l’aventure aux côtés de [Lucille Boitelle](http://www.lucilleboitelle.fr/), la créatrice sélectionnée, pour l’aider dans la direction de création de la collection : choix des produits, des matières, merchandising, set design, packaging … Un accompagnement de 3 mois que vous pourrez retrouver sur [mon case study Behance](https://www.behance.net/gallery/86843719/collection-capsule) dédié à la Collection Capsule.
 
+<iframe src="https://player.vimeo.com/video/366568671?h=e652ff64ae" class="w-full aspect-video" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe>
+<script src="https://player.vimeo.com/api/player.js"></script>
+
 > Ce projet a été conçu en collaboration avec [**Maxime Lefeuvre**](https://medium.com/@quinze_w) et les équipes de Leroy Merlin/Du Côté de Chez Vous au sein de l’[agence Uzful](https://www.uzful.fr/).
 >
 > **Le design éthique vous parle ?** Vous souhaitez penser et concevoir des services numériques plus responsables et plus durables ? Je vous invite à rejoindre l’association [Designers Éthiques](https://designersethiques.org/) dont je suis membre.
 
 **— Sources et bibliographie**
 
-- *La* [*vidéo de Topic Simple*](https://www.youtube.com/watch?v=gemQQ0-RSyQ) *sur le travail spéculatif.*
-- *La* [*liste noire des concours abusifs*](http://www.alliance-francaise-des-designers.org/blog/liste-noire-des-appels-d-offres-de-design-et-de-communication-1.html) *par l’alliance française des designers.*
-- *La* [*présentation du dispositif et de son règlement*](https://www.ducotedechezvous.com/article/capsule-des-createurs-co-signez-une-collection-leroy-merlin/?utm_source=cc18&utm_medium=referral) *sur le site de Du Côté de Chez Vous.*
-- *Mon* [*case study Behance*](https://www.behance.net/gallery/86843719/collection-capsule) *pour découvrir mon travail de direction de création de la collection.*
+- *La [vidéo de Topic Simple](https://www.youtube.com/watch?v=gemQQ0-RSyQ) sur le travail spéculatif.*
+- *La [liste noire des concours abusifs](http://www.alliance-francaise-des-designers.org/blog/liste-noire-des-appels-d-offres-de-design-et-de-communication-1.html) par l’alliance française des designers.*
+- *La [présentation du dispositif et de son règlement](https://www.ducotedechezvous.com/article/capsule-des-createurs-co-signez-une-collection-leroy-merlin/?utm_source=cc18&utm_medium=referral) sur le site de Du Côté de Chez Vous.*
+- *Mon [case study Behance](https://www.behance.net/gallery/86843719/collection-capsule) pour découvrir mon travail de direction de création de la collection.*
