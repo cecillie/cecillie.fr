@@ -5,8 +5,8 @@ My portfolio.
 ## Development
 
 ```bash
-npm install tailwindcss
-npx tailwindcss -i ./static/tailwind.css -o ./static/styles.css
+npm install
+npx tailwindcss -i ./assets/tailwind.css -o ./assets/styles.css --watch
 curl -LO https://cecil.app/cecil.phar
 php cecil.phar serve -vv
 ```
