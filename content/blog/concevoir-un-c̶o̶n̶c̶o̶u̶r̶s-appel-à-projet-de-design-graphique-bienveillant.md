@@ -4,7 +4,7 @@ date: 2019-10-15
 typora-root-url: "../../assets"
 ---
 
-![Patience, Kindness, Goodness](/images/1_2xoPCH3Pjl_mukiyQd5wXg.png "Photo by Caleb Gregory on Unsplash."){width=800}
+![Patience, Kindness, Goodness](/images/1_2xoPCH3Pjl_mukiyQd5wXg.png "Photo by Caleb Gregory"){width=800}
 
 Cession des droits d’auteurs, travail non ou peu rémunéré, abus des marques … est-il possible de concevoir un concours de design graphique qui respecte vraiment les designers ?
 
