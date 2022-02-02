@@ -14,7 +14,7 @@
             img.src = item.dataset.gif;
             let parent = item.parentNode;
             while (parent.hasChildNodes()) {
-                parent.removeChild(parent.lastChild);
+              parent.removeChild(parent.lastChild);
             }
             parent.appendChild(img);
           })
