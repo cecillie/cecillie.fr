@@ -1,10 +1,13 @@
 ---
 title: "Design à la chaîne"
 date: 2021-12-21
+typora-copy-images-to: "../../assets/images/${filename}"
 typora-root-url: "../../assets"
 ---
 
 **De directeur artistique à designer UI, comment les besoins et les outils ont fordisé les créatifs du web.**
+
+> Article rédigé pour les [24 jours du web](https://www.24joursdeweb.fr/2021/design-a-la-chaine/) édition 2021
 
 ## If [DA] Then delete
 
