@@ -26,8 +26,8 @@ Wikipédia quant à lui, définit le design comme *“la création d’un projet
 Mais laissons plutôt la parole au designer **Roger Tallon**, pionnier du design industriel et heureux papa du TGV, qui gagne la médaille de la définition la plus claire, réaliste et humble du design :
 
 > Le design n’est ni un art, ni un mode d’expression, mais une démarche créative méthodique qui peut être généralisée à tous les problèmes de conception.
->
-> **Roger Tallon**, designer français, 1929–2011
+
+– **Roger Tallon**, designer français, 1929–2011
 
 ## if (forme + fonction) then design
 
@@ -87,7 +87,8 @@ Concrètement, le Bauhaus travaille sur des projets expérimentaux basés sur la
 
 > Nous devons tous revenir au travail artisanal, parce qu’il n’y a pas d’art professionnel. Il n’existe aucune différence essentielle entre l’artiste et l’artisan. Voulons, concevons et créons ensemble la nouvelle construction de l’avenir, qui embrassera tout en une seule forme : architecture, art plastique et peinture.
 >
-> **Walter Gropius**, extrait du Manifeste du Bauhaus, avril 1919
+
+– **Walter Gropius**, extrait du Manifeste du Bauhaus, avril 1919
 
 ![Représentation schématique des études au Bauhaus, d’après un schéma de Walter Gropius (diagramme qui fait fortement penser aux organisations des maker spaces et fablabs d’aujourd’hui !)](/images/breve-histoire-du-design/19s2YpfnltcvM4e6R3Z6BDA.jpeg "Représentation schématique des études au Bauhaus, d’après un schéma de Walter Gropius (diagramme qui fait fortement penser aux organisations des maker spaces et fablabs d’aujourd’hui !).")
 
