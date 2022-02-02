@@ -6,4 +6,18 @@
         <time>{{ page.date|date("j M Y") }}</time> · {{ readtime(page.content) }} min
         {{- page.content ~}}
       </article>
+      <script>
+        let gifs = document.querySelectorAll("img[data-gif]");
+        Array.prototype.forEach.call(gifs, function (item) {
+          item.addEventListener('mouseover', function() {
+            let img = document.createElement('img');
+            img.src = item.dataset.gif;
+            let parent = item.parentNode;
+            while (parent.hasChildNodes()) {
+                parent.removeChild(parent.lastChild);
+            }
+            parent.appendChild(img);
+          })
+        });
+      </script>
 {%- endblock content ~%}
