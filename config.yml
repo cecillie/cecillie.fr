@@ -56,14 +56,14 @@ netlify:
       force: true
 
 body:
-  images:                # how to handle images
+  images:
     lazy:
-      enabled: true      # enables lazy loading (`true` by default)
+      enabled: true
     caption:
-      enabled: true      # adds <figcaption> to images with a title (`false` by default)
+      enabled: true
     resize:
-      enabled: true     # enables image resizing by using the `width` extra attribute (`false` by default)
+      enabled: true
     responsive:
-      enabled: true     # creates responsive images (`false` by default)
+      enabled: true
     webp:
-      enabled: true     # creates webp images (`false` by default)
+      enabled: true
