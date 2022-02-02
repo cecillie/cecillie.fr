@@ -5,7 +5,7 @@ typora-copy-images-to: "../../assets/images/${filename}"
 typora-root-url: "../../assets"
 ---
 
-De Thonet à Ikéa, les origines et les précurseurs du design d’objet.
+**De Thonet à Ikéa, les origines et les précurseurs du design d’objet.**
 
 ![Chaise Thonet n°14, Michael Thonet, 1859](/images/breve-histoire-du-design/1rQNywLJTPT0N0I8dBne_1Q.png "Chaise Thonet n°14, Michael Thonet, 1859.")
 
