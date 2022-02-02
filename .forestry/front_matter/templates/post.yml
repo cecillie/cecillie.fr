@@ -17,3 +17,5 @@ fields:
   name: typora-root-url
   label: typora-root-url
   hidden: true
+pages:
+- content/blog/concevoir-un-appel-à-projet-de-design-graphique-bienveillant.md

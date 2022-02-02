@@ -1,0 +1,28 @@
+---
+label: Homepage
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: text
+  name: description
+  label: Description
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: Date
+- type: datetime
+  name: updated
+  label: Updated
+- type: list
+  name: output
+  label: Output
+  config:
+    use_select: false
+  hidden: true
+pages:
+- content/index.md

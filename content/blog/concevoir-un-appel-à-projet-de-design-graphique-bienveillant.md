@@ -1,9 +1,9 @@
 ---
-title: "Concevoir un c̶o̶n̶c̶o̶u̶r̶s appel à projet de design graphique bienveillant"
+title: Concevoir un c̶o̶n̶c̶o̶u̶r̶s appel à projet de design graphique bienveillant
 date: 2019-10-15
 typora-root-url: "../../assets"
----
 
+---
 ![Patience, Kindness, Goodness](/images/1_2xoPCH3Pjl_mukiyQd5wXg.png "Photo by Caleb Gregory"){width=800}
 
 Cession des droits d’auteurs, travail non ou peu rémunéré, abus des marques … est-il possible de concevoir un concours de design graphique qui respecte vraiment les designers ?
