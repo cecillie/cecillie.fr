@@ -13,7 +13,7 @@ typora-root-url: "../../assets"
 
 ## Concours d’infinitifs
 
-Le mot “design” vient du latin ***designare\***, qui signifie … marquer, tracer, représenter, dessiner, indiquer, montrer, désigner, signifier, disposer, ordonnancer, régler, produire quelque chose d’inhabituel.
+Le mot “design” vient du latin ***designare***, qui signifie … marquer, tracer, représenter, dessiner, indiquer, montrer, désigner, signifier, disposer, ordonnancer, régler, produire quelque chose d’inhabituel.
 
 Oui, si même l’étymologie latine galère à choisir parmi ces infinitifs, on comprend donc pourquoi designers et théoriciens se chamaillent continuellement pour définir ce qu’est réellement ce sacro-saint “Design”.
 
