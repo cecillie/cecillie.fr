@@ -1,6 +1,6 @@
 ---
-title: "I'm Cécile Ricordeau, a global art and creative director based in Paris.
-description: Thanks to my global expertise, I help you bring emotion, depth and consistency to your brand."
+title: "I'm Cécile Ricordeau, a global art and creative director based in Paris."
+description: "Thanks to my global expertise, I help you bring emotion, depth and consistency to your brand."
 date: 2019-04-10
 updated: 2020-10-20
 output:

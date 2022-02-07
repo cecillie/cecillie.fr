@@ -1,6 +1,6 @@
 ---
-title: "Je suis Cécile Ricordeau, directrice artistique et créative globale basée à Paris.
-description: Grâce à mon expertise globale, je vous aide à apporter émotion, profondeur et cohérence à votre marque."
+title: "Je suis Cécile Ricordeau, directrice artistique et créative globale basée à Paris."
+description: "Grâce à mon expertise globale, je vous aide à apporter émotion, profondeur et cohérence à votre marque."
 date: 2021-11-14
 updated: 2021-11-14
 output:
