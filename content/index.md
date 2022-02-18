@@ -1,15 +1,14 @@
 ---
-title: "I'm Cécile Ricordeau, a global art and creative director based in Paris."
-description: "Thanks to my global expertise, I help you bring emotion, depth and consistency to your brand."
+title: "Je suis Cécile Ricordeau, directrice artistique basée à Paris."
+description: "J’interviens sur l’ensemble de vos besoins en communication on et off line. Experte en UI design, e-commerce et social médias, je vous accompagne de la stratégie à la conception et jusqu’à la production."
 date: 2019-04-10
 updated: 2020-10-20
 output:
 - html
 - json
 ---
-Former Creative director of Ultranoir, Uzful and Baobaz, trained at Publicis, I now work as a freelance.
-For 15 years I’ve been glad to collaborate with fine brands such as [Galeries Lafayette](https://www.behance.net/gallery/74355515/galeries-lafayette), [Dior](https://www.behance.net/gallery/73040331/dior-backstage), [Leroy Merlin](https://www.behance.net/gallery/74693899/du-cot-de-chez-vous), [Bayard Jeunesse](https://www.behance.net/gallery/73864429/bayard-jeunesse) and many more.
+Ancienne directrice de création des agences Ultranoir et Uzful, j'exerce désormais à mon compte après 15 ans en agence et chez l'annonceur (Publicis Sapient, Publicis Luxe, Videdressing, Baobaz). J'ai collaboré avec de nombreuses grandes marques telles que Dior](https://www.behance.net/gallery/73040331/dior-backstage), [Leroy Merlin](https://www.behance.net/gallery/74693899/du-cot-de-chez-vous), France Télévisions, Leroy Merlin, U les Commerçants, Aéroport de Paris, [Bayard Jeunesse](https://www.behance.net/gallery/73864429/bayard-jeunesse), [Galeries Lafayette](https://www.behance.net/gallery/74355515/galeries-lafayette), Sony, The Kooples...
 
-I also draw a lot of *Paysages à Vélo* on [shop.cecillie.fr](https://shop.cecillie.fr).
+Je suis également illustratrice et je dessine beaucoup de [*Paysages à Vélo*](https://www.shop.cecillie.fr).
 
-Take a look at my [Instagram feed](https://www.instagram.com/cecile.ricordeau/) to discover more.
+Découvrez mes dernières créations sur [mon feed Instagram](https://www.instagram.com/cecile.ricordeau/).

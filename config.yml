@@ -1,8 +1,7 @@
-title: cécile ricordeau
+title: Cécile Ricordeau
 baseurl: https://www.cecillie.fr/
-baseline: Creative and Art direction, UI and UX design
-description: Cécile Ricordeau, freelance creative and art director in paris, ui and
-  ux designer, specialized in creative strategy and conception.
+baseline: Art direction, UI design, illustration
+description: Cécile Ricordeau, freelance art director, ui design expert, illustrator.
 image: /img/twitter-card.png
 author:
   firstname: Cécile
@@ -19,9 +18,8 @@ languages:
     name: Français
     locale: fr_FR
     config:
-      baseline: Direction créative et artistique, conception UI et UX
-      description: Cécile Ricordeau, directrice créative et artisitique freelance à Paris, conceptrice ui et
-        ux, spécialisée dans la stratégie et la conception créative.
+      baseline: Direction artistique, UI design, illustration
+      description: Cécile Ricordeau, directrice artistique freelance à Paris, experte en UI design et illustratrice.
 links:
 - name: Instagram
   url: https://www.instagram.com/cecile.ricordeau/
