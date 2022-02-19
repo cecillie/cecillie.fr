@@ -1,13 +1,13 @@
 ---
-title: "Je suis Cécile Ricordeau, directrice artistique basée à Paris. J’interviens sur l’ensemble de vos besoins en communication on et off line."
-description: "Experte en UI design, e-commerce et social médias, je vous accompagne de la stratégie à la conception et jusqu’à la production."
+title: "Je suis Cécile Ricordeau, directrice artistique freelance à Paris. J’interviens sur l’ensemble de vos besoins en communication on et off line."
+description: "Directrice artistique freelance experte en UI design, e-commerce et social médias, je vous accompagne de la stratégie à la conception et jusqu’à la production."
 date: 2019-04-10
-updated: 2020-10-20
+updated: 2022-02-19
 output:
 - html
 - json
 ---
-Ancienne directrice de création des agences Ultranoir et Uzful, j'exerce désormais à mon compte après 15 ans en agence et chez l'annonceur (Publicis Sapient, Publicis Luxe, Videdressing, Baobaz). J'ai collaboré avec de nombreuses grandes marques telles que [Dior](https://www.behance.net/gallery/73040331/dior-backstage), [Leroy Merlin](https://www.behance.net/gallery/74693899/du-cot-de-chez-vous), U les Commerçants, Aéroport de Paris, [Bayard Jeunesse](https://www.behance.net/gallery/73864429/bayard-jeunesse), France Télévisions, [Galeries Lafayette](https://www.behance.net/gallery/74355515/galeries-lafayette), Sony, The Kooples...
+Ancienne directrice de création des agences [Ultranoir](https://www.ultranoir.com) et [Uzful](https://www.uzful.fr), j'exerce à mon compte après 15 ans passés en agence et chez l'annonceur (Publicis Sapient, Publicis Luxe, Videdressing, Baobaz). J'ai collaboré avec de nombreuses marques telles que [Leroy Merlin](https://www.behance.net/gallery/74693899/du-cot-de-chez-vous), Magasins U, [Aéroport de Paris](https://www.instagram.com/p/CVev6N2ocLs/?utm_source=ig_web_copy_link), [Bayard Jeunesse](https://www.behance.net/gallery/73864429/bayard-jeunesse), [Casio](https://www.instagram.com/p/CHTVHKTI2Bf/?utm_source=ig_web_copy_link), [Galeries Lafayette](https://www.behance.net/gallery/74355515/galeries-lafayette),Zadig & Voltaire, [Dior](https://www.behance.net/gallery/73040331/dior-backstage), Sony, The Kooples...
 
 Je suis également illustratrice et je dessine beaucoup de [*Paysages à Vélo*](https://shop.cecillie.fr).
 
