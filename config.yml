@@ -16,8 +16,8 @@ languages:
 links:
 - name: Instagram
   url: https://www.instagram.com/cecile.ricordeau/
-- name: Behance
-  url: https://www.behance.net/cecillie
+#- name: Behance
+  #url: https://www.behance.net/cecillie
 #- name: Vimeo
 #  url: https://vimeo.com/cecillie
 - name: Linkedin
