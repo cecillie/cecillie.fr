@@ -13,6 +13,12 @@ languages:
   - code: fr
     name: Français
     locale: fr_FR
+  - code: en
+    name: English
+    locale: en_US
+    config:
+      baseline: Art direction, UI design, illustration
+      description: Cécile Ricordeau, freelance art director, ui design expert, illustrator.
 links:
 - name: Instagram
   url: https://www.instagram.com/cecile.ricordeau/
@@ -45,7 +51,6 @@ netlify:
       to: https://cecillie.fr/:splat
       status: 301
       force: true
-
 body:
   images:
     lazy:
