@@ -1,10 +1,10 @@
 {% extends '_default/page.html.twig' %}
 
 {%- block content ~%}
-      <article class="mx-auto max-w-screen-md prose md:prose-lg lg:prose-xl prose-img:mx-auto prose-figcaption:text-center">
+      <article class="mx-auto max-w-screen-md prose md:prose-lg lg:prose-xl prose-img:mx-auto prose-figcaption:text-center prose-img:mb-1 lg:prose-img:mb-1">
         <h1>{{ page.title }}</h1>
         {%- set readtime = readtime(page.content) ~%}
-        <time>{{ page.date|date("j M Y") }}</time> · {% trans %}{{ readtime }} min{% endtrans %}
+        <time>{{ page.date|localizeddate('medium', 'none') }}</time> · {% trans %}{{ readtime }} min{% endtrans %}
         {{- page.content ~}}
       </article>
       <script>
