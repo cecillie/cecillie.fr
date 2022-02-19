@@ -8,7 +8,7 @@
           <li>
             <h2><a href="{{ url(p) }}">{{ p.title|e }}</a></h2>
             {%- set readtime = readtime(p.content) ~%}
-            <time>{{ p.date|date("j M Y") }}</time> · {% trans %}{{ readtime }} min{% endtrans %}
+            <time>{{ p.date|localizeddate('medium', 'none') }}</time> · {% trans %}{{ readtime }} min{% endtrans %}
           </li>
         </ul>
       </article>
