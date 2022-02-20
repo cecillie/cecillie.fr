@@ -1,6 +1,6 @@
 /* Tailwind CSS */
 
-/* ! tailwindcss v3.0.18 | MIT License | https://tailwindcss.com */
+/* ! tailwindcss v3.0.23 | MIT License | https://tailwindcss.com */
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -1120,6 +1120,10 @@ nav a:not(.logo)::after {
   margin-right: auto;
 }
 
+.prose-img\:mb-1 :is(:where(img):not(:where([class~="not-prose"] *))) {
+  margin-bottom: 0.25rem;
+}
+
 @media (min-width: 768px) {
   .md\:prose-lg {
     font-size: 1.125rem;
@@ -1573,5 +1577,9 @@ nav a:not(.logo)::after {
 
   .lg\:prose-xl > :where(:last-child):not(:where([class~="not-prose"] *)) {
     margin-bottom: 0;
+  }
+
+  .lg\:prose-img\:mb-1 :is(:where(img):not(:where([class~="not-prose"] *))) {
+    margin-bottom: 0.25rem;
   }
 }

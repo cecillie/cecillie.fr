@@ -1,17 +1,20 @@
 {% extends '_default/list.html.twig' %}
 
 {% block content %}
-      {{ page.content }}
-      {%- for p in pages ~%}
       <article class="mx-auto max-w-screen-md prose md:prose-lg lg:prose-xl">
-        <ul>
-          <li>
-            <h2><a href="{{ url(p) }}">{{ p.title|e }}</a></h2>
-            {%- set readtime = readtime(p.content) ~%}
-            <time>{{ p.date|date("j M Y") }}</time> · {% trans %}{{ readtime }} min{% endtrans %}
-          </li>
-        </ul>
+        <h1>Blog</h1>
+        {{ page.content }}
+        {%- for p in pages ~%}
+        <article>
+          <ul>
+            <li>
+              <h2><a href="{{ url(p) }}">{{ p.title|e }}</a></h2>
+              {%- set readtime = readtime(p.content) ~%}
+              <time>{{ p.date|localizeddate('medium', 'none') }}</time> · {% trans %}{{ readtime }} min{% endtrans %}
+            </li>
+          </ul>
+        </article>
+        {%- endfor ~%}
+        {%~ include 'partials/pagination.html.twig' with {'page': page} only ~%}
       </article>
-      {%- endfor ~%}
-      {%~ include 'partials/pagination.html.twig' with {'page': page} only ~%}
 {% endblock content %}

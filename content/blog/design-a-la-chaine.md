@@ -7,7 +7,9 @@ typora-root-url: "../../assets"
 
 **De directeur artistique à designer UI, comment les besoins et les outils ont fordisé les créatifs du web.**
 
-> Article rédigé pour les [24 jours du web](https://www.24joursdeweb.fr/2021/design-a-la-chaine/) édition 2021
+Un article rédigé pour les [24 Jours du Web](https://www.24joursdeweb.fr/2021/design-a-la-chaine/) 2021, le "calendrier de l’avent des gens qui font le web d’après”.
+
+![Un entrepôt de stockage avec des cartons et un élévateur.](/images/design-a-la-chaine/1CyvxrS6jB5K9HWBHCOBUzg.png "Photo de Petrebels")
 
 ## If [DA] Then delete
 

@@ -8,5 +8,5 @@ My portfolio.
 npm install
 npx tailwindcss -i ./assets/tailwind.css -o ./assets/styles.css --watch
 curl -LO https://cecil.app/cecil.phar
-php cecil.phar serve -vv
+php cecil.phar serve --clear-cache -vv
 ```
