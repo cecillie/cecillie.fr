@@ -1,6 +1,6 @@
 ---
 title: "Je suis Cécile Ricordeau, directrice artistique freelance à Paris. J’interviens sur l’ensemble de vos besoins en communication on et off line."
-description: "Directrice artistique freelance experte en UI design, e-commerce et social médias, je vous accompagne de la stratégie à la conception et jusqu’à la production."
+description: "Experte en UI design, e-commerce et social médias, je vous accompagne de la stratégie à la conception et jusqu’à la production."
 date: 2019-04-10
 updated: 2022-02-19
 output:
