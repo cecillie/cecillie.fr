@@ -2,11 +2,11 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: ''
-webhook_url: 
+webhook_url:
 sections:
 - type: document
   path: content/index.md
-  label: Home page
+  label: Accueil
 - type: directory
   path: content/blog
   label: Blog
