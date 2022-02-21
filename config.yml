@@ -8,6 +8,29 @@ author:
   lastname: Ricordeau
   url: https://www.cecillie.fr
   email: hello@cecillie.fr
+links:
+  - name: Instagram
+    url: https://www.instagram.com/cecile.ricordeau/
+  - name: Linkedin
+    url: https://www.linkedin.com/in/digitalcreation/
+#  - name: Blog
+#    url: /blog/
+  - name: Medium
+    url: https://medium.com/@cecile.ricordeau
+  - name: Shop
+    url: https://shop.cecillie.fr/
+#  - name: Behance
+#    url: https://www.behance.net/cecillie
+#  - name: Vimeo
+#    url: https://vimeo.com/cecillie
+#  - name: Twitter
+#    url: https://www.twitter.com/onibd
+#  - name: Book
+#    url: http://bitly.com/cecillie
+#  - name: CV
+#    url: "/cecile-ricordeau-cv.pdf"
+#  - name: hello[at]cecillie.fr
+#    url: mailto:hello@cecillie.fr
 language: fr
 languages:
   - code: fr
@@ -26,29 +49,6 @@ languages:
           url: https://www.linkedin.com/in/digitalcreation/?locale=en_US
         - name: Shop
           url: https://shop.cecillie.fr/en/
-links:
-  - name: Instagram
-    url: https://www.instagram.com/cecile.ricordeau/
-  - name: Linkedin
-    url: https://www.linkedin.com/in/digitalcreation/
-  - name: Blog
-    url: /blog/
-  - name: Medium
-    url: https://medium.com/@cecile.ricordeau
-  - name: Shop
-    url: https://shop.cecillie.fr/
-#  - name: Behance
-#    url: https://www.behance.net/cecillie
-#  - name: Vimeo
-#    url: https://vimeo.com/cecillie
-#  - name: Twitter
-#    url: https://www.twitter.com/onibd
-#  - name: Book
-#    url: http://bitly.com/cecillie
-#  - name: CV
-#    url: "/cecile-ricordeau-cv.pdf"
-#  - name: hello[at]cecillie.fr
-#    url: mailto:hello@cecillie.fr
 defaultpages:
   sitemap:
     published: true
@@ -60,6 +60,7 @@ netlify:
       to: https://cecillie.fr/:splat
       status: 301
       force: true
+# images optimizations
 body:
   images:
     lazy:
