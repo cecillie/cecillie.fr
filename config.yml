@@ -68,10 +68,16 @@ metatags:
   jsonld:
     enabled: true
 # images optimizations
+assets:
+  images:
+    optimize:
+      enabled: true
+    responsive:
+      enabled: true
+    webp:
+      enabled: true
 body:
   images:
-    lazy:
-      enabled: true
     caption:
       enabled: true
     resize:
