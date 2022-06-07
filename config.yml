@@ -8,6 +8,10 @@ author:
   lastname: Ricordeau
   url: https://www.cecillie.fr
   email: hello@cecillie.fr
+social:
+  twitter:
+    site: onibd
+    creator: onibd
 links:
   - name: Instagram
     url: https://www.instagram.com/cecile.ricordeau/
@@ -60,6 +64,9 @@ netlify:
       to: https://cecillie.fr/:splat
       status: 301
       force: true
+metatags:
+  jsonld:
+    enabled: true
 # images optimizations
 body:
   images:
