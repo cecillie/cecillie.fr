@@ -25,4 +25,4 @@ fields:
     use_select: false
   hidden: true
 pages:
-- content/index.md
+- pages/index.md
