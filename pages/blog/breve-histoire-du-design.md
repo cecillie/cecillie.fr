@@ -161,7 +161,7 @@ C’est en 1973 qu’ikéa se lance à l’internationale : la suite, vous la co
 - *Anne Bony, Le design, Larousse, 2015*
 - *Élisabeth Couturier, Design contemporain, Flammarion, 2015*
 - *Charlotte Fiell et Peter M. Fiell, Design du XXe siècle, Taschen, 2002*
-- *Wikipédia* [*https://fr.wikipedia.org/wiki/Design*](https://fr.wikipedia.org/wiki/Design)
-- *Larousse* [*https://www.larousse.fr/dictionnaires/francais/design/24461?q=design#24339*](https://www.larousse.fr/dictionnaires/francais/design/24461?q=design#24339)
-- *Manifeste du Bauhaus* [*https://eliepse.fr/w/bauhaus/*](https://eliepse.fr/w/bauhaus/)
-- *Fondation Le Corbusier* [*http://www.fondationlecorbusier.fr*](http://www.fondationlecorbusier.fr/)
+- [*Design selon Wikipédia*](https://fr.wikipedia.org/wiki/Design)
+- [*Définition de design par Larousse*](https://www.larousse.fr/dictionnaires/francais/design/24461?q=design#24339)
+- [*Manifeste du Bauhaus*](https://eliepse.fr/w/bauhaus/)
+- [*Fondation Le Corbusier*](http://www.fondationlecorbusier.fr/)
