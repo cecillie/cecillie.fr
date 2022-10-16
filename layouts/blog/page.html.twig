@@ -7,9 +7,9 @@
         <header>
           <h1>{{ page.title }}</h1>
           {%- set readtime = readtime(page.content) ~%}
-          <time>{{ page.date|format_date('long') }}</time> · {% trans %}%readtime% min{% endtrans %}
+          <time>{{ page.date|format_date('long') }}</time> · {% trans %}%readtime% min{% endtrans ~%}
         </header>
-        {{- page.content ~}}
+        {{~ page.content ~}}
       </article>
       <script>
         // replaces image by its animated GIF version if exists
@@ -18,12 +18,13 @@
           let picture = item.parentNode;
           let figure = picture.parentNode;
           let figcaption = figure.getElementsByTagName('figcaption')[0];
+          let img = document.createElement('img');
+          img.dataset.src = item.dataset.gif;
+          picture.firstChild.before(img);
           figcaption.innerHTML += '<br>' + '<em>{{ GifHelpText }}</em>';
           figcaption.getElementsByTagName('em')[0].setAttribute('style', 'font-size: smaller;');
           item.addEventListener('mouseover', function() {
-            let img = document.createElement('img');
-            img.src = item.dataset.gif;
-            picture.firstChild.before(img);
+            picture.firstChild.src = img.dataset.src;
             while (picture.childNodes.length > 1) {
               picture.removeChild(picture.lastChild);
             }
