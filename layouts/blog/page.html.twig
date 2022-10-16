@@ -1,4 +1,4 @@
-{% set GifHelpText = "(Passez/pressez sur l’image pour jouer l’animation)"|trans %}
+{% set GifHelpText = "(Passez ou appuyez sur l’image pour jouer l’animation)"|trans %}
 
 {% extends '_default/page.html.twig' %}
 
@@ -15,18 +15,22 @@
         // replaces image by its animated GIF version if exists
         let gifs = document.querySelectorAll('img[data-gif]');
         Array.prototype.forEach.call(gifs, function (item) {
-          let figure = item.parentNode.parentNode;
+          let picture = item.parentNode;
+          let figure = picture.parentNode;
           let figcaption = figure.getElementsByTagName('figcaption')[0];
           figcaption.innerHTML += '<br>' + '<em>{{ GifHelpText }}</em>';
           figcaption.getElementsByTagName('em')[0].setAttribute('style', 'font-size: smaller;');
           item.addEventListener('mouseover', function() {
             let img = document.createElement('img');
             img.src = item.dataset.gif;
-            let picture = item.parentNode;
-            while (picture.hasChildNodes()) {
+            /*while (picture.hasChildNodes()) {
               picture.removeChild(picture.lastChild);
             }
-            picture.appendChild(img);
+            picture.appendChild(img);*/
+            picture.firstChild.before(img);
+            /*while (picture.childNodes.length > 1) {
+              picture.removeChild(picture.lastChild);
+            }*/
           })
         });
       </script>
