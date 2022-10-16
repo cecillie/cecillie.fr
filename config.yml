@@ -17,10 +17,10 @@ links:
     url: https://www.instagram.com/cecile.ricordeau/
   - name: Linkedin
     url: https://www.linkedin.com/in/digitalcreation/
-#  - name: Blog
-#    url: /blog/
   - name: Medium
     url: https://medium.com/@cecile.ricordeau
+#  - name: Blog
+#    url: /blog/
   - name: Shop
     url: https://shop.cecillie.fr/
 #  - name: Behance
@@ -53,9 +53,12 @@ languages:
           url: https://www.linkedin.com/in/digitalcreation/?locale=en_US
         - name: Shop
           url: https://shop.cecillie.fr/en/
-defaultpages:
-  sitemap:
-    published: true
+
+# metatags
+metatags:
+  jsonld:
+    enabled: true
+# Netlify
 theme:
   - netlify
 netlify:
@@ -64,9 +67,7 @@ netlify:
       to: https://cecillie.fr/:splat
       status: 301
       force: true
-metatags:
-  jsonld:
-    enabled: true
+  redirect_by_language: true
 # images optimizations
 assets:
   images:
