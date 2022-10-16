@@ -17,8 +17,9 @@ links:
     url: https://www.instagram.com/cecile.ricordeau/
   - name: Linkedin
     url: https://www.linkedin.com/in/digitalcreation/
-#  - name: Blog
-#    url: /blog/
+  - name: Blog
+    url: /blog/
+    blank: false
   - name: Medium
     url: https://medium.com/@cecile.ricordeau
   - name: Shop

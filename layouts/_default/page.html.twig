@@ -33,7 +33,11 @@
           <ul class="list-reset flex justify-between flex-1 items-center space-x-4">
           {%- for link in site.links ~%}
             <li>
+              {%- if link.blank ?? true == false ~%}
+              <a class="inline-block no-underline hover:no-underline font-light lowercase" href="{{ link.url }}" rel="noopener">{{ link.name }}</a>
+              {%- else ~%}
               <a class="inline-block no-underline hover:no-underline font-light lowercase" href="{{ link.url }}" target="_blank" rel="noopener">{{ link.name }}</a>
+              {%- endif ~%}
             </li>
           {%- endfor ~%}
           </ul>
@@ -48,7 +52,9 @@
       </div>
       {%- endblock content ~%}
     </div>
+    {% block footer %}
     <canvas id="noise" class="noise"></canvas>
     <script src="{{ asset('noise.js') }}"></script>
+    {% endblock footer %}
   </body>
 </html>

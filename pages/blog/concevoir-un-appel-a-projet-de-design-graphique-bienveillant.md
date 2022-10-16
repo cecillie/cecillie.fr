@@ -7,7 +7,7 @@ typora-root-url: "../../assets"
 
 **Cession des droits d’auteurs, travail non ou peu rémunéré, abus des marques … est-il possible de concevoir un concours de design graphique qui respecte vraiment les designers ?**
 
-![Patience, Kindness, Goodness](/images/concevoir-un-appel-a-projet-de-design-graphique-bienveillant/1_2xoPCH3Pjl_mukiyQd5wXg.png "Photo by Caleb Gregory."){width=800}
+![Patience, Kindness, Goodness](/images/concevoir-un-appel-a-projet-de-design-graphique-bienveillant/1_2xoPCH3Pjl_mukiyQd5wXg.png "Photo by [Caleb Gregory](https://unsplash.com/@calebgnz)."){width=800 loading=eager}
 
 ## Ceci n’est pas un concours
 
