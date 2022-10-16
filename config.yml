@@ -21,6 +21,7 @@ links:
 #    url: https://medium.com/@cecile.ricordeau
   - name: Blog
     url: /blog/
+    blank: false
   - name: Shop
     url: https://shop.cecillie.fr
 #  - name: Behance
