@@ -6,8 +6,8 @@
   PHP_VERSION = "7.4"
   NODE_VERSION = "12.16"
   CECIL_CACHE_DIR = "/opt/build/cache/"
-  CSS_INPUT = "assets/tailwind.css"
-  CSS_OUPUT = "assets/styles.css"
+  CSS_INPUT = "assets/css/tailwind.css"
+  CSS_OUPUT = "assets/css/styles.css"
 
 [context.production.environment]
   CECIL_ENV = "production"

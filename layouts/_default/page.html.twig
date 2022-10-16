@@ -8,10 +8,10 @@
     <link rel="apple-touch-icon" href="{{ asset('apple-touch-icon.png') }}">
     {%- if getenv('CECIL_ENV') == 'production' ~%}
     <style>
-      {{- asset('styles.css', {minify: true})|inline ~}}
+      {{- asset('css/styles.css', {minify: true})|inline ~}}
     </style>
     {%- else ~%}
-    <link rel="stylesheet" href="{{ asset('styles.css', {minify: false, fingerprint: false}) }}"/>
+    <link rel="stylesheet" href="{{ asset('css/styles.css', {minify: false, fingerprint: false}) }}"/>
     {%- endif ~%}
   </head>
   <body class="font-sans leading-normal tracking-normal md:m-10">
@@ -21,7 +21,7 @@
         <div class="flex w-full md:w-3/4 justify-center md:justify-start font-extrabold">
           {#- logo ~#}
           <a class="no-underline hover:no-underline logo" href="{{ url(site.home) }}">
-            <img src="{{ asset('img/logo.svg') }}" class="w-8" width="75" height="75" alt="{% trans %}Le logo 'C'{% endtrans %}" />
+            <img src="{{ asset('logo.svg') }}" class="w-8" width="75" height="75" alt="{% trans %}Le logo 'C'{% endtrans %}" />
           </a>
           {#- email ~#}
           <a class="no-underline hover:no-underline mt-2 ml-10" href="mailto:{{ site.author.email }}">
@@ -54,7 +54,6 @@
     </div>
     {% block footer %}
     <canvas id="noise" class="noise"></canvas>
-    <script src="{{ asset('noise.js') }}"></script>
-    {% endblock footer %}
+    <script src="{{ asset('js/noise.js') }}"></script>
   </body>
 </html>

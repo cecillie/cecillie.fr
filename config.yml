@@ -2,7 +2,7 @@ title: Cécile Ricordeau
 baseurl: https://www.cecillie.fr/
 baseline: Direction artistique, UI design, illustration
 description: Cécile Ricordeau, directrice artistique freelance à Paris, experte en UI design et illustratrice.
-image: /img/twitter-card.png
+image: /images/twitter-card.png
 author:
   firstname: Cécile
   lastname: Ricordeau
@@ -17,11 +17,10 @@ links:
     url: https://www.instagram.com/cecile.ricordeau/
   - name: Linkedin
     url: https://www.linkedin.com/in/digitalcreation/
-#  - name: Medium
-#    url: https://medium.com/@cecile.ricordeau
-  - name: Blog
-    url: /blog/
-    blank: false
+  - name: Medium
+    url: https://medium.com/@cecile.ricordeau
+#  - name: Blog
+#    url: /blog/
   - name: Shop
     url: https://shop.cecillie.fr
 #  - name: Behance
@@ -57,12 +56,11 @@ languages:
         - name: Shop
           url: https://shop.cecillie.fr/en/
 
-defaultpages:
-  sitemap:
-    published: true
+# metatags
 metatags:
   jsonld:
     enabled: true
+# Netlify
 theme:
   - netlify
 netlify:
@@ -71,6 +69,7 @@ netlify:
       to: https://cecillie.fr/:splat
       status: 301
       force: true
+  redirect_by_language: true
 # images optimizations
 assets:
   images:
