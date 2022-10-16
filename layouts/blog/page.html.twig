@@ -23,14 +23,10 @@
           item.addEventListener('mouseover', function() {
             let img = document.createElement('img');
             img.src = item.dataset.gif;
-            /*while (picture.hasChildNodes()) {
+            picture.firstChild.before(img);
+            while (picture.childNodes.length > 1) {
               picture.removeChild(picture.lastChild);
             }
-            picture.appendChild(img);*/
-            picture.firstChild.before(img);
-            /*while (picture.childNodes.length > 1) {
-              picture.removeChild(picture.lastChild);
-            }*/
           })
         });
       </script>
