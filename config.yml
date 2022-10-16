@@ -23,7 +23,7 @@ links:
   - name: Medium
     url: https://medium.com/@cecile.ricordeau
   - name: Shop
-    url: https://shop.cecillie.fr/
+    url: https://shop.cecillie.fr
 #  - name: Behance
 #    url: https://www.behance.net/cecillie
 #  - name: Vimeo
@@ -56,9 +56,13 @@ languages:
           url: https://www.linkedin.com/in/digitalcreation/?locale=en_US
         - name: Shop
           url: https://shop.cecillie.fr/en/
+
 defaultpages:
   sitemap:
     published: true
+metatags:
+  jsonld:
+    enabled: true
 theme:
   - netlify
 netlify:
@@ -67,9 +71,6 @@ netlify:
       to: https://cecillie.fr/:splat
       status: 301
       force: true
-metatags:
-  jsonld:
-    enabled: true
 # images optimizations
 assets:
   images:
