@@ -1353,10 +1353,6 @@ figure img {
   padding-top: 1.5rem;
 }
 
-.pt-14 {
-  padding-top: 3.5rem;
-}
-
 .font-sans {
   font-family: Roboto Condensed, sans-serif;
 }
@@ -1659,10 +1655,6 @@ figure img {
 
   .md\:pt-2 {
     padding-top: 0.5rem;
-  }
-
-  .md\:pt-32 {
-    padding-top: 8rem;
   }
 
   .md\:pt-28 {
