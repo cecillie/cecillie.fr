@@ -1664,6 +1664,10 @@ figure img {
   .md\:pt-32 {
     padding-top: 8rem;
   }
+
+  .md\:pt-28 {
+    padding-top: 7rem;
+  }
 }
 
 @media (min-width: 1024px) {
