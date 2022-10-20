@@ -23,12 +23,14 @@
           picture.firstChild.before(img);
           figcaption.innerHTML += '<br>' + '<em>{{ GifHelpText }}</em>';
           figcaption.getElementsByTagName('em')[0].setAttribute('style', 'font-size: smaller;');
-          item.addEventListener('mouseover', function() {
+          item.addEventListener('mouseenter', replaceWithGif);
+          item.addEventListener('click', replaceWithGif);
+          function replaceWithGif(event) {
             picture.firstChild.src = img.dataset.src;
             while (picture.childNodes.length > 1) {
               picture.removeChild(picture.lastChild);
             }
-          })
+          };
         });
       </script>
 {%- endblock content ~%}
