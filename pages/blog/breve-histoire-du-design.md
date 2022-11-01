@@ -1,6 +1,7 @@
 ---
 title: "Brève histoire du design"
 date: 2019-05-13
+image: /images/breve-histoire-du-design/1rQNywLJTPT0N0I8dBne_1Q.png
 typora-copy-images-to: "../../assets/images/${filename}"
 typora-root-url: "../../assets"
 ---
