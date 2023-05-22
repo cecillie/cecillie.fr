@@ -1,6 +1,7 @@
 ---
 title: "Design à la chaîne"
 date: 2021-12-21
+image: /images/design-a-la-chaine/1CyvxrS6jB5K9HWBHCOBUzg.png
 typora-copy-images-to: "../../assets/images/${filename}"
 typora-root-url: "../../assets"
 ---
@@ -9,7 +10,7 @@ typora-root-url: "../../assets"
 
 Un article rédigé pour les [24 Jours du Web](https://www.24joursdeweb.fr/2021/design-a-la-chaine/) 2021, le "calendrier de l’avent des gens qui font le web d’après”.
 
-![Un entrepôt de stockage avec des cartons et un élévateur.](/images/design-a-la-chaine/1CyvxrS6jB5K9HWBHCOBUzg.png "Photo de Petrebels")
+![Un entrepôt de stockage avec des cartons et un élévateur.](/images/design-a-la-chaine/1CyvxrS6jB5K9HWBHCOBUzg.png "Photo de [Petrebels](https://unsplash.com/@petrebels)"){loading=eager}
 
 ## If [DA] Then delete
 

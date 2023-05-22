@@ -1,24 +1,38 @@
+{% set GifHelpText = "(Passez ou appuyez sur l’image pour jouer l’animation)"|trans %}
+
 {% extends '_default/page.html.twig' %}
 
 {%- block content ~%}
       <article class="mx-auto max-w-screen-md prose md:prose-lg lg:prose-xl prose-img:mx-auto prose-figcaption:text-center prose-img:mb-1 lg:prose-img:mb-1">
-        <h1>{{ page.title }}</h1>
-        {%- set readtime = readtime(page.content) ~%}
-        <time>{{ page.date|format_date('long') }}</time> · {% trans %}%readtime% min{% endtrans %}
-        {{- page.content ~}}
+        <header>
+          <h1>{{ page.title }}</h1>
+          {%- set readtime = readtime(page.content) ~%}
+          <time>{{ page.date|format_date('long') }}</time> · {% trans %}%readtime% min{% endtrans ~%}
+        </header>
+        {{~ page.content ~}}
       </article>
       <script>
-        let gifs = document.querySelectorAll("img[data-gif]");
+        // replaces image by its animated GIF version if exists
+        let gifs = document.querySelectorAll('img[data-gif]');
         Array.prototype.forEach.call(gifs, function (item) {
-          item.addEventListener('mouseover', function() {
-            let img = document.createElement('img');
-            img.src = item.dataset.gif;
-            let parent = item.parentNode;
-            while (parent.hasChildNodes()) {
-              parent.removeChild(parent.lastChild);
+          let picture = item.parentNode;
+          let figure = picture.parentNode;
+          let figcaption = figure.getElementsByTagName('figcaption')[0];
+          let img = document.createElement('img');
+          img.dataset.src = item.dataset.gif;
+          picture.firstChild.before(img);
+          figcaption.innerHTML += '<br>' + '<em>{{ GifHelpText }}</em>';
+          figcaption.getElementsByTagName('em')[0].setAttribute('style', 'font-size: smaller;');
+          item.addEventListener('mouseenter', replaceWithGif);
+          item.addEventListener('click', replaceWithGif);
+          function replaceWithGif(event) {
+            picture.firstChild.src = img.dataset.src;
+            while (picture.childNodes.length > 1) {
+              picture.removeChild(picture.lastChild);
             }
-            parent.appendChild(img);
-          })
+          };
         });
       </script>
 {%- endblock content ~%}
+
+{%- block footer %}{% endblock ~%}
