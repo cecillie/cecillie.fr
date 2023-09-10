@@ -5,10 +5,9 @@ image: /images/breve-histoire-du-design/1rQNywLJTPT0N0I8dBne_1Q.png
 typora-copy-images-to: "../../assets/images/${filename}"
 typora-root-url: "../../assets"
 ---
-
 **De Thonet à Ikéa, les origines et les précurseurs du design d’objet.**
 
-![Chaise Thonet n°14, Michael Thonet, 1859](/images/breve-histoire-du-design/1rQNywLJTPT0N0I8dBne_1Q.png "Chaise Thonet n°14, Michael Thonet, 1859."){loading=eager}
+![Chaise Thonet n°14, Michael Thonet, 1859](../../assets/images/breve-histoire-du-design/1rQNywLJTPT0N0I8dBne_1Q.png "Chaise Thonet n°14, Michael Thonet, 1859."){loading=eager}
 
 ## WTF is design ?
 
@@ -42,7 +41,7 @@ Le design ne dissocie pas l’utilitaire de l’esthétique : il est la synthès
 
 En 1851, Londres accueille la première exposition universelle. La ville doit rapidement se munir d’un palais d’exposition : c’est ainsi que le **Crystal Palace** est construit en seulement 8 mois, à partir d’unités modulaires standardisées préfabriquées en usine. Un édifice de 563 mètres de long sur 263 mètre de large, pour une surface de 70 000 m2 !
 
-![Le Crystal Palace, Joseph Paxton, Palais de l’exposition universelle de Londres, 1851](/images/breve-histoire-du-design/1Ac8Juwwln1Z5guLYONVUWg.jpeg "Le Crystal Palace, Joseph Paxton, Palais de l’exposition universelle de Londres, 1851.")
+![Le Crystal Palace, Joseph Paxton, Palais de l’exposition universelle de Londres, 1851](../../assets/images/breve-histoire-du-design/1Ac8Juwwln1Z5guLYONVUWg.jpeg "Le Crystal Palace, Joseph Paxton, Palais de l’exposition universelle de Londres, 1851.")
 
 Totalement novatrice et inédite, cette technique de construction ouvre la voix à la **préfabrication et à la modularité**. C’est ainsi que l’univers de la création va se développer, en prenant appui sur l’innovation technique.
 
@@ -50,7 +49,7 @@ Totalement novatrice et inédite, cette technique de construction ouvre la voix 
 
 En 1859, l’autrichien Michael Thonet utilise la technique du bois courbé pour créer le **premier mobilier en kit**. Associé à 8 vis, les 6 éléments de bois courbe donnent vie à la **chaise Thonet n°14**.
 
-![Chaise Thonet n°14, Michael Thonet, 1859](/images/breve-histoire-du-design/1CNOI72AqglCuMqUIiQTbxQ.jpeg "Chaise Thonet n°14, Michael Thonet, 1859.")
+![Chaise Thonet n°14, Michael Thonet, 1859](../../assets/images/breve-histoire-du-design/1CNOI72AqglCuMqUIiQTbxQ.jpeg "Chaise Thonet n°14, Michael Thonet, 1859.")
 
 La simplicité et l’ingéniosité du design de la chaise n°14 permettent de la produire en série, en garantissant quantité et qualité formelle. Pièces interchangeables, facilement assemblables par simple vissage, le succès est rapide et la chaise s’arrache comme des cronuts. La désormais mythique chaise “bistrot” sera vendue à 50 millions d’exemplaires entre 1859 et 1930 !
 
@@ -60,7 +59,7 @@ En 1908, Ford applique les principes d’organisation scientifique du travail de
 
 Il fait entrer l’automobile dans l’ère de la grande série grâce à la mécanisation à grande échelle, notamment avec la **Ford T** qu’il produit de 1909 à 1926. Peu à peu, la procédure d’assemblage de la Ford T atteint un tel niveau d’optimisation qu’il ne faut plus que 93 minutes pour assembler un exemplaire !
 
-![Chaîne de montage de la Ford T, *usine d’Highland Park, Michigan, vers 1913](/images/breve-histoire-du-design/19QtNZMPniwel3NMblZ-N7g.jpeg "Chaîne de montage de la Ford T, usine d’Highland Park, Michigan, vers 1913.")
+![Chaîne de montage de la Ford T, *usine d’Highland Park, Michigan, vers 1913](../../assets/images/breve-histoire-du-design/19QtNZMPniwel3NMblZ-N7g.jpeg "Chaîne de montage de la Ford T, usine d’Highland Park, Michigan, vers 1913.")
 
 ## 1914–1938 : Les inventeurs du design
 
@@ -70,7 +69,7 @@ En 1917, **Piet Mondrian**, **Bart Van der Leck** et **Theo Van Doesburg** crée
 
 Signifiant (en toute simplicité) “Le Style” en néerlandais, le mouvement De Stijl est caractérisé par deux grandes périodes : une première période construite en grande partie autour des recherches picturales de **Piet Mondrian**, et une deuxième période dite “constructiviste”, marquée notamment par les travaux de **Théo van Doesburg** et de **Gerrit Rietveld**. C’est dans cette deuxième période que les idées De Stijl se sont réellement propagées dans les domaines de l’architecture, l’architecture d’intérieur, le graphisme et le mobilier.
 
-![Chaise bleue et rouge, Gerrit Rietveld, 1918 (à gauche). Maison particulière, Théo van Doesburg, 1923 (à droite)](/images/breve-histoire-du-design/1D8UBi4UrCG5Rs1DA8rnCeA.jpeg "Chaise bleue et rouge, Gerrit Rietveld, 1918 (à gauche). Maison particulière, Théo van Doesburg, 1923 (à droite).")
+![Chaise bleue et rouge, Gerrit Rietveld, 1918 (à gauche). Maison particulière, Théo van Doesburg, 1923 (à droite)](../../assets/images/breve-histoire-du-design/1D8UBi4UrCG5Rs1DA8rnCeA.jpeg "Chaise bleue et rouge, Gerrit Rietveld, 1918 (à gauche). Maison particulière, Théo van Doesburg, 1923 (à droite).")
 
 Le mouvement De Stijl prône une esthétique rigoureuse et codifiée, basée sur l’**ordre géométrique et coloriel**. Les formes sont exclusivement des lignes droites, horizontales et verticales, et des angles droits (pour la touche de folie). L’espace coloriel, quant à lui, se limite au strict emploi des couleurs fondamentales : le rouge, jaune, bleu (dans leurs formes primaires), et le blanc, le noir et le gris. Bref, le nuancier Pantone© en PLS.
 
@@ -84,14 +83,14 @@ Le Bauhaus pose les bases de la réflexion sur l’**architecture moderne** et e
 
 Concrètement, le Bauhaus travaille sur des projets expérimentaux basés sur la **vie quotidienne** : mobilier, textiles, vaisselle, lampes, typographie, architecture … Les dimensions **sociales et humaines** sont extrêmement présentes (le début de l’UX ?) : les projets du Bauhaus s’établissent sur les besoins du peuple, et sont développés en relation avec les **industriels**. L’école va croiser toutes les disciplines : **art, artisanat et technique** vont enfin trouver un terrain d’entente. Très rationaliste, elle abandonne l’ornement et autres accessoires bling-bling, au profit de formes dépouillées et fonctionnelles.
 
-![Fauteuil Wassily, Marcel Breuer, 1925 (à gauche). Chaise B33, Marcel Breuer, 1928 (au centre). Fauteuil Barcelona, Ludwig Mies Van Der Rohe, 1929 (à droite)](/images/breve-histoire-du-design/1q46GCmxBZPOPRcyvuya-PA.jpeg "Fauteuil Wassily, Marcel Breuer, 1925 (à gauche). Chaise B33, Marcel Breuer, 1928 (au centre). Fauteuil Barcelona, Ludwig Mies Van Der Rohe, 1929 (à droite).")
+![Fauteuil Wassily, Marcel Breuer, 1925 (à gauche). Chaise B33, Marcel Breuer, 1928 (au centre). Fauteuil Barcelona, Ludwig Mies Van Der Rohe, 1929 (à droite)](../../assets/images/breve-histoire-du-design/1q46GCmxBZPOPRcyvuya-PA.jpeg "Fauteuil Wassily, Marcel Breuer, 1925 (à gauche). Chaise B33, Marcel Breuer, 1928 (au centre). Fauteuil Barcelona, Ludwig Mies Van Der Rohe, 1929 (à droite).")
 
 > Nous devons tous revenir au travail artisanal, parce qu’il n’y a pas d’art professionnel. Il n’existe aucune différence essentielle entre l’artiste et l’artisan. Voulons, concevons et créons ensemble la nouvelle construction de l’avenir, qui embrassera tout en une seule forme : architecture, art plastique et peinture.
 >
 
 – **Walter Gropius**, extrait du Manifeste du Bauhaus, avril 1919
 
-![Représentation schématique des études au Bauhaus, d’après un schéma de Walter Gropius (diagramme qui fait fortement penser aux organisations des maker spaces et fablabs d’aujourd’hui !)](/images/breve-histoire-du-design/19s2YpfnltcvM4e6R3Z6BDA.jpeg "Représentation schématique des études au Bauhaus, d’après un schéma de Walter Gropius (diagramme qui fait fortement penser aux organisations des maker spaces et fablabs d’aujourd’hui !).")
+![Représentation schématique des études au Bauhaus, d’après un schéma de Walter Gropius (diagramme qui fait fortement penser aux organisations des maker spaces et fablabs d’aujourd’hui !)](../../assets/images/breve-histoire-du-design/19s2YpfnltcvM4e6R3Z6BDA.jpeg "Représentation schématique des études au Bauhaus, d’après un schéma de Walter Gropius (diagramme qui fait fortement penser aux organisations des maker spaces et fablabs d’aujourd’hui !).")
 
 En 1933, les Nazis ferment le Bauhaus, estimant qu’il ne s’agit là que d’un regroupement de racailles bolchéviques dégénérées.
 
@@ -101,7 +100,7 @@ En 1924, Paris accueille l’exposition universelle des arts décoratifs et indu
 
 Les meubles sont de simples casiers standards, fabriqués en métal et non en bois de manière à être **standardisés et produits en série**. Ils offrent une grande **modularité** et peuvent être **combinés** entre eux, posés au sol ou incorporés aux murs. Chaque élément présent dans le pavillon possède une fonction quotidienne précise : penderie, linge de corps, vaisselle, cuisine, verrerie, bibelots, bibliothèque …
 
-![Pavillon de l’Esprit nouveau, Le Corbusier, Amédée Ozenfant et Pierre Jeanneret, 1924](/images/breve-histoire-du-design/1Mvsn5fKIaIUlfBf-IzR_kg.jpeg "Pavillon de l’Esprit nouveau, Le Corbusier, Amédée Ozenfant et Pierre Jeanneret, 1924.")
+![Pavillon de l’Esprit nouveau, Le Corbusier, Amédée Ozenfant et Pierre Jeanneret, 1924](../../assets/images/breve-histoire-du-design/1Mvsn5fKIaIUlfBf-IzR_kg.jpeg "Pavillon de l’Esprit nouveau, Le Corbusier, Amédée Ozenfant et Pierre Jeanneret, 1924.")
 
 Jugé trop avant-gardiste, le pavillon ne sera jamais produit et sera tout simplement … démoli ! Il sera enfin reconstruit en 1977 à Bologne, en Italie, où il est toujours visible.
 
@@ -113,7 +112,7 @@ C’est entre 1927 et 1937 que va se mettre en place une collaboration très fru
 
 Malgré ce pillage, outrageusement courant pour une femme à cette époque, leur collaboration et leur complicité aboutira à la réalisation de projets très innovants, qui seront aussi de vraies réussites commerciales : certaines références restent à ce jour encore éditées, notamment par Cassina.
 
-![Chaise LC7, 1925 (à gauche). LC2 Fauteuil Grand confort LC2, 1928 (au centre). Chaise longue LC4, 1928 (à droite). Le Corbusier, Charlotte Perriand et Pierre Jeanneret](/images/breve-histoire-du-design/1xUpg8t_6mTzzHJSRYu58dw.jpeg "Chaise LC7, 1925 (à gauche). LC2 Fauteuil Grand confort LC2, 1928 (au centre). Chaise longue LC4, 1928 (à droite). Le Corbusier, Charlotte Perriand et Pierre Jeanneret.")
+![Chaise LC7, 1925 (à gauche). LC2 Fauteuil Grand confort LC2, 1928 (au centre). Chaise longue LC4, 1928 (à droite). Le Corbusier, Charlotte Perriand et Pierre Jeanneret](../../assets/images/breve-histoire-du-design/1xUpg8t_6mTzzHJSRYu58dw.jpeg "Chaise LC7, 1925 (à gauche). LC2 Fauteuil Grand confort LC2, 1928 (au centre). Chaise longue LC4, 1928 (à droite). Le Corbusier, Charlotte Perriand et Pierre Jeanneret.")
 
 ### Les formes utiles
 
@@ -121,7 +120,7 @@ En 1929, nait l’**UAM**, l’Union des Artistes Modernes. Ce mouvement regroup
 
 L’association a pour but de “*regrouper des artistes en sympathie de tendances et d’esprit*”, sans limite de support. Son intention est de promouvoir autant le **mobilier que des objets du quotidien**, des bijoux, de la vaisselle, des publicités … L’UAM est notamment à l’origine des principes du **convertible**, du transformable et du pliant.
 
-![Canapé convertible, Eileen Gray, 1928 (à gauche). Canapé Lota, Eileen Gray, 1920 (à droite)](/images/breve-histoire-du-design/1tqLfcHL6FJE7QzS2Zsj7UA.jpeg "Canapé convertible, Eileen Gray, 1928 (à gauche). Canapé Lota, Eileen Gray, 1920 (à droite).")
+![Canapé convertible, Eileen Gray, 1928 (à gauche). Canapé Lota, Eileen Gray, 1920 (à droite)](../../assets/images/breve-histoire-du-design/1tqLfcHL6FJE7QzS2Zsj7UA.jpeg "Canapé convertible, Eileen Gray, 1928 (à gauche). Canapé Lota, Eileen Gray, 1920 (à droite).")
 
 Stoppée par la guerre, l’UAM reprend ses activités en 1949 avec ses expositions “Formes utiles”. L’union s’arrête définitivement en 1958, mais les expositions se prolongent, à l’initiative du Centre de création industrielle.
 
@@ -131,7 +130,7 @@ Stoppée par la guerre, l’UAM reprend ses activités en 1949 avec ses expositi
 
 **Eames**, **Saarinen**, **Panton**, **Paulin** … les designers des années 50 sont pris de passion pour le m̶a̶k̶o moulage ! De nouveaux matériaux et techniques apparaissent pour créer des lignes plus souples, principalement grâce au plastique. Les assises sont désormais directement moulées, créant ces coques en plastique renforcé de fibre de verre. Associées à des piètements en aluminium, parfois recouverts de plastique ou de contreplaqué, c’est la naissance des *plastic chairs*.
 
-![Chaise Eiffel tower, Charles Eames, 1950 (à gauche). Chaise DSS, Charles Eames, 1954 (au centre). Chaise tulipe, Eero Saarinen, 1948 (à droite)](/images/breve-histoire-du-design/1zsRXxWAyKsUjwJNBmvMaZw.jpeg "Chaise Eiffel tower, Charles Eames, 1950 (à gauche). Chaise DSS, Charles Eames, 1954 (au centre). Chaise tulipe, Eero Saarinen, 1948 (à droite).")
+![Chaise Eiffel tower, Charles Eames, 1950 (à gauche). Chaise DSS, Charles Eames, 1954 (au centre). Chaise tulipe, Eero Saarinen, 1948 (à droite)](../../assets/images/breve-histoire-du-design/1zsRXxWAyKsUjwJNBmvMaZw.jpeg "Chaise Eiffel tower, Charles Eames, 1950 (à gauche). Chaise DSS, Charles Eames, 1954 (au centre). Chaise tulipe, Eero Saarinen, 1948 (à droite).")
 
 Vous avez déjà vu ces chaises ? Et oui, plus de 60 ans plus tard, on les utilise toujours …
 
@@ -141,19 +140,19 @@ Avec son approche démocratique du design, le design scandinave a pour objectif 
 
 **Alvar Aalto** fait parti des designers qui introduisent la “ligne scandinave” sur la scène internationale, connu notamment pour son célèbre tabouret empilable *Stool 60*, qui sera l’une des assises les plus copiées au monde (et qui l’est encore de nos jours). Autre figure de proue du modernisme organique scandinave, **Arne Jacobsen** imagine en 1952 la chaise *Ant* (fourmi), puis ses déclinaisons, *série 7* ou *3107*, devenue le meuble danois le plus vendu dans le monde, et elle aussi dans le palmarès des assises les plus copiées au monde.
 
-![Chaise Ant série 7, Arne Jacobsen et Fritz Hansen, 1955 (à gauche). Tabouret Stool 60, Alvar Aalto, 1931-32 (à droite)](/images/breve-histoire-du-design/1RiWthgll3DeU94zUrk0QFg.jpeg "Chaise Ant série 7, Arne Jacobsen et Fritz Hansen, 1955 (à gauche). Tabouret Stool 60, Alvar Aalto, 1931-32 (à droite).")
+![Chaise Ant série 7, Arne Jacobsen et Fritz Hansen, 1955 (à gauche). Tabouret Stool 60, Alvar Aalto, 1931-32 (à droite)](../../assets/images/breve-histoire-du-design/1RiWthgll3DeU94zUrk0QFg.jpeg "Chaise Ant série 7, Arne Jacobsen et Fritz Hansen, 1955 (à gauche). Tabouret Stool 60, Alvar Aalto, 1931-32 (à droite).")
 
 ### Klüt?
 
 En 1949, un suédois répondant au nom de **Feodor Ingvar Kamprad** (non, ceci n’est pas un personnage de GOT) lance **ikéa**. Il ne s’agit au début que d’un catalogue de vente par correspondance, le fameux catalogue ikéa ! Le succès étant au rendez-vous, il emploie alors ses propres designers et développe au maximum la **standardisation du meuble** : tout est étudié pour réduire les coûts de fabrication et de fonctionnement.
 
-![Catalogue ikéa, 1954 (à gauche). Table Lövet, ikéa, 1955 (à droite) : la première table vendue en paquet plat](/images/breve-histoire-du-design/1EY60_Z8yJpxfqlilSGvUnA.jpeg "Catalogue ikéa, 1954 (à gauche). Table Lövet, ikéa, 1955 (à droite) : la première table vendue en paquet plat.")
+![Catalogue ikéa, 1954 (à gauche). Table Lövet, ikéa, 1955 (à droite) : la première table vendue en paquet plat](../../assets/images/breve-histoire-du-design/1EY60_Z8yJpxfqlilSGvUnA.jpeg "Catalogue ikéa, 1954 (à gauche). Table Lövet, ikéa, 1955 (à droite) : la première table vendue en paquet plat.")
 
 En 1956, Kamprad développe alors ses **meubles en kits**, livrés dans des emballages plats et contenant leur notice de montage. Face aux magasins traditionnels, son concept de **supermarché de l’aménagement d’intérieur** est révolutionnaire : ils sont implantés dans des zones industrielles où les loyers sont peu élevés, et sont également facilement accessibles aux automobiles pour venir chercher ses achats et économiser le coût d’une livraison. La grande superficie de ses supermarchés lui permet de vendre du plus gros meuble au plus petit accessoire.
 
 C’est en 1973 qu’ikéa se lance à l’internationale : la suite, vous la connaissez tous. Hej!
 
-![Chaise Thonet … euh, Ögla, ikéa, 1961](/images/breve-histoire-du-design/1zMPk7_L_NIHZm20dyNUNkw.jpeg "Chaise Thonet … euh, Ögla, ikéa, 1961.")
+![Chaise Thonet … euh, Ögla, ikéa, 1961](../../assets/images/breve-histoire-du-design/1zMPk7_L_NIHZm20dyNUNkw.jpeg "Chaise Thonet … euh, Ögla, ikéa, 1961.")
 
 > Merci pour votre lecture ! Cette (très) brève histoire du design est issue des formations sur l’histoire du design que j’ai conçu et dispensé à travers mon activité professionnelle : il ne s’agit là que d’un récapitulatif non exhaustif ! Pour en savoir un peu plus, je vous conseille de vous lire l’ouvrage “Le design” de Anne Bony, paru aux éditions Larousse, qui est parfait pour débuter.
 
