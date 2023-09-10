@@ -5,10 +5,9 @@ image: /images/concevoir-un-appel-a-projet-de-design-graphique-bienveillant/1_2x
 typora-copy-images-to: "../../assets/images/${filename}"
 typora-root-url: "../../assets"
 ---
-
 **Cession des droits d’auteurs, travail non ou peu rémunéré, abus des marques … est-il possible de concevoir un concours de design graphique qui respecte vraiment les designers ?**
 
-![Patience, Kindness, Goodness](/images/concevoir-un-appel-a-projet-de-design-graphique-bienveillant/1_2xoPCH3Pjl_mukiyQd5wXg.png "Photo by [Caleb Gregory](https://unsplash.com/@calebgnz)."){width=800 loading=eager}
+![Patience, Kindness, Goodness](../../assets/images/concevoir-un-appel-a-projet-de-design-graphique-bienveillant/1_2xoPCH3Pjl_mukiyQd5wXg.png "Photo by [Caleb Gregory](https://unsplash.com/@calebgnz)."){width=800 loading=eager}
 
 ## Ceci n’est pas un concours
 
@@ -30,7 +29,7 @@ Autant vous dire que tous les créatifs de l’équipe projet étaient en mode *
 
 Travail déguisé, perte des droits d’auteur, exploitation … **les abus ont tellement été nombreux** ! Des enseignes peu regardantes ont utilisé cette méthode pour avoir un maximum de proposition graphiques sans engager de dépenses, pensant ou arguant “donner leur chance” à tous ces graphistes sans le sous.
 
-![image](/images/concevoir-un-appel-a-projet-de-design-graphique-bienveillant/1_Y8gAVwL9V98MebXqjTy_Ow.png)
+![image](../../assets/images/concevoir-un-appel-a-projet-de-design-graphique-bienveillant/1_Y8gAVwL9V98MebXqjTy_Ow.png)
 
 Mais la majorité des concours organisés par des marques ont été décriés et leur image s’en est vue dégradée, générant vives critiques et *bad-buzz*. **Les marques les moins scrupuleuses ont même rejoint la longue [liste noire des concours abusifs](http://www.alliance-francaise-des-designers.org/blog/liste-noire-des-appels-d-offres-de-design-et-de-communication-1.html), créé par l’[alliance française des designers](http://www.alliance-francaise-des-designers.org/)**. En effet, ces dispositifs ne valorisent que rarement les efforts et les engagements des participants : **l’organisateur, passif, n’offre aucun accompagnement** et demeure juste les bras croisés en attente de résultats, qu’ils soient bons à prendre ou à jeter. **C’est la règle du *Winner takes all*, la loi du *Talion* moderne.**
 
@@ -40,7 +39,7 @@ Certains me diront crédule, mais j’aime à croire que nombre de projets **man
 
 Cela n’a pas été le cas avec ce projet. **À grands renforts de preuves** (screenshots de tweets, commentaires facebook, articles de professionnels reconnus comme Julien Moya ou Geoffrey Dorne …), et **grâce à la** [**pugnacité de l’équipe de conception**](https://medium.com/@quinze_w), nous avons pu démontrer le danger en terme de communication au sein de l’équipe projet. Puis, convaincre le client qu’une conception basée sur la bienveillance sera non seulement bien accueillie par les designers professionnels, mais aussi soutenue et partagée, ce qui **renforcera encore plus la portée de son dispositif**.
 
-![image](/images/concevoir-un-appel-a-projet-de-design-graphique-bienveillant/1_Iqb5ZsVFPbhB0X0Da0T7fA.png)
+![image](../../assets/images/concevoir-un-appel-a-projet-de-design-graphique-bienveillant/1_Iqb5ZsVFPbhB0X0Da0T7fA.png)
 
 ## Le dispositif
 
@@ -52,7 +51,7 @@ Les candidatures sont ouvertes à tous et à toutes, sans travail imposé. **Les
 
 La promesse de notre appel à projet bienveillant porte ses fruits, et, en seulement 3 semaines, plus de 430 designers soumettent leur candidature ! **Un résultat qui dépasse nettement nos ambitions et prévisions** : ce succès prometteur nous conforte dans nos convictions et nous apporte encore plus de crédibilité face à notre client. S’il en doutait, nous lui avons désormais définitivement prouvé que respecter sa cible permet de développer son audience et son image. De plus, gagner la confiance des professionnels du design a permis d’élever le niveau des participations : de nombreux jeunes professionnels, qui n’auraient pas participé à un concours de “*gratuiste*s”, ont proposé leurs candidatures.
 
-![image](/images/concevoir-un-appel-a-projet-de-design-graphique-bienveillant/1_baalgdHqorXhWNxIuIXUNg.png)
+![image](../../assets/images/concevoir-un-appel-a-projet-de-design-graphique-bienveillant/1_baalgdHqorXhWNxIuIXUNg.png)
 
 Après une méticuleuse étude des 430 books et moodboards, qui m’a valu quelques insomnies, l’équipe projet a sélectionné 3 designers pour poursuivre l’aventure et travailler sur une proposition de motifs graphiques. Elles sont toutes les 3 (oui, il s’agissait de 3 femmes !) **rémunérées à valeur égale pour leur travail** dont **elles conservent les droits exclusifs**. Un **accompagnement est mis en place** par l’agence pour aider les 3 finalistes à développer leurs idées : [moi-même, en tant que directrice de création](https://www.linkedin.com/in/digitalcreation/), ainsi que [le responsable de la communauté de Du Côté de Chez Vous](https://www.linkedin.com/in/julienmonthioux/) sommes présents à leurs côtés pour les conseiller dans leurs choix graphiques, esthétiques, préparer leurs argumentaires et le matériel nécessaire à leur présentation. Le jour de la soutenance, les frais de déplacement sont entièrement pris en charge par la marque.
 
