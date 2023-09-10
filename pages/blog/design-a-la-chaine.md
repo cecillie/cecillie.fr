@@ -5,12 +5,11 @@ image: /images/design-a-la-chaine/1CyvxrS6jB5K9HWBHCOBUzg.png
 typora-copy-images-to: "../../assets/images/${filename}"
 typora-root-url: "../../assets"
 ---
-
 **De directeur artistique à designer UI, comment les besoins et les outils ont fordisé les créatifs du web.**
 
 Un article rédigé pour les [24 Jours du Web](https://www.24joursdeweb.fr/2021/design-a-la-chaine/) 2021, le "calendrier de l’avent des gens qui font le web d’après”.
 
-![Un entrepôt de stockage avec des cartons et un élévateur.](/images/design-a-la-chaine/1CyvxrS6jB5K9HWBHCOBUzg.png "Photo de [Petrebels](https://unsplash.com/@petrebels)"){loading=eager}
+![Un entrepôt de stockage avec des cartons et un élévateur.](../../assets/images/design-a-la-chaine/1CyvxrS6jB5K9HWBHCOBUzg.png "Photo de [Petrebels](https://unsplash.com/@petrebels)"){loading=eager}
 
 ## If [DA] Then delete
 
@@ -35,7 +34,7 @@ L’industrialisation du web design a bien entendu commencé à émerger avec le
 
 Vingt ans plus tard, la multiplication des supports (ordinateurs, tablettes, smartphones, objets connectés) nous oblige à constamment penser multi-supports. Le *responsive web design* et sa logique de grilles a apporté une dimension très mathématique au métier, emplie de règles d’homothétie et d’élasticité. De ce fait, maquetter une simple page web demande de la concevoir dans tous les *breakpoints* préalablement définis, ce qui a vite fait de quadrupler la quantité de travail.
 
-![Un homme au look décontracté s'énerve devant son ordinateur, balance son clavier et frappe l’écran.](/images/design-a-la-chaine/designer-05-frame-1.gif "Un UI designer recevant la liste des breakpoints à décliner."){data-gif=/images/design-a-la-chaine/designer-05.gif}
+![Un homme au look décontracté s'énerve devant son ordinateur, balance son clavier et frappe l’écran.](../../assets/images/design-a-la-chaine/designer-05-frame-1.gif "Un UI designer recevant la liste des breakpoints à décliner."){data-gif=/images/design-a-la-chaine/designer-05.gif}
 
 C’est ainsi que peu à peu la logique d’industrialisation s’installe, remettant au goût du jour les principes du bon vieux fordisme, à renfort d’anglicismes, de disruption et de startup-nation :
 
@@ -60,7 +59,7 @@ En réalité, l’illusion du design collaboratif cache souvent une volonté de 
 
 Si vous êtes ou avez été designeuse ou designer en agence, vous connaissez cette situation désagréable où plusieurs personnes se penchent au-dessus de vos épaules : « *un peu plus à droite* », « *tu peux tester en rouge ?* », « *et si tu mets le logo plus gros ?* ». Grâce à la création en temps réel, c’est l’équipe projet et client toute entière qui se penche sur tes épaules à sa guise, assise bien confortablement derrière son propre écran. Fini le processus créatif où tu conçois dans ta bulle, ce temps où tu peux laisser libre cours à ta créativité, préparer ton argumentaire, et te permettre des compositions parfois franchement moches ou farfelues. Un début de maquette et voilà que les curseurs apparaissent, suivi de son ballet de commentaires incessants. On cherche alors le bouton de déconnexion, fonctionnalité bien entendue inexistante, en ressassant dans sa tête : *ne regardez pas bordel, ce n’est pas terminé !*
 
-![Un homme dit : I need privacy. I need distance. I need to be alone!](/images/design-a-la-chaine/design-chaine-01.jpg "Un UI designer chez son psychanalyste."){data-gif=/images/design-a-la-chaine/design-chaine-01.gif}
+![Un homme dit : I need privacy. I need distance. I need to be alone!](../../assets/images/design-a-la-chaine/design-chaine-01.jpg "Un UI designer chez son psychanalyste."){data-gif=/images/design-a-la-chaine/design-chaine-01.gif}
 
 ## Tout le monde _wanna be a designer_
 
@@ -70,7 +69,7 @@ L’extrême facilité de la prise en main des logiciels tels que Figma, fait qu
 
 Nouvelles égéries du design UI, les approches en *design system* assurent une homogénéisation globale et une ultra productivité dans la conception et le développement. Mais tout comme les outils de design collaboratif, le *design system* est à la fois un remède et un poison, le *pharmakon* décrit par Bernard Stiegler. Avec ses éléments préfabriqués, il peut vite limiter le travail graphique à une partie de *Tetris*, dont le choix d’agencement est souvent déterminé par les résultats des tests utilisateurs. L’esthétique, le sensible, la narration, voire même le sens, sont relégués au rang de chimères face au sacro-saint « parcours utilisateur ».
 
-![Trois personnes avec chacune un déguisement de briques de Tetris](/images/design-a-la-chaine/design-chaine-04.jpg "Trois designers UI collaborant en temps réel sur Figma via un design system."){data-gif=/images/design-a-la-chaine/design-chaine-04.gif}
+![Trois personnes avec chacune un déguisement de briques de Tetris](../../assets/images/design-a-la-chaine/design-chaine-04.jpg "Trois designers UI collaborant en temps réel sur Figma via un design system."){data-gif=/images/design-a-la-chaine/design-chaine-04.gif}
 
 C’est finalement le gouvernement français, avec son « Système de Design de l’État » qui synthétise à merveille ce principe de production par assemblage, telle une ode au fordisme :
 
@@ -82,13 +81,13 @@ Il y a peu, j’ai été confronté à une certaine stupeur lorsque j’ai propo
 
 En échange de cette incroyable facilité d’accès, toutes ces bibliothèques et autres kits nous font glisser de plus en plus dans une globalisation esthétique du web. Une homogénéisation qui, à force d’excès, transforme sournoisement le designer en assembleur.
 
-![Les Jonas Brothers avec des survêtements noirs et sacs de sport](/images/design-a-la-chaine/design-chaine-02.jpg "Allégorie de la globalisation esthétique du web par les Jonas Brothers."){data-gif=/images/design-a-la-chaine/design-chaine-02.gif}
+![Les Jonas Brothers avec des survêtements noirs et sacs de sport](../../assets/images/design-a-la-chaine/design-chaine-02.jpg "Allégorie de la globalisation esthétique du web par les Jonas Brothers."){data-gif=/images/design-a-la-chaine/design-chaine-02.gif}
 
 ## Designeuse aigrie cherche site en Flash
 
 Plus j’avance dans la rédaction de cet article, plus je me dis que je suis en train de passer pour une vieille designeuse aigrie, nostalgique du web fabriqué avec Photoshop et Flash (*MÊME SI P\*\*\* FLASH C’ÉTAIT TROP BIEN !*). Je travaille quotidiennement avec Figma et en *design sprint*, mais si je compare avec d’autres outils qui ont révolutionné le travail des créatifs, la grande différence réside dans le mode ultra collaboratif, exploité à outrance. Étant également illustratrice, j’ai découvert il y a un an le logiciel Procreate, qui m’a apporté autant d’euphorie que ma première *Sega Master System*. Cela m’a permis d’explorer de nouveaux rendus et d’être plus rapide, mais à aucun moment mes clients se sont pointés sur mon fichier pour « faire un test », mettre quinze commentaires alors que je n’ai pas du tout terminé, ou encore me susurrer au curseur « *attention je te vois* ».
 
-![Jeune guitariste qui chante : I would day we needed space](/images/design-a-la-chaine/design-chaine-03.jpg "Ode au processus créatif des designers."){data-gif=/images/design-a-la-chaine/design-chaine-03.gif}
+![Jeune guitariste qui chante : I would day we needed space](../../assets/images/design-a-la-chaine/design-chaine-03.jpg "Ode au processus créatif des designers."){data-gif=/images/design-a-la-chaine/design-chaine-03.gif}
 
 L’évolution des outils de design ont démultiplié nos possibilités de création, au même titre que l’invention de la peinture en tube, qui a fait sortir les artistes de leurs ateliers pour travailler en extérieur. L’évolution des méthodologies a ouvert nos processus de création pour y intégrer les différentes parties prenantes (commanditaires, utilisateur·ice·s, développeur·se·s…) permettant de créer un produit final optimisé.
 
