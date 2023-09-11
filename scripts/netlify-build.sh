@@ -10,22 +10,22 @@ fi
 php cecil.phar --version
 
 # Build CSS
-sha1sum -c "${CECIL_CACHE_DIR}/${CSS_INPUT}.sha1" --status
-if [ $? = 0 ]; then
-  echo "Loads CSS from cache"
-  cat "$CECIL_CACHE_DIR/$CSS_INPUT.sha1"
-  cp $CECIL_CACHE_DIR/$CSS_OUPUT $CSS_OUPUT
-else
-  echo "Started CSS build"
-  npx tailwindcss@3.3.3 -i $CSS_INPUT -o $CSS_OUPUT
-  if [ $? = 0 ]; then echo "Finished CSS build"; else echo "CSS build fail..."; exit 1; fi
-  # cache
-  echo "Caches CSS file."
-  mkdir -p $(dirname "${CECIL_CACHE_DIR}/${CSS_OUPUT}")
-  cp $CSS_OUPUT $CECIL_CACHE_DIR/$CSS_OUPUT
-  sha1sum $CSS_INPUT > "$CECIL_CACHE_DIR/$CSS_INPUT.sha1"
-  cat "$CECIL_CACHE_DIR/$CSS_INPUT.sha1"
-fi
+#sha1sum -c "${CECIL_CACHE_DIR}/${CSS_INPUT}.sha1" --status
+#if [ $? = 0 ]; then
+#  echo "Loads CSS from cache"
+#  cat "$CECIL_CACHE_DIR/$CSS_INPUT.sha1"
+#  cp $CECIL_CACHE_DIR/$CSS_OUPUT $CSS_OUPUT
+#else
+#  echo "Started CSS build"
+#  npx tailwindcss -i $CSS_INPUT -o $CSS_OUPUT
+#  if [ $? = 0 ]; then echo "Finished CSS build"; else echo "CSS build fail..."; exit 1; fi
+#  # cache
+#  echo "Caches CSS file."
+#  mkdir -p $(dirname "${CECIL_CACHE_DIR}/${CSS_OUPUT}")
+#  cp $CSS_OUPUT $CECIL_CACHE_DIR/$CSS_OUPUT
+#  sha1sum $CSS_INPUT > "$CECIL_CACHE_DIR/$CSS_INPUT.sha1"
+#  cat "$CECIL_CACHE_DIR/$CSS_INPUT.sha1"
+#fi
 
 if [[ $CECIL_ENV != "production" ]]; then
   php cecil.phar build -vv --baseurl=$DEPLOY_PRIME_URL --drafts || { sleep 30; false; }
