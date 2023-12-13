@@ -1,4 +1,4 @@
-{% extends '_default/list.html.twig' %}
+{% extends ['list.html.twig', '_default/list.html.twig'] %}
 
 {%- block content ~%}
       <article class="mx-auto max-w-screen-md prose md:prose-lg lg:prose-xl">
@@ -13,7 +13,7 @@
           </header>
         </article>
         {%- endfor ~%}
-        {%~ include 'partials/pagination.html.twig' with {'page': page} only ~%}
+        {%~ include 'partials/paginator.html.twig' with {'page': page} only ~%}
       </article>
 {%- endblock content ~%}
 

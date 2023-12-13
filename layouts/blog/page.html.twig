@@ -1,6 +1,6 @@
 {% set GifHelpText = "(Passez ou appuyez sur l’image pour jouer l’animation)"|trans %}
 
-{% extends '_default/page.html.twig' %}
+{% extends ['page.html.twig', '_default/page.html.twig'] %}
 
 {%- block content ~%}
       <article class="mx-auto max-w-screen-md prose md:prose-lg lg:prose-xl prose-img:mx-auto prose-figcaption:text-center prose-img:mb-1 lg:prose-img:mb-1">
