@@ -1,16 +1,16 @@
 [build]
   publish = "_site"
-  command = "bash ./scripts/netlify-build.sh"
+  #command = "bash ./scripts/netlify-build.sh"
 
 [build.environment]
-  PHP_VERSION = "7.4"
-  NODE_VERSION = "12.16"
+  PHP_VERSION = "8.1"
+  NODE_VERSION = "16"
   CECIL_CACHE_DIR = "/opt/build/cache/"
-  CSS_INPUT = "assets/css/tailwind.css"
-  CSS_OUPUT = "assets/css/styles.css"
+  #CSS_INPUT = "assets/css/tailwind.css"
+  #CSS_OUPUT = "assets/css/styles.css"
 
-[context.production.environment]
-  CECIL_ENV = "production"
+#[context.production.environment]
+#  CECIL_ENV = "production"
 
-[context.deploy-preview.environment]
-  CECIL_ENV = "preview"
+#[context.deploy-preview.environment]
+#  CECIL_ENV = "preview"
