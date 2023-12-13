@@ -57,11 +57,9 @@ languages:
         - name: Shop
           url: https://shop.cecillie.fr/en/
 
-# metatags
 metatags:
   jsonld:
     enabled: true
-# Netlify
 theme:
   - netlify
 netlify:
@@ -71,20 +69,20 @@ netlify:
       status: 301
       force: true
   redirect_by_language: true
-# images optimizations
+pages:
+  body:
+    images:
+      caption:
+        enabled: true
+      resize:
+        enabled: true
+      responsive:
+        enabled: true
+      webp:
+        enabled: true
 assets:
   images:
     optimize:
-      enabled: true
-    responsive:
-      enabled: true
-    webp:
-      enabled: true
-body:
-  images:
-    caption:
-      enabled: true
-    resize:
       enabled: true
     responsive:
       enabled: true
