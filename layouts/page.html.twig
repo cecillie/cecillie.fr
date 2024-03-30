@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="{{ site.language }}">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    {%~ include 'partials/metatags.html.twig' ~%}
-    <link rel="apple-touch-icon" href="{{ asset('apple-touch-icon.png') }}">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    {{- include('partials/metatags.html.twig') ~}}
     {%- if getenv('CECIL_ENV') == 'production' ~%}
     <style>
       {{- asset('css/styles.css', {minify: true})|inline ~}}
     </style>
     {%- else ~%}
-    <link rel="stylesheet" href="{{ asset('css/styles.css', {minify: false, fingerprint: false}) }}"/>
+    <link rel="stylesheet" href="{{ asset('css/styles.css', {minify: false, fingerprint: false}) }}" />
     {%- endif ~%}
   </head>
   <body class="font-sans leading-normal tracking-normal md:m-10">
@@ -52,9 +51,9 @@
       </div>
       {%- endblock content ~%}
     </div>
-    {% block footer %}
+    {%- block footer ~%}
     <canvas id="noise" class="noise"></canvas>
     <script src="{{ asset('js/noise.js') }}" async></script>
-    {% endblock footer %}
+    {%- endblock footer ~%}
   </body>
 </html>
