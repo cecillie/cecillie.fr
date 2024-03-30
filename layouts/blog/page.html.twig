@@ -1,4 +1,4 @@
-{% set GifHelpText = "(Passez ou appuyez sur l’image pour jouer l’animation)"|trans %}
+{% set gif_help_text = "(Passez ou appuyez sur l’image pour jouer l’animation)"|trans %}
 
 {% extends ['page.html.twig', '_default/page.html.twig'] %}
 
@@ -21,7 +21,7 @@
           let img = document.createElement('img');
           img.dataset.src = item.dataset.gif;
           picture.firstChild.before(img);
-          figcaption.innerHTML += '<br>' + '<em>{{ GifHelpText }}</em>';
+          figcaption.innerHTML += '<br>' + '<em>{{ gif_help_text }}</em>';
           figcaption.getElementsByTagName('em')[0].setAttribute('style', 'font-size: smaller;');
           item.addEventListener('mouseenter', replaceWithGif);
           item.addEventListener('click', replaceWithGif);
