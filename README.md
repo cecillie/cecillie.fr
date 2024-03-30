@@ -7,7 +7,13 @@ My portfolio.
 ```bash
 curl -LO https://cecil.app/cecil.phar
 composer install
+```
+
+```bash
+php cecil.phar serve -v --clear-cache
+```
+
+```bash
 npm install
-npx tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/styles.css --watch
-php cecil.phar serve -vv --clear-cache
+npx tailwindcss -i ./tailwind.css -o ./assets/css/styles.css --watch
 ```
