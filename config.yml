@@ -2,7 +2,7 @@ title: Cécile Ricordeau
 baseurl: https://www.cecillie.fr/
 baseline: Direction artistique, UI design, illustration
 description: Cécile Ricordeau, directrice artistique freelance à Paris, experte en UI design et illustratrice.
-image: /images/twitter-card.png
+image: /images/open-graph.png
 author:
   firstname: Cécile
   lastname: Ricordeau
@@ -68,7 +68,7 @@ netlify:
       to: https://cecillie.fr/:splat
       status: 301
       force: true
-  redirect_by_language: true
+  redirect_by_language: false
 pages:
   body:
     images:
