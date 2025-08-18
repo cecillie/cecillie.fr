@@ -15,21 +15,21 @@
         // replaces image by its animated GIF version if exists
         let gifs = document.querySelectorAll('img[data-gif]');
         Array.prototype.forEach.call(gifs, function (item) {
-          let picture = item.parentNode;
-          let figure = picture.parentNode;
+          let figure = item.parentNode;
           let figcaption = figure.getElementsByTagName('figcaption')[0];
           let img = document.createElement('img');
           img.dataset.src = item.dataset.gif;
-          picture.firstChild.before(img);
+          figure.firstChild.before(img);
           figcaption.innerHTML += '<br>' + '<em>{{ gif_help_text }}</em>';
           figcaption.getElementsByTagName('em')[0].setAttribute('style', 'font-size: smaller;');
           item.addEventListener('mouseenter', replaceWithGif);
           item.addEventListener('click', replaceWithGif);
           function replaceWithGif(event) {
-            picture.firstChild.src = img.dataset.src;
-            while (picture.childNodes.length > 1) {
-              picture.removeChild(picture.lastChild);
-            }
+            figure.firstChild.src = img.dataset.src;
+            /*while (figure.childNodes.length > 1) {
+              figure.removeChild(figure.lastChild);
+            }*/
+            figure.removeChild(figure.childNodes[1]);
           };
         });
       </script>
