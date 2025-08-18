@@ -1,6 +1,6 @@
 {
   "require": {
-    "cecil/theme-netlify": "^2.0"
+    "cecil/theme-netlify": "^2.2"
   },
   "config": {
     "allow-plugins": {
