@@ -8,4 +8,3 @@ Ancienne directrice de création des agences Ultranoir, Uzful et Baobaz, j’exe
 
 セシリですか Vous cherchez mes illustrations ?
 Retrouvez-les sur [mon feed Instagram](https://www.instagram.com/cecile.ricordeau/) et sur [ma Boutique en ligne](https://cecillie.sumupstore.com/). またね!
-
