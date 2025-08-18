@@ -2,30 +2,37 @@ title: Cécile Ricordeau
 baseurl: https://www.cecillie.fr/
 baseline: Direction artistique, UI design, illustration
 description: Cécile Ricordeau, directrice artistique freelance à Paris, experte en UI design et illustratrice.
-image: /images/open-graph.png
+image: icon.png
 author:
   firstname: Cécile
   lastname: Ricordeau
   url: https://www.cecillie.fr
   email: hello@cecillie.fr
 social:
+  instagram:
+    url: https://www.instagram.com/cecile.ricordeau/
+  linkedin:
+    url: https://www.linkedin.com/in/cecile-ricordeau/
   twitter:
     site: onibd
-    creator: onibd
+  bluesky:
+    url: https://bsky.app/profile/cecillie.bsky.social
+  mastodon:
+    url: https://eldritch.cafe/@cecillie
 links:
   - name: Instagram
     url: https://www.instagram.com/cecile.ricordeau/
   - name: Linkedin
     url: https://www.linkedin.com/in/cecile-ricordeau/
-#  - name: Twitter
-#    url: https://www.twitter.com/onibd
-#  - name: Medium
-#    url: https://medium.com/@cecile.ricordeau
   - name: Blog
     url: /blog/
     blank: false
   - name: Shop
     url: https://shop.cecillie.fr
+#  - name: Twitter
+#    url: https://www.twitter.com/onibd
+#  - name: Medium
+#    url: https://medium.com/@cecile.ricordeau
 #  - name: Behance
 #    url: https://www.behance.net/cecillie
 #  - name: Vimeo
@@ -54,12 +61,22 @@ languages:
           url: https://www.instagram.com/cecile.ricordeau/
         - name: Linkedin
           url: https://www.linkedin.com/in/cecile-ricordeau/?locale=en_US
-        - name: Shop
-          url: https://shop.cecillie.fr/en/
-
+        #- name: Shop
+        #  url: https://shop.cecillie.fr/en/
 metatags:
-  jsonld:
-    enabled: true
+  jsonld: true
+pages:
+  body:
+    images:
+      caption: true
+      resize: true
+      responsive: true
+      webp: true
+assets:
+  images:
+    optimize: true
+    responsive: true
+    webp: true
 theme:
   - netlify
 netlify:
@@ -69,22 +86,3 @@ netlify:
       status: 301
       force: true
   redirect_by_language: false
-pages:
-  body:
-    images:
-      caption:
-        enabled: true
-      resize:
-        enabled: true
-      responsive:
-        enabled: true
-      webp:
-        enabled: true
-assets:
-  images:
-    optimize:
-      enabled: true
-    responsive:
-      enabled: true
-    webp:
-      enabled: true
