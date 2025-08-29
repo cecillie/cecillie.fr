@@ -60,7 +60,7 @@ languages:
         #- name: Shop
         #  url: https://shop.cecillie.fr/en/
 metatags:
-  jsonld: true
+  data: true
 pages:
   body:
     images:
