@@ -69,17 +69,7 @@ J’espère que cette brève étude de cas vous donnera quelques astuces et argu
 
 J’ai eu la chance de poursuivre l’aventure aux côtés de [Lucille Boitelle](http://www.lucilleboitelle.fr/), la créatrice sélectionnée, pour l’aider dans la direction de création de la collection : choix des produits, des matières, merchandising, set design, packaging … Un accompagnement de 3 mois que vous pourrez retrouver sur [mon case study Behance](https://www.behance.net/gallery/86843719/collection-capsule) dédié à la Collection Capsule.
 
-<!-- vidéo -->
-<link rel="stylesheet" href="https://cdn.plyr.io/3.6.12/plyr.css" />
-<style>
-  :root {
-    --plyr-color-main: #000;
-  }
-</style>
-<div id="player" class="player" data-plyr-provider="vimeo" data-plyr-embed-id="366568671"></div>
-<script src="https://cdn.plyr.io/3.6.12/plyr.js"></script>
-<script>const player = new Plyr('#player');</script>
-<!-- /vidéo -->
+[Interior collection [ leroy merlin ]](https://vimeo.com/366568671){embed}
 
 > Ce projet a été conçu en collaboration avec [**Maxime Lefeuvre**](https://medium.com/@quinze_w) et les équipes de Leroy Merlin/Du Côté de Chez Vous au sein de l’[agence Uzful](https://www.uzful.fr/).
 >
