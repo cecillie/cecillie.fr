@@ -67,12 +67,12 @@ pages:
       caption: true
       resize: true
       responsive: true
-      webp: true
+      formats: [webp, avif]
 assets:
   images:
     optimize: true
     responsive: true
-    webp: true
+    formats: [webp, avif]
 theme:
   - netlify
 netlify:
