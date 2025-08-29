@@ -11,28 +11,42 @@
         </header>
         {{~ page.content ~}}
       </article>
-      <script>
+      <script>{% apply minify_js ~%}
         // replaces image by its animated GIF version if exists
+
         let gifs = document.querySelectorAll('img[data-gif]');
         Array.prototype.forEach.call(gifs, function (item) {
-          let figure = item.parentNode;
+          let picture = item.parentNode;
+
+          if (picture == null || picture.tagName.toLowerCase() != 'picture') {
+            return;
+          }
+
+          let figure = picture.parentNode;
           let figcaption = figure.getElementsByTagName('figcaption')[0];
-          let img = document.createElement('img');
-          img.dataset.src = item.dataset.gif;
-          figure.firstChild.before(img);
+          let imgGif = document.createElement('img');
+
+          function replaceWithGif(event) {
+            // remove all children of picture
+            while (picture.childNodes.length > 1) {
+              picture.removeChild(picture.lastChild);
+            }
+            // set attributes for the new img element
+            imgGif.src = item.dataset.gif;
+            imgGif.alt = item.alt;
+            imgGif.width = item.width;
+            imgGif.height = item.height;
+            // insert the new img element in the picture element
+            picture.firstChild.before(imgGif);
+          };
+
           figcaption.innerHTML += '<br>' + '<em>{{ gif_help_text }}</em>';
           figcaption.getElementsByTagName('em')[0].setAttribute('style', 'font-size: smaller;');
+
           item.addEventListener('mouseenter', replaceWithGif);
           item.addEventListener('click', replaceWithGif);
-          function replaceWithGif(event) {
-            figure.firstChild.src = img.dataset.src;
-            /*while (figure.childNodes.length > 1) {
-              figure.removeChild(figure.lastChild);
-            }*/
-            item.remove();
-          };
         });
-      </script>
+      {% endapply ~%}</script>
 {%- endblock content ~%}
 
 {%- block footer %}{% endblock ~%}
