@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="{{ asset('css/styles.css', {minify: false, fingerprint: false}) }}">
     {%- endif ~%}
   </head>
-  <body class="font-sans leading-normal tracking-normal md:m-10">
+  <body class="font-sans leading-normal tracking-normal m-6 md:m-10">
     {#- header ~#}
     <nav class="w-full container mx-auto p-6">
       <div class="container mx-auto flex flex-wrap items-center">
@@ -52,7 +52,7 @@
       </div>
     </nav>
     {#- main content ~#}
-    <div class="container pt-6 md:pt-28 px-6 mx-auto flex-wrap flex-col md:flex-row items-center">
+    <div class="container py-6 md:pt-28 px-6 mx-auto flex-wrap flex-col md:flex-row items-center">
       {%- block content ~%}
       <div class="leading-normal mb-4 my-4">
         {{- page.content ~}}
