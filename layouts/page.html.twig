@@ -60,8 +60,9 @@
       {%- endblock content ~%}
     </div>
     {%- block footer ~%}
+    {%- block noise ~%}
     <canvas id="noise" class="noise"></canvas>
     <script src="{{ asset('js/noise.js') }}" async></script>
-    {%- endblock footer ~%}
+    {%- endblock noise ~%}
   </body>
 </html>
