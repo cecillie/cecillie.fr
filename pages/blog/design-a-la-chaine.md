@@ -1,5 +1,6 @@
 ---
 title: "Design à la chaîne"
+description: "De directeur artistique à designer UI, comment les besoins et les outils ont fordisé les créatifs du web."
 date: 2021-12-21
 image: /images/design-a-la-chaine/1CyvxrS6jB5K9HWBHCOBUzg.png
 typora-copy-images-to: "../../assets/images/${filename}"

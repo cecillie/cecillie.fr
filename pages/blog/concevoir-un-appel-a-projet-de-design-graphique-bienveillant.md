@@ -1,5 +1,6 @@
 ---
 title: "Concevoir un c̶o̶n̶c̶o̶u̶r̶s appel à projet de design graphique bienveillant"
+description: "Cession des droits d’auteurs, travail non ou peu rémunéré, abus des marques … est-il possible de concevoir un concours de design graphique qui respecte vraiment les designers ?"
 date: 2019-10-15
 image: /images/concevoir-un-appel-a-projet-de-design-graphique-bienveillant/1_2xoPCH3Pjl_mukiyQd5wXg.png
 typora-copy-images-to: "../../assets/images/${filename}"

@@ -1,5 +1,6 @@
 ---
 title: "Brève histoire du design"
+description: "De Thonet à Ikéa, les origines et les précurseurs du design d’objet."
 date: 2019-05-13
 image: /images/breve-histoire-du-design/1rQNywLJTPT0N0I8dBne_1Q.png
 typora-copy-images-to: "../../assets/images/${filename}"
