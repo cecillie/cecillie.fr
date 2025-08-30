@@ -5,6 +5,7 @@ cascade:
   author:
     firstname: Cécile
     lastname: Ricordeau
+    url: https://cecillie.fr
     email: hello@cecillie.fr
   social:
     twitter: onibd
