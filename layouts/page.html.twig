@@ -59,7 +59,12 @@
       </div>
       {%- endblock content ~%}
     </div>
-    {%- block footer ~%}
+    {#- footer ~#}
+    <footer class="container pt-6 px-6 mx-auto">
+      {%- block footer ~%}
+      © {{ 'now'|date('Y') }} Cécile Ricordeau
+      {%- endblock footer ~%}
+    </footer>
     {%- block noise ~%}
     <canvas id="noise" class="noise"></canvas>
     <script src="{{ asset('js/noise.js') }}" async></script>
