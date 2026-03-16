@@ -16,7 +16,7 @@
           <div class="swiper-wrapper">
             {% for image in page.images %}
             <div class="swiper-slide">
-              <img src="{{ asset(image.file) }}" alt="{{ image.alt }}" class="w-full h-auto object-cover">
+              <img src="{{ asset(image.file) }}" alt="{{ image.alt|e }}" class="w-full h-auto object-cover">
             </div>
             {% endfor %}
           </div>
