@@ -2,18 +2,24 @@
 
 My portfolio.
 
-## Development
+## Install
 
 ```bash
 curl -LO https://cecil.app/cecil.phar
 composer install
-```
-
-```bash
-php cecil.phar serve -v --clear-cache
-```
-
-```bash
 npm install
-npx @tailwindcss/cli -i ./assets/css/tailwind.css -o ./assets/css/styles.css --watch
+```
+
+## Preview
+
+```bash
+npm run css:watch
+php cecil.phar serve -v
+```
+
+## Build
+
+```bash
+npm run css:build
+php cecil.phar build
 ```
