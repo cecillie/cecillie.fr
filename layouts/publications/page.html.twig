@@ -23,7 +23,7 @@
           <div class="swiper-wrapper">
             {% for image in page.images %}
             <div class="swiper-slide">
-              {{- html(asset(image.file), options={responsive: 'density', formats: ['avif', 'webp']}, attributes={alt: image.alt|e, width: 540, class: 'w-screen h-screen object-cover'}) ~}}
+              {{- html(asset(image.file), options={responsive: 'density', formats: ['avif', 'webp']}, attributes={alt: image.alt|e, width: 540}) ~}}
             </div>
             {% endfor %}
           </div>
