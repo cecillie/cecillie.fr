@@ -10,7 +10,7 @@
           {%- for p in pages ~%}
           <a class="text-center" href="{{ url(p) }}">
             <h2>{{ p.title }}</h2>
-            <img src="{{ asset(p.images[0].file) }}" alt="{{ p.images[0].alt|e }}" class="m-0">
+            {{- html(asset(p.images[0].file), options={responsive: 'density', formats: ['avif', 'webp']}, attributes={alt: p.images[0].alt|e, width: 400}) ~}}
           </a>
           {%- endfor ~%}
         </div>
