@@ -13,7 +13,7 @@
               <h2>{{ p.title }}</h2>
               <time class="text-sm">{{ p.date|format_date('long') }}</time>
             </header>
-            {{- html(asset('images/' ~ p.id ~ '/' ~ p.images[1].file), options={responsive: 'density', formats: ['avif', 'webp']}, attributes={alt: p.images[0].alt|e, width: 400}) ~}}
+            {{ html(asset('images/' ~ p.id ~ '/' ~ p.images[1].file), options={responsive: 'density', formats: ['avif', 'webp']}, attributes={alt: p.images[0].alt|e, width: 400}) ~}}
           </a>
           {%- endfor ~%}
         </div>

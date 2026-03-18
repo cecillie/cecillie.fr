@@ -19,7 +19,7 @@
       {{- asset('css/styles.css', {minify: true})|inline ~}}
     </style>
     {%- else ~%}
-    <link rel="stylesheet" href="{{ asset('css/styles.css', {minify: false, fingerprint: false}) }}">
+    <link rel="stylesheet" href="{{ asset('css/styles.css', {minify: false}) }}">
     {%- endif ~%}
     {%- endblock ~%}
   </head>

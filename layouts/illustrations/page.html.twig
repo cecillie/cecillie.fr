@@ -2,16 +2,16 @@
 
 {% extends ['page.html.twig', '_default/page.html.twig'] %}
 
-      {%- block head ~%}
-      {{ parent() }}
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
-      <style>
-        :root {
-          --swiper-navigation-color: #000;
-          --swiper-pagination-color: #000;
-        }
-      </style>
-      {%- endblock ~%}
+    {%- block head ~%}
+    {{- parent() ~}}
+    <link rel="stylesheet" href="{{ asset('https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css', {minify: false}) }}">
+    <style>
+      :root {
+        --swiper-navigation-color: #000;
+        --swiper-pagination-color: #000;
+      }
+    </style>
+    {%- endblock ~%}
 
       {%- block content ~%}
       <article class="mx-auto max-w-(--breakpoint-md) prose md:prose-lg lg:prose-xl
@@ -23,11 +23,11 @@
         </header>
         <div class="swiper mySwiper">
           <div class="swiper-wrapper">
-            {% for img in page.images %}
+            {%- for img in page.images ~%}
             <div class="swiper-slide">
-              {{- html(asset('images/' ~ page.id ~ '/' ~ img.file), options={responsive: 'density', formats: ['avif', 'webp']}, attributes={alt: img.alt|e, width: 540}) ~}}
+              {{ html(asset('images/' ~ page.id ~ '/' ~ img.file), options={responsive: 'density', formats: ['avif', 'webp']}, attributes={alt: img.alt|e, width: 540}) ~}}
             </div>
-            {% endfor %}
+            {%- endfor ~%}
           </div>
           <div class="swiper-button-next"></div>
           <div class="swiper-button-prev"></div>
@@ -38,7 +38,7 @@
       {%- endblock content ~%}
 
     {%- block scripts ~%}
-      {{ parent() }}
+      {{- parent() ~}}
       <script src="{{ asset('https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js', {minify: false}) }}"></script>
       <script>{% apply minify_js ~%}
         const swiper = new Swiper('.mySwiper', {
