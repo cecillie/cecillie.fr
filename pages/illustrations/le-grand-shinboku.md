@@ -1,5 +1,6 @@
 ---
 title: Le Grand Shinboku • 神木
+description: "Dans les profondeurs de la montagne sacrée, notre jeune fille poursuit son chemin, accompagnée de son jeune chōchin obake."
 date: 2026-03-09
 images:
   - file: 01.png
