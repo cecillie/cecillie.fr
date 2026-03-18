@@ -2,19 +2,19 @@
 title: Le Grand Shinboku • 神木
 date: 2026-03-09
 images:
-  - file: images/publications/le-grand-shinboku/01.png
+  - file: 01.png
     alt: Le Grand Shinboku 1
-  - file: images/publications/le-grand-shinboku/02.png
+  - file: 02.png
     alt: Le Grand Shinboku 2
-  - file: images/publications/le-grand-shinboku/03.png
+  - file: 03.png
     alt: Le Grand Shinboku 3
-  - file: images/publications/le-grand-shinboku/04.png
+  - file: 04.png
     alt: Le Grand Shinboku 4
-  - file: images/publications/le-grand-shinboku/05.png
+  - file: 05.png
     alt: Le Grand Shinboku 5
-  - file: images/publications/le-grand-shinboku/06.png
+  - file: 06.png
     alt: Le Grand Shinboku 6
-  - file: images/publications/le-grand-shinboku/07.png
+  - file: 07.png
     alt: Le Grand Shinboku 7
 ---
 Dans les profondeurs de la montagne sacrée ⛰️, notre jeune fille poursuit son chemin, accompagnée de son jeune chōchin obake 🏮. Guidée par une lumière presque divine, elle découvre un gigantesque arbre 🍃 qui se dresse au cœur de la forêt. Va-t-elle apercevoir l’esprit de ce grand shinboku ✨ ?

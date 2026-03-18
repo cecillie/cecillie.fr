@@ -1,3 +1,5 @@
+{% set image = 'images/' ~ page.id ~ '/' ~ page.images[0].file %}
+
 {% extends ['page.html.twig', '_default/page.html.twig'] %}
 
       {%- block head ~%}
@@ -13,9 +15,9 @@
 
       {%- block content ~%}
       <article class="mx-auto max-w-(--breakpoint-md) prose md:prose-lg lg:prose-xl
-        prose-img:mx-auto prose-figcaption:text-center prose-img:mb-1 lg:prose-img:mb-1
+        prose-img:mx-auto prose-figcaption:text-center prose-img:m-0 prose-picture:m-0 lg:prose-img:mb-1
       ">
-        <header>
+        <header class="mb-4">
           <h1>{{ page.title }}</h1>
           <time>{{ page.date|format_date('long') }}</time>
         </header>
@@ -23,7 +25,7 @@
           <div class="swiper-wrapper">
             {% for image in page.images %}
             <div class="swiper-slide">
-              {{- html(asset(image.file), options={responsive: 'density', formats: ['avif', 'webp']}, attributes={alt: image.alt|e, width: 540}) ~}}
+              {{- html(asset('images/' ~ page.id ~ '/' ~ image.file), options={responsive: 'density', formats: ['avif', 'webp']}, attributes={alt: image.alt|e, width: 540}) ~}}
             </div>
             {% endfor %}
           </div>
