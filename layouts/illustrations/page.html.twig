@@ -4,8 +4,8 @@
 
     {%- block head ~%}
     {{- parent() ~}}
-    <link rel="stylesheet" href="{{ asset('https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css', {minify: false}) }}">
     <style>
+      {{ asset('https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css', {minify: false})|inline }}
       :root {
         --swiper-navigation-color: #000;
         --swiper-pagination-color: #000;
