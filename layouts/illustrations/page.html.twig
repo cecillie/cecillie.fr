@@ -9,6 +9,7 @@
       :root {
         --swiper-navigation-color: #000;
         --swiper-pagination-color: #000;
+        --swiper-lazy-preloader-color: #000;
       }
     </style>
     {%- endblock ~%}
@@ -21,11 +22,18 @@
           <h1>{{ page.title }}</h1>
           <time>{{ page.date|format_date('long') }}</time>
         </header>
-        <div class="swiper mySwiper">
+        <div class="swiper">
           <div class="swiper-wrapper">
             {%- for img in page.images ~%}
             <div class="swiper-slide">
-              {{ html(asset('images/' ~ page.id ~ '/' ~ img.file), options={responsive: 'density', formats: ['avif', 'webp']}, attributes={alt: img.alt|e, width: 540}) ~}}
+              {%- set attributes = {alt: img.alt|e, width: 540} ~%}
+              {%- if loop.index == 1 ~%}
+                {%- set attributes = attributes|merge({loading: 'eager', fetchpriority: 'high'}) ~%}
+              {% else %}
+                {%- set attributes = attributes|merge({loading: 'lazy'}) ~%}
+              {%- endif ~%}
+              {{ html(asset('images/' ~ page.id ~ '/' ~ img.file), options={responsive: 'density', formats: ['avif', 'webp']}, attributes=attributes) ~}}
+              <div class="swiper-lazy-preloader"></div>
             </div>
             {%- endfor ~%}
           </div>
@@ -41,7 +49,7 @@
       {{- parent() ~}}
       <script src="{{ asset('https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js', {minify: false}) }}"></script>
       <script>{% apply minify_js ~%}
-        const swiper = new Swiper('.mySwiper', {
+        const swiper = new Swiper('.swiper', {
           navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
