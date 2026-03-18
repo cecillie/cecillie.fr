@@ -23,9 +23,9 @@
         </header>
         <div class="swiper mySwiper">
           <div class="swiper-wrapper">
-            {% for image in page.images %}
+            {% for img in page.images %}
             <div class="swiper-slide">
-              {{- html(asset('images/' ~ page.id ~ '/' ~ image.file), options={responsive: 'density', formats: ['avif', 'webp']}, attributes={alt: image.alt|e, width: 540}) ~}}
+              {{- html(asset('images/' ~ page.id ~ '/' ~ img.file), options={responsive: 'density', formats: ['avif', 'webp']}, attributes={alt: img.alt|e, width: 540}) ~}}
             </div>
             {% endfor %}
           </div>
