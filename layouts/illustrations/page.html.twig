@@ -9,7 +9,7 @@
       :root {
         --swiper-navigation-color: #000;
         --swiper-pagination-color: #000;
-        --swiper-lazy-preloader-color: #000;
+        /*--swiper-lazy-preloader-color: #000;*/
       }
     </style>
     {%- endblock ~%}
@@ -33,7 +33,7 @@
                 {%- set attributes = attributes|merge({loading: 'lazy'}) ~%}
               {%- endif ~%}
               {{ html(asset('images/' ~ page.id ~ '/' ~ img.file), options={responsive: 'density', formats: ['avif', 'webp']}, attributes=attributes) ~}}
-              <div class="swiper-lazy-preloader"></div>
+              {#-<div class="swiper-lazy-preloader"></div>~#}
             </div>
             {%- endfor ~%}
           </div>
