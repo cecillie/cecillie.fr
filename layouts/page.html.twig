@@ -24,8 +24,7 @@
     {%- endblock ~%}
   </head>
   <body class="font-sans leading-normal tracking-normal md:m-10">
-    {#- header ~#}
-    <nav class="w-full container mx-auto p-6">
+    <header class="w-full container mx-auto p-6">
       <div class="container mx-auto flex flex-wrap items-center">
         <div class="flex w-full md:w-3/4 justify-center md:justify-start font-extrabold">
           {#- logo ~#}
@@ -37,8 +36,8 @@
             <span class="font-light">{{ site.email }}</span>
           </a>
         </div>
-        {#- menu ~#}
-        <div class="flex w-full md:pt-2 pt-6 content-center justify-between md:w-1/4 md:justify-end">
+        {#- links menu ~#}
+        <nav class="flex w-full md:pt-2 pt-6 content-center justify-between md:w-1/4 md:justify-end">
           <ul class="list-reset flex justify-between flex-1 items-center space-x-4">
           {%- for link in site.links ~%}
             <li>
@@ -50,17 +49,17 @@
             </li>
           {%- endfor ~%}
           </ul>
-        </div>
+        </nav>
       </div>
-    </nav>
+    </header>
     {#- main content ~#}
-    <div class="container py-6 md:pt-28 px-6 mx-auto flex-wrap flex-col md:flex-row items-center">
+    <main class="container py-6 md:pt-28 px-6 mx-auto flex-wrap flex-col md:flex-row items-center">
       {%- block content ~%}
       <div class="leading-normal mb-4 my-4">
         {{- page.content ~}}
       </div>
       {%- endblock content ~%}
-    </div>
+    </main>
     {%- block scripts %}{% endblock scripts ~%}
     {%- block noise ~%}
     <canvas id="noise" class="noise"></canvas>
