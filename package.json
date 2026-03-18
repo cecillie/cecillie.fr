@@ -1,6 +1,11 @@
 {
+  "name": "cecillie.fr",
   "dependencies": {
     "@tailwindcss/typography": "^0.5",
     "tailwindcss": "^4.1"
+  },
+  "scripts": {
+    "css:build": "npx @tailwindcss/cli -i ./assets/css/tailwind.css -o ./assets/css/styles.css --minify",
+    "css:watch": "npx @tailwindcss/cli -i ./assets/css/tailwind.css -o ./assets/css/styles.css --watch"
   }
 }

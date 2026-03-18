@@ -1,0 +1,23 @@
+{% extends ['list.html.twig', '_default/list.html.twig'] %}
+
+      {%- block content ~%}
+      <article class="mx-auto max-w-(--breakpoint-md) prose md:prose-lg lg:prose-xl
+        md:prose-h2:text-base prose-h2:mt-4 prose-img:m-0 prose-picture:m-0 prose-a:no-underline
+      ">
+        <h1>{{ page.title }}</h1>
+        {{- page.content ~}}
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {%- for p in pages ~%}
+          <a class="text-center" href="{{ url(p) }}">
+            <header class="mb-4">
+              <h2>{{ p.title }}</h2>
+              <time class="text-sm">{{ p.date|format_date('long') }}</time>
+            </header>
+            {{ html(asset('images/' ~ p.id ~ '/' ~ p.images[1].file), options={responsive: 'density', formats: ['avif', 'webp']}, attributes={alt: p.images[0].alt|e, width: 400}) ~}}
+          </a>
+          {%- endfor ~%}
+        </div>
+      </article>
+      {%- endblock content ~%}
+
+    {%- block noise %}{% endblock ~%}

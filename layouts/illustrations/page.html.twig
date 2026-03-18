@@ -1,0 +1,56 @@
+{% set image = 'images/' ~ page.id ~ '/' ~ page.images[0].file %}
+
+{% extends ['page.html.twig', '_default/page.html.twig'] %}
+
+    {%- block head ~%}
+    {{- parent() ~}}
+    <link rel="stylesheet" href="{{ asset('https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css', {minify: false}) }}">
+    <style>
+      :root {
+        --swiper-navigation-color: #000;
+        --swiper-pagination-color: #000;
+      }
+    </style>
+    {%- endblock ~%}
+
+      {%- block content ~%}
+      <article class="mx-auto max-w-(--breakpoint-md) prose md:prose-lg lg:prose-xl
+        prose-img:mx-auto prose-figcaption:text-center prose-img:m-0 prose-picture:m-0 lg:prose-img:mb-1
+      ">
+        <header class="mb-4">
+          <h1>{{ page.title }}</h1>
+          <time>{{ page.date|format_date('long') }}</time>
+        </header>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            {%- for img in page.images ~%}
+            <div class="swiper-slide">
+              {{ html(asset('images/' ~ page.id ~ '/' ~ img.file), options={responsive: 'density', formats: ['avif', 'webp']}, attributes={alt: img.alt|e, width: 540}) ~}}
+            </div>
+            {%- endfor ~%}
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+        {{~ page.content ~}}
+      </article>
+      {%- endblock content ~%}
+
+    {%- block scripts ~%}
+      {{- parent() ~}}
+      <script src="{{ asset('https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js', {minify: false}) }}"></script>
+      <script>{% apply minify_js ~%}
+        const swiper = new Swiper('.mySwiper', {
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          pagination: {
+            el: '.swiper-pagination',
+          },
+        });
+      {% endapply ~%}</script>
+    {%- endblock ~%}
+
+    {%- block noise %}{% endblock ~%}

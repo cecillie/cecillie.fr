@@ -38,6 +38,13 @@
   opacity: 0.05;
 }
 
+@utility swiper {
+  .swiper-button-prev,
+  .swiper-button-next {
+    @apply hidden! md:flex!;
+  }
+}
+
 @layer base {
   p {
     margin-bottom: 1rem;

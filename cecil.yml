@@ -20,6 +20,9 @@ links:
     url: https://www.instagram.com/cecile.ricordeau/
   - name: Linkedin
     url: https://www.linkedin.com/in/cecile-ricordeau/
+  - name: Illustrations
+    url: /illustrations/
+    blank: false
   - name: Blog
     url: /blog/
     blank: false
