@@ -76,7 +76,7 @@
   a:not(.logo):hover::after {
     transform: scaleX(1);
   }
-  header a:not(.logo)::after {
+  body>header a:not(.logo)::after {
     bottom: 0.22em;
   }
   /* blog */

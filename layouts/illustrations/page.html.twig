@@ -4,14 +4,13 @@
 
     {%- block head ~%}
     {{- parent() ~}}
-    <style>
+    <style>{% apply minify_css ~%}
       {{ asset('https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css', {minify: false})|inline }}
       :root {
         --swiper-navigation-color: #000;
         --swiper-pagination-color: #000;
-        /*--swiper-lazy-preloader-color: #000;*/
       }
-    </style>
+    {% endapply ~%}</style>
     {%- endblock ~%}
 
       {%- block content ~%}
@@ -26,14 +25,13 @@
           <div class="swiper-wrapper">
             {%- for img in page.images ~%}
             <div class="swiper-slide">
-              {%- set attributes = {alt: img.alt|e, width: 540} ~%}
-              {%- if loop.index == 1 ~%}
-                {%- set attributes = attributes|merge({loading: 'eager', fetchpriority: 'high'}) ~%}
-              {% else %}
-                {%- set attributes = attributes|merge({loading: 'lazy'}) ~%}
+              {%- set attributes = {alt: img.alt|e, width: 540} -%}
+              {%- if loop.index == 1 -%}
+                {%- set attributes = attributes|merge({loading: 'eager', fetchpriority: 'high'}) -%}
+              {%- else -%}
+                {%- set attributes = attributes|merge({loading: 'lazy'}) -%}
               {%- endif ~%}
               {{ html(asset('images/' ~ page.id ~ '/' ~ img.file), options={responsive: 'density', formats: ['avif', 'webp']}, attributes=attributes) ~}}
-              {#-<div class="swiper-lazy-preloader"></div>~#}
             </div>
             {%- endfor ~%}
           </div>
@@ -46,19 +44,19 @@
       {%- endblock content ~%}
 
     {%- block scripts ~%}
-      {{- parent() ~}}
-      <script src="{{ asset('https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js', {minify: false}) }}"></script>
-      <script>{% apply minify_js ~%}
-        const swiper = new Swiper('.swiper', {
-          navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-          },
-          pagination: {
-            el: '.swiper-pagination',
-          },
-        });
-      {% endapply ~%}</script>
+    {{- parent() ~}}
+    <script>{% apply minify_js ~%}
+      {{ asset('https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js', {minify: false})|inline }}
+      const swiper = new Swiper('.swiper', {
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+          el: '.swiper-pagination',
+        },
+      });
+    {% endapply ~%}</script>
     {%- endblock ~%}
 
     {%- block noise %}{% endblock ~%}

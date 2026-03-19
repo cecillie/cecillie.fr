@@ -4,17 +4,21 @@
       <article class="mx-auto max-w-(--breakpoint-md) prose md:prose-lg lg:prose-xl
         md:prose-h2:text-base prose-h2:mt-4 prose-img:m-0 prose-picture:m-0 prose-a:no-underline
       ">
-        <h1>{{ page.title }}</h1>
-        {{- page.content ~}}
+        {#-<h1>{{ page.title }}</h1>~#}
+        <h1 class="text-base!">
+          {{ page.content ~}}
+        </h1>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {%- for p in pages ~%}
-          <a class="text-center" href="{{ url(p) }}">
+          <article>
             <header class="mb-4">
-              <h2>{{ p.title }}</h2>
-              <time class="text-sm">{{ p.date|format_date('long') }}</time>
+              <h2><a class="text-center" href="{{ url(p) }}">{{ p.title }}</a></h2>
+              <time class="md:text-sm">{{ p.date|format_date('long') }}</time>
             </header>
-            {{ html(asset('images/' ~ p.id ~ '/' ~ p.images[1].file), options={responsive: 'density', formats: ['avif', 'webp']}, attributes={alt: p.images[0].alt|e, width: 400}) ~}}
-          </a>
+            <a class="text-center" href="{{ url(p) }}">
+              {{ html(asset('images/' ~ p.id ~ '/' ~ p.images[1].file), options={responsive: 'density', formats: ['avif', 'webp']}, attributes={alt: p.images[0].alt|e, width: 400}) ~}}
+            </a>
+          </article>
           {%- endfor ~%}
         </div>
       </article>
