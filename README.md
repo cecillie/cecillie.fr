@@ -1,6 +1,6 @@
 # cecillie.fr
 
-Portfolio de Cécile Ricordeau, graphiste et illustratrice à Montreuil.
+Portfolio de Cécile Ricordeau, graphiste et illustratrice.
 
 ## Installation
 
