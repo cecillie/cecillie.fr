@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-09-27 16:21+0200\n"
-"PO-Revision-Date: 2026-09-27 16:21+0200\n"
+"POT-Creation-Date: 2026-09-27 23:31+0200\n"
+"PO-Revision-Date: 2026-09-27 23:32+0200\n"
 "Last-Translator: Arnaud Ligny <arnaud@ligny.fr>\n"
 "Language-Team: \n"
 "Language: en\n"
@@ -19,7 +19,7 @@ msgstr ""
 msgid "Page non trouvée."
 msgstr "Page not found."
 
-#: 404.html.twig:5
+#: 404.html.twig:5 page.html.twig:66
 msgid "Accueil"
 msgstr "Home"
 
@@ -42,6 +42,18 @@ msgstr "The 'C' logo"
 #: page.html.twig:60
 msgid "Fil d’Ariane"
 msgstr "Breadcrumb"
+
+#: partials/paginator.html.twig:4
+msgid "Pagination"
+msgstr "Pagination"
+
+#: partials/paginator.html.twig:8 partials/paginator.html.twig:10
+msgid "Précédent"
+msgstr "Previous"
+
+#: partials/paginator.html.twig:24 partials/paginator.html.twig:26
+msgid "Suivant"
+msgstr "Next"
 
 #, fuzzy
 #~ msgid "La page n’a pas été trouvée."
