@@ -31,7 +31,7 @@
               {%- else -%}
                 {%- set attributes = attributes|merge({loading: 'lazy'}) -%}
               {%- endif ~%}
-              {{ html(asset('images/' ~ page.id ~ '/' ~ img.file), options={responsive: 'density', formats: ['avif', 'webp']}, attributes=attributes) ~}}
+              {{ html(asset('images/' ~ page.id ~ '/' ~ img.file), attributes=attributes) ~}}
             </div>
             {%- endfor ~%}
           </div>

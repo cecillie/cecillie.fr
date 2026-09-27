@@ -1,26 +1,26 @@
 ---
-title: Le Grand Shinboku • 神木
+title: Le Shinboku • しんぼく
 description: "Dans les profondeurs de la montagne sacrée, notre jeune fille poursuit son chemin, accompagnée de son jeune chōchin obake."
 date: 2026-03-09
 images:
   - file: 01.png
-    alt: Le Grand Shinboku 1
+    alt: Le Shinboku 1
   - file: 02.png
-    alt: Le Grand Shinboku 2
+    alt: Le Shinboku 2
   - file: 03.png
-    alt: Le Grand Shinboku 3
+    alt: Le Shinboku 3
   - file: 04.png
-    alt: Le Grand Shinboku 4
+    alt: Le Shinboku 4
   - file: 05.png
-    alt: Le Grand Shinboku 5
+    alt: Le Shinboku 5
   - file: 06.png
-    alt: Le Grand Shinboku 6
+    alt: Le Shinboku 6
   - file: 07.png
-    alt: Le Grand Shinboku 7
+    alt: Le Shinboku 7
 ---
 Dans les profondeurs de la montagne sacrée ⛰️, notre jeune fille poursuit son chemin, accompagnée de son jeune chōchin obake 🏮. Guidée par une lumière presque divine, elle découvre un gigantesque arbre 🍃 qui se dresse au cœur de la forêt. Va-t-elle apercevoir l’esprit de ce grand shinboku ✨ ?
 
-Dans le shintoïsme, un shinboku (しんぼく) 🌿 est un arbre sacré dans lequel résident des esprits. Leur âge, leur taille majestueuse et l’aura particulière qui les entoure en font des lieux de vénération.
+Dans le shintoïsme, un shinboku (神木) 🌿 est un arbre sacré dans lequel résident des esprits. Leur âge, leur taille majestueuse et l’aura particulière qui les entoure en font des lieux de vénération.
 
 Pour signaler cette présence divine, leur tronc est entouré d’une corde appelée shimenawa 🪢. Tressée le plus souvent en paille de riz, cette corde indique que ce qu’elle entoure est sacré (arbre, rocher, sanctuaire). Elle délimite symboliquement la frontière entre le monde ordinaire et le domaine des kami.
 

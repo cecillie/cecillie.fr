@@ -1,12 +1,10 @@
 ---
-title: "I’m Cécile Ricordeau, a creative director and illustrator based in Paris."
-description: "Thanks to my global expertise, I help you bring emotion, depth and consistency to your brand."
+title: "I’m Cécile Ricordeau, a freelance art director and illustrator based in Paris - Montreuil."
+description: "An expert in UI design, e-commerce and social media, I cover all your communication and branding needs."
 date: 2021-11-14
-updated: 2025-02-05
+updated: 2025-04-30
 ---
-Former Creative director of Ultranoir, Uzful and Baobaz, trained at Publicis, I work as a freelance.
-For 15 years I’ve been glad to collaborate with fine brands such as Galeries Lafayette, Dior, Leroy Merlin, Bayard Jeunesse and many more.
+Former creative director at the Ultranoir, Uzful and Baobaz agencies, I have been working as a freelancer since 2019. Before that, I built my expertise over more than 15 years in agencies and on the client side (Digitas, Publicis Luxe, Videdressing…). My approach to design is based on the balance between form and function, focusing on the essential role of meaning and emotional experience.
 
-I also draw a lot of *Paysages à Vélo* on [shop.cecillie.fr](https://shop.cecillie.fr).
-
-Take a look at my [Instagram feed](https://www.instagram.com/cecile.ricordeau/) to discover my universe and my illustrations.
+セシリですか Looking for my illustrations?
+Find them on [my Instagram feed](https://www.instagram.com/cecile.ricordeau/) and in [my online Shop](https://cecillie.sumupstore.com/). またね!
