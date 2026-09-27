@@ -9,20 +9,19 @@ Ce site web est construit avec [Cecil](https://cecil.app/), un générateur de s
 ```bash
 curl -LO https://cecil.app/cecil.phar
 composer install
-npm install
 ```
 
 ## Aperçu local
 
 ```bash
-npm run css:watch
+composer css:watch
 php cecil.phar serve -v
 ```
 
 ## Générer le site pour la production
 
 ```bash
-npm run css:build
+composer css:build
 php cecil.phar build
 ```
 

@@ -2,9 +2,17 @@
   "require": {
     "cecil/theme-netlify": "^2.2"
   },
+  "require-dev": {
+    "aligny/tailwind-builder": "^1.2"
+  },
+  "scripts": {
+    "css:build": "tailwind-builder assets/css/tailwind.css --output=assets/css/styles.css --minify",
+    "css:watch": "tailwind-builder assets/css/tailwind.css --output=assets/css/styles.css --watch"
+  },
   "config": {
     "allow-plugins": {
       "cecil/theme-installer": true
-    }
+    },
+    "process-timeout": 0
   }
 }
