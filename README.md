@@ -60,7 +60,7 @@ Référencer une image dans le contenu :
 
 ### 1. Créer le fichier Markdown
 
-Créer un fichier `pages/illustrations/<slug-de-lillustration>.md`.
+Créer un fichier `pages/illustrations/<slug-de-l-illustration>.md`.
 
 Structure du front matter :
 
@@ -81,6 +81,6 @@ Puis rédiger le texte d'accompagnement en Markdown après le front matter.
 
 ### 2. Ajouter les images
 
-Placer les images dans `assets/images/illustrations/<slug-de-lillustration>/`.
+Placer les images dans `assets/images/illustrations/<slug-de-l-illustration>/`.
 
 Les nommer de manière séquentielle (`01.png`, `02.png`, etc.) et les lister dans le front matter `images`.
