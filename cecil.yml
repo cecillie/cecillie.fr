@@ -13,19 +13,28 @@ social:
     url: https://bsky.app/profile/cecillie.bsky.social
   mastodon:
     url: https://eldritch.cafe/@cecillie
-links:
-  - name: Instagram
-    url: https://www.instagram.com/cecile.ricordeau/
-  - name: Linkedin
-    url: https://www.linkedin.com/in/cecile-ricordeau/
-  - name: Illustrations
-    url: /illustrations/
-    blank: false
-  - name: Blog
-    url: /blog/
-    blank: false
-  - name: Shop
-    url: https://shop.cecillie.fr
+menus:
+  main:
+    - id: index
+      enabled: false
+    - id: instagram
+      name: Instagram
+      url: https://www.instagram.com/cecile.ricordeau/
+      weight: 1
+    - id: linkedin
+      name: Linkedin
+      url: https://www.linkedin.com/in/cecile-ricordeau/
+      weight: 2
+    - id: illustrations
+      name: Illustrations
+      weight: 3
+    - id: blog
+      name: Blog
+      weight: 4
+    - id: shop
+      name: Shop
+      url: https://shop.cecillie.fr
+      weight: 5
 language: fr
 languages:
   - code: fr
@@ -37,13 +46,19 @@ languages:
     config:
       baseline: Art direction, UI design, illustration
       description: Cécile Ricordeau, freelance art director, ui design expert, illustrator.
-      links:
-        - name: Instagram
-          url: https://www.instagram.com/cecile.ricordeau/
-        - name: Linkedin
-          url: https://www.linkedin.com/in/cecile-ricordeau/?locale=en_US
-        - name: Shop
-          url: https://shop.cecillie.fr
+      menus:
+        main:
+          - id: index
+            enabled: false
+          - id: instagram
+            url: https://www.instagram.com/cecile.ricordeau/
+            weight: 1
+          - id: linkedin
+            url: https://www.linkedin.com/in/cecile-ricordeau/
+            weight: 2
+          - id: shop
+            url: https://shop.cecillie.fr
+            weight: 3
 
 metatags:
   data: true

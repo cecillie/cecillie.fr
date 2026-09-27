@@ -36,16 +36,12 @@
             <span class="font-light">{{ site.email }}</span>
           </a>
         </div>
-        {#- links menu ~#}
+        {#- main menu ~#}
         <nav class="flex w-full md:pt-2 pt-6 content-center justify-between md:w-1/4 md:justify-end">
           <ul class="list-reset flex justify-between flex-1 items-center space-x-4">
-          {%- for link in site.links ~%}
+          {%- for entry in site.menus.main|sort_by_weight ~%}
             <li>
-              {%- if (link.blank ?? true) == false ~%}
-              <a class="inline-block no-underline hover:no-underline font-light lowercase" href="{{ link.url }}" rel="noopener">{{ link.name }}</a>
-              {%- else ~%}
-              <a class="inline-block no-underline hover:no-underline font-light lowercase" href="{{ link.url }}" target="_blank" rel="noopener">{{ link.name }}</a>
-              {%- endif ~%}
+              <a class="inline-block no-underline hover:no-underline font-light lowercase" href="{{ url(entry.url) }}" rel="noopener" data-weight="{{ entry.weight }}">{{ entry.name }}</a>
             </li>
           {%- endfor ~%}
           </ul>
