@@ -80,8 +80,7 @@
     {#- footer ~#}
     {%- block footer ~%}
     <footer class="container mx-auto px-6 py-6 text-right text-sm font-light">
-      {%- set author = site.title ~%}
-      &copy; {{ 'now'|date('Y') }} {{ author }} · {% trans %}Site généré avec{% endtrans %} <a class="underline hover:no-underline" href="{{ cecil.url }}" target="_blank" rel="noopener">Cecil</a>
+      &copy; {{ 'now'|date('Y') }} {{ site.author }} · {% trans %}Site généré avec{% endtrans %} <a class="underline hover:no-underline" href="{{ cecil.url }}" target="_blank" rel="noopener">Cecil</a>
     </footer>
     {%- endblock footer ~%}
     {#- scripts ~#}
