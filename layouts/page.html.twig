@@ -54,6 +54,27 @@
     </header>
     {#- main content ~#}
     <main class="container py-6 md:pt-28 px-6 mx-auto flex-wrap flex-col md:flex-row items-center">
+      {#- breadcrumb ~#}
+      {%- block breadcrumb ~%}
+      {%- if page.type != 'homepage' ~%}
+      <nav class="mx-auto max-w-(--breakpoint-md) mb-8 text-sm font-light lowercase" aria-label="{% trans %}Fil d’Ariane{% endtrans %}">
+        <ol class="flex flex-wrap items-center gap-2">
+          {%- set crumbs = [site.home]|merge(page.ancestors|reverse) ~%}
+          {%- for crumb in crumbs ~%}
+          <li>
+            <a class="no-underline hover:underline" href="{{ url(crumb) }}">
+              <span>{{ crumb == site.home ? 'Accueil'|trans : crumb.title }}</span>
+            </a>
+          </li>
+          <li aria-hidden="true">/</li>
+          {%- endfor ~%}
+          <li>
+            <span aria-current="page">{{ page.title }}</span>
+          </li>
+        </ol>
+      </nav>
+      {%- endif ~%}
+      {%- endblock breadcrumb ~%}
       {%- block content ~%}
       <div class="leading-normal mb-4 my-4">
         {{- page.content ~}}
