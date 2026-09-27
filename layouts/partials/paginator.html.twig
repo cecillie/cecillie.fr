@@ -5,9 +5,9 @@
           <ul class="flex flex-wrap items-center justify-center gap-4">
             <li>
               {%- if links.prev is defined ~%}
-              <a class="inline-block no-underline" href="{{ url(links.prev) }}" rel="prev">{% trans %}Précédent{% endtrans %}</a>
+              <a class="inline-block no-underline" href="{{ url(links.prev) }}" rel="prev">← {% trans %}Précédent{% endtrans %}</a>
               {%- else ~%}
-              <span class="inline-block opacity-40" aria-hidden="true">{% trans %}Précédent{% endtrans %}</span>
+              <span class="inline-block opacity-40" aria-hidden="true">← {% trans %}Précédent{% endtrans %}</span>
               {%- endif ~%}
             </li>
             {%- for i in 1..paginator.count ~%}
@@ -21,9 +21,9 @@
             {%- endfor ~%}
             <li>
               {%- if links.next is defined ~%}
-              <a class="inline-block no-underline" href="{{ url(links.next) }}" rel="next">{% trans %}Suivant{% endtrans %}</a>
+              <a class="inline-block no-underline" href="{{ url(links.next) }}" rel="next">{% trans %}Suivant{% endtrans %} →</a>
               {%- else ~%}
-              <span class="inline-block opacity-40" aria-hidden="true">{% trans %}Suivant{% endtrans %}</span>
+              <span class="inline-block opacity-40" aria-hidden="true">{% trans %}Suivant{% endtrans %} →</span>
               {%- endif ~%}
             </li>
           </ul>

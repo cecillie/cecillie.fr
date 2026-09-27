@@ -10,6 +10,23 @@
           <time>{{ page.date|format_date('long') }}</time> · {% trans %}%readtime% min{% endtrans ~%}
         </header>
         {{~ page.content ~}}
+        {#- Navigation between blog posts ~#}
+        {%- if page.prev is defined or page.next is defined ~%}
+        <nav class="not-prose my-8 font-light lowercase" aria-label="{% trans %}Navigation entre les billets{% endtrans %}">
+          <ul class="flex items-center justify-between gap-4">
+            <li>
+              {%- if page.prev is defined ~%}
+              <a class="inline-block no-underline" href="{{ url(page.prev) }}" rel="prev" title="{{ page.prev.title|e('html_attr') }}">← {{ page.prev.title }}</a>
+              {%- endif ~%}
+            </li>
+            <li>
+              {%- if page.next is defined ~%}
+              <a class="inline-block no-underline" href="{{ url(page.next) }}" rel="next" title="{{ page.next.title|e('html_attr') }}">{{ page.next.title }} →</a>
+              {%- endif ~%}
+            </li>
+          </ul>
+        </nav>
+        {%- endif ~%}
       </article>
       {%- endblock content ~%}
 

@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-09-27 23:31+0200\n"
-"PO-Revision-Date: 2026-09-27 23:32+0200\n"
+"POT-Creation-Date: 2026-09-28 01:16+0200\n"
+"PO-Revision-Date: 2026-09-28 01:17+0200\n"
 "Last-Translator: Arnaud Ligny <arnaud@ligny.fr>\n"
 "Language-Team: \n"
 "Language: en\n"
@@ -19,7 +19,7 @@ msgstr ""
 msgid "Page non trouvée."
 msgstr "Page not found."
 
-#: 404.html.twig:5 page.html.twig:66
+#: 404.html.twig:5 page.html.twig:64
 msgid "Accueil"
 msgstr "Home"
 
@@ -31,17 +31,37 @@ msgstr "%readtime% min"
 msgid "(Passez ou appuyez sur l’image pour jouer l’animation)"
 msgstr "(Hover or tap the image to play the animation)"
 
+#: blog/page.html.twig:15
+msgid "Navigation entre les billets"
+msgstr "Posts navigation"
+
 #: home.html.twig:4
 msgid "Hello"
 msgstr "Hey there"
+
+#: illustrations/page.html.twig:45
+msgid "Navigation entre les illustrations"
+msgstr "Illustrations navigation"
+
+#: illustrations/page.html.twig:49
+msgid "Précédente"
+msgstr "Previous"
+
+#: illustrations/page.html.twig:54
+msgid "Suivante"
+msgstr "Next"
 
 #: page.html.twig:32
 msgid "Le logo 'C'"
 msgstr "The 'C' logo"
 
-#: page.html.twig:60
+#: page.html.twig:59
 msgid "Fil d’Ariane"
 msgstr "Breadcrumb"
+
+#: page.html.twig:88
+msgid "Site généré avec"
+msgstr "Site generated with"
 
 #: partials/paginator.html.twig:4
 msgid "Pagination"
