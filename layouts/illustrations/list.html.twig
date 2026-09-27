@@ -13,7 +13,7 @@
           <article>
             <header class="mb-4">
               <h2><a class="text-center" href="{{ url(p) }}">{{ p.title }}</a></h2>
-              <time class="md:text-sm">{{ p.date|format_date('long') }}</time>
+              {#-<time class="md:text-sm">{{ p.date|format_date('long') }}</time>~#}
             </header>
             <a class="text-center" href="{{ url(p) }}">
               {{ html(asset('images/' ~ p.id ~ '/' ~ p.images[0].file), attributes={alt: p.images[0].alt|e, width: 400, class: 'illustration-thumbnail'}|merge(loop.first ? {fetchpriority: 'high'} : {loading: 'lazy', decoding: 'async'})) ~}}
