@@ -9,8 +9,6 @@ social:
     url: https://www.instagram.com/cecile.ricordeau/
   linkedin:
     url: https://www.linkedin.com/in/cecile-ricordeau/
-  #twitter:
-  #  site: onibd
   bluesky:
     url: https://bsky.app/profile/cecillie.bsky.social
   mastodon:
@@ -28,22 +26,6 @@ links:
     blank: false
   - name: Shop
     url: https://shop.cecillie.fr
-  #- name: Twitter
-  #  url: https://www.twitter.com/onibd
-  #- name: Medium
-  #  url: https://medium.com/@cecile.ricordeau
-  #- name: Behance
-  #  url: https://www.behance.net/cecillie
-  #- name: Vimeo
-  #  url: https://vimeo.com/cecillie
-  #- name: Book
-  #  url: http://bitly.com/cecillie
-  #- name: CV
-  #  url: "/cecile-ricordeau-cv.pdf"
-  #  blank: false
-  #- name: hello[at]cecillie.fr
-  #  url: mailto:hello@cecillie.fr
-  #  blank: false
 language: fr
 languages:
   - code: fr
@@ -60,8 +42,8 @@ languages:
           url: https://www.instagram.com/cecile.ricordeau/
         - name: Linkedin
           url: https://www.linkedin.com/in/cecile-ricordeau/?locale=en_US
-        #- name: Shop
-        #  url: https://shop.cecillie.fr/en/
+        - name: Shop
+          url: https://shop.cecillie.fr
 
 metatags:
   data: true
