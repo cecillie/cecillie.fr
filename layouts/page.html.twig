@@ -68,9 +68,11 @@
           </li>
           <li aria-hidden="true">/</li>
           {%- endfor ~%}
+          {%- if page.type == 'section' ~%}
           <li>
             <span aria-current="page">{{ page.title }}</span>
           </li>
+          {%- endif ~%}
         </ol>
       </nav>
       {%- endif ~%}
