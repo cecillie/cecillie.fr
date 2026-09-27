@@ -1,7 +1,7 @@
 title: Cécile Ricordeau
-baseurl: https://www.cecillie.fr/
 baseline: Direction artistique, UI design, illustration
 description: Cécile Ricordeau, directrice artistique freelance à Paris, experte en UI design et illustratrice.
+baseurl: https://www.cecillie.fr/
 image: icon.png
 email: hello@cecillie.fr
 social:
@@ -9,8 +9,8 @@ social:
     url: https://www.instagram.com/cecile.ricordeau/
   linkedin:
     url: https://www.linkedin.com/in/cecile-ricordeau/
-  twitter:
-    site: onibd
+  #twitter:
+  #  site: onibd
   bluesky:
     url: https://bsky.app/profile/cecillie.bsky.social
   mastodon:
@@ -20,35 +20,35 @@ links:
     url: https://www.instagram.com/cecile.ricordeau/
   - name: Linkedin
     url: https://www.linkedin.com/in/cecile-ricordeau/
-  #- name: Illustrations
-  #  url: /illustrations/
-  #  blank: false
+  - name: Illustrations
+    url: /illustrations/
+    blank: false
   - name: Blog
     url: /blog/
     blank: false
   - name: Shop
     url: https://shop.cecillie.fr
-#  - name: Twitter
-#    url: https://www.twitter.com/onibd
-#  - name: Medium
-#    url: https://medium.com/@cecile.ricordeau
-#  - name: Behance
-#    url: https://www.behance.net/cecillie
-#  - name: Vimeo
-#    url: https://vimeo.com/cecillie
-#  - name: Book
-#    url: http://bitly.com/cecillie
-#  - name: CV
-#    url: "/cecile-ricordeau-cv.pdf"
-#    blank: false
-#  - name: hello[at]cecillie.fr
-#    url: mailto:hello@cecillie.fr
-#    blank: false
+  #- name: Twitter
+  #  url: https://www.twitter.com/onibd
+  #- name: Medium
+  #  url: https://medium.com/@cecile.ricordeau
+  #- name: Behance
+  #  url: https://www.behance.net/cecillie
+  #- name: Vimeo
+  #  url: https://vimeo.com/cecillie
+  #- name: Book
+  #  url: http://bitly.com/cecillie
+  #- name: CV
+  #  url: "/cecile-ricordeau-cv.pdf"
+  #  blank: false
+  #- name: hello[at]cecillie.fr
+  #  url: mailto:hello@cecillie.fr
+  #  blank: false
 language: fr
 languages:
   - code: fr
     name: Français
-    locale: fr
+    locale: fr_FR
   - code: en
     name: English
     locale: en
@@ -62,20 +62,23 @@ languages:
           url: https://www.linkedin.com/in/cecile-ricordeau/?locale=en_US
         #- name: Shop
         #  url: https://shop.cecillie.fr/en/
+
 metatags:
   data: true
 pages:
   body:
     images:
-      caption: true
-      resize: true
+      formats: [webp]
       responsive: true
-      formats: [webp, avif]
+      caption: true
 assets:
   images:
     optimize: true
-    responsive: true
-    formats: [webp, avif]
+layouts:
+  images:
+    formats: [webp]
+    responsive: density
+
 theme:
   - netlify
 netlify:
