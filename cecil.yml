@@ -74,10 +74,18 @@ pages:
 assets:
   images:
     optimize: true
+    responsive:
+      # source images are at most 1080-1200px wide
+      widths: [320, 480, 640, 800, 1080]
+      # `sizes` by CSS class (content column: max 48rem, main padding 1.5rem, body margin 2.5rem from md)
+      sizes:
+        default: '(min-width: 56rem) 48rem, (min-width: 48rem) calc(100vw - 8rem), calc(100vw - 3rem)'
+        illustration-thumbnail: '(min-width: 64rem) 245px, (min-width: 48rem) 376px, (min-width: 28rem) 400px, calc(100vw - 3rem)'
+        illustration-slide: '(min-width: 37rem) 540px, calc(100vw - 3rem)'
 layouts:
   images:
     formats: [webp]
-    responsive: density
+    responsive: width
 
 theme:
   - netlify
