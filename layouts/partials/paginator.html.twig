@@ -1,0 +1,31 @@
+        {%- if page.paginator and page.paginator.count > 1 ~%}
+        {%- set paginator = page.paginator ~%}
+        {%- set links = paginator.links ~%}
+        <nav class="not-prose my-8 font-light lowercase" aria-label="{% trans %}Pagination{% endtrans %}">
+          <ul class="flex flex-wrap items-center justify-center gap-4">
+            <li>
+              {%- if links.prev is defined ~%}
+              <a class="inline-block no-underline" href="{{ url(links.prev) }}" rel="prev">{% trans %}Précédent{% endtrans %}</a>
+              {%- else ~%}
+              <span class="inline-block opacity-40" aria-hidden="true">{% trans %}Précédent{% endtrans %}</span>
+              {%- endif ~%}
+            </li>
+            {%- for i in 1..paginator.count ~%}
+            <li>
+              {%- if i == paginator.current ~%}
+              <span class="inline-block font-bold" aria-current="page">{{ i }}</span>
+              {%- else ~%}
+              <a class="inline-block no-underline" href="{{ url(i == 1 ? links.first : links.path ~ '/' ~ i) }}">{{ i }}</a>
+              {%- endif ~%}
+            </li>
+            {%- endfor ~%}
+            <li>
+              {%- if links.next is defined ~%}
+              <a class="inline-block no-underline" href="{{ url(links.next) }}" rel="next">{% trans %}Suivant{% endtrans %}</a>
+              {%- else ~%}
+              <span class="inline-block opacity-40" aria-hidden="true">{% trans %}Suivant{% endtrans %}</span>
+              {%- endif ~%}
+            </li>
+          </ul>
+        </nav>
+        {%- endif ~%}

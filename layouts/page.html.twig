@@ -62,9 +62,7 @@
           {%- set crumbs = [site.home]|merge(page.ancestors|reverse) ~%}
           {%- for crumb in crumbs ~%}
           <li>
-            <a class="no-underline hover:underline" href="{{ url(crumb) }}">
-              <span>{{ crumb == site.home ? 'Accueil'|trans : crumb.title }}</span>
-            </a>
+            <a class="no-underline hover:underline" href="{{ url(crumb) }}"><span>{{ crumb == site.home ? 'Accueil'|trans : crumb.title }}</span></a>
           </li>
           <li aria-hidden="true">/</li>
           {%- endfor ~%}
