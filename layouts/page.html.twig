@@ -23,7 +23,7 @@
     {%- endif ~%}
     {%- endblock ~%}
   </head>
-  <body class="font-sans leading-normal tracking-normal md:m-10">
+  <body class="flex flex-col min-h-screen md:min-h-[calc(100vh-5rem)] font-sans leading-normal tracking-normal md:m-10">
     <header class="w-full container mx-auto p-6">
       <div class="container mx-auto flex flex-wrap items-center">
         <div class="flex w-full md:w-3/4 justify-center md:justify-start font-extrabold">
@@ -52,8 +52,7 @@
         </nav>
       </div>
     </header>
-    {#- main content ~#}
-    <main class="container py-6 md:pt-28 px-6 mx-auto flex-wrap flex-col md:flex-row items-center">
+    <main class="grow container py-6 md:pt-28 px-6 mx-auto flex-wrap flex-col md:flex-row items-center">
       {#- breadcrumb ~#}
       {%- block breadcrumb ~%}
       {%- if page.type != 'homepage' ~%}
@@ -75,12 +74,21 @@
       </nav>
       {%- endif ~%}
       {%- endblock breadcrumb ~%}
+      {#- main content ~#}
       {%- block content ~%}
       <div class="leading-normal mb-4 my-4">
         {{- page.content ~}}
       </div>
       {%- endblock content ~%}
     </main>
+    {#- footer ~#}
+    {%- block footer ~%}
+    <footer class="container mx-auto px-6 py-6 text-right text-sm font-light">
+      {%- set author = site.title ~%}
+      &copy; {{ 'now'|date('Y') }} {{ author }} · {% trans %}Site généré avec{% endtrans %} <a class="underline hover:no-underline" href="{{ cecil.url }}" target="_blank" rel="noopener">Cecil</a>
+    </footer>
+    {%- endblock footer ~%}
+    {#- scripts ~#}
     {%- block scripts %}{% endblock scripts ~%}
     {%- block noise ~%}
     <canvas id="noise" class="noise"></canvas>
