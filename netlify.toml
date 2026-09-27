@@ -1,3 +1,6 @@
 [build]
   publish = "_site"
   command = "curl -sSOL https://cecil.app/build.sh && bash ./build.sh"
+
+[[plugins]]
+  package = "@cecilapp/netlify-plugin-cache"
