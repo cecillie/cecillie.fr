@@ -11,6 +11,31 @@
         --swiper-pagination-color: #000;
       }
     {% endapply ~%}</style>
+    {#- structured data: ImageObject ~#}
+    {%- set author = {'@type': 'Person', name: site.author, url: url(site.home, {canonical: true})} -%}
+    {%- set images_ld = [] -%}
+    {%- for img in page.images -%}
+      {%- set img_asset = asset('images/' ~ page.id ~ '/' ~ img.file) -%}
+      {%- set images_ld = images_ld|merge([{
+        '@context': 'https://schema.org',
+        '@type': 'ImageObject',
+        contentUrl: url(img_asset, {canonical: true}),
+        url: url(page, {canonical: true}),
+        name: page.title,
+        caption: img.alt,
+        description: page.description,
+        width: img_asset.width,
+        height: img_asset.height,
+        datePublished: page.date|date('Y-m-d'),
+        author: author,
+        creator: author,
+        creditText: site.author,
+        copyrightNotice: '© ' ~ page.date|date('Y') ~ ' ' ~ site.author,
+      }]) -%}
+    {%- endfor ~%}
+    <script type="application/ld+json">
+      {{ images_ld|json_encode(constant('JSON_UNESCAPED_SLASHES') b-or constant('JSON_UNESCAPED_UNICODE') b-or constant('JSON_HEX_TAG'))|raw }}
+    </script>
     {%- endblock ~%}
 
       {%- block content ~%}
