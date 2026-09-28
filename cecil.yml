@@ -69,6 +69,7 @@ pages:
       formats: [webp]
       responsive: true
       caption: true
+      placeholder: lqip
 assets:
   images:
     optimize: true
