@@ -50,12 +50,13 @@
             {%- for img in page.images ~%}
             <div class="swiper-slide">
               {%- set attributes = {alt: img.alt|e, width: 540, class: 'illustration-slide'} -%}
+              {%- set options = {placeholder: 'lqip'} -%}
               {%- if loop.index == 1 -%}
                 {%- set attributes = attributes|merge({loading: 'eager', fetchpriority: 'high'}) -%}
               {%- else -%}
                 {%- set attributes = attributes|merge({loading: 'lazy', decoding: 'async'}) -%}
               {%- endif ~%}
-              {{ html(asset('images/' ~ page.id ~ '/' ~ img.file), attributes=attributes) ~}}
+              {{ html(asset('images/' ~ page.id ~ '/' ~ img.file), attributes=attributes, options=options) ~}}
             </div>
             {%- endfor ~%}
           </div>
