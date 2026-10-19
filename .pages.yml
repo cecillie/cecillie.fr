@@ -1,0 +1,148 @@
+# Pages CMS configuration
+# https://pagescms.org/docs/configuration/
+
+media:
+  input: assets/images
+  output: /images
+  categories: [image]
+
+content:
+  - name: illustrations
+    label: Illustrations
+    type: collection
+    path: pages/illustrations
+    format: yaml-frontmatter
+    exclude: [index.md]
+    filename: "{primary}.md"
+    view:
+      fields: [title, date, published]
+      primary: title
+      search: [title, description]
+      sort: [date, title]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: title
+        label: Titre
+        type: string
+        required: true
+      - name: description
+        label: Description
+        type: text
+      - name: date
+        label: Date
+        type: date
+        options:
+          format: yyyy-MM-dd
+      - name: published
+        label: Publié
+        type: boolean
+        default: true
+      - name: images
+        label: Images
+        type: object
+        description: "Les fichiers sont dans `assets/images/illustrations/<nom-de-la-page>/` (la première image sert de vignette)."
+        list:
+          min: 1
+          collapsible:
+            collapsed: true
+            summary: "{file}"
+        fields:
+          - name: file
+            label: Fichier
+            type: string
+            required: true
+            description: "Nom du fichier seul, ex. : 01.png"
+          - name: alt
+            label: Texte alternatif
+            type: string
+      - name: body
+        label: Texte
+        type: rich-text
+        options:
+          format: markdown
+          path: assets/images/illustrations
+
+  - name: blog
+    label: Blog
+    type: collection
+    path: pages/blog
+    format: yaml-frontmatter
+    exclude: [index.md]
+    filename: "{primary}.md"
+    view:
+      fields: [title, date]
+      primary: title
+      search: [title, description]
+      sort: [date, title]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: title
+        label: Titre
+        type: string
+        required: true
+      - name: description
+        label: Description
+        type: text
+      - name: date
+        label: Date
+        type: date
+        options:
+          format: yyyy-MM-dd
+      - name: published
+        label: Publié
+        type: boolean
+        default: true
+      - name: image
+        label: Image de partage
+        type: image
+        options:
+          path: assets/images/blog
+      - name: body
+        label: Texte
+        type: rich-text
+        options:
+          format: markdown
+          path: assets/images/blog
+
+  - name: home
+    label: Accueil
+    type: group
+    items:
+      - name: home-fr
+        label: Accueil (FR)
+        type: file
+        path: pages/index.md
+        format: yaml-frontmatter
+        fields: &home-fields
+          - name: title
+            label: Titre
+            type: text
+            required: true
+          - name: description
+            label: Description
+            type: text
+          - name: date
+            label: Date
+            type: date
+            options:
+              format: yyyy-MM-dd
+          - name: updated
+            label: Mis à jour
+            type: date
+            options:
+              format: yyyy-MM-dd
+          - name: body
+            label: Texte
+            type: rich-text
+            options:
+              format: markdown
+      - name: home-en
+        label: Accueil (EN)
+        type: file
+        path: pages/index.en.md
+        format: yaml-frontmatter
+        fields: *home-fields
