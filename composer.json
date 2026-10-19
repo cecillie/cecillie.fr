@@ -1,6 +1,6 @@
 {
   "require": {
-    "cecil/theme-netlify": "^2.2"
+    "cecil/theme-netlify": "^3.0"
   },
   "require-dev": {
     "aligny/tailwind-builder": "^1.2"
