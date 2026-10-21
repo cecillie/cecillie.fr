@@ -23,7 +23,7 @@ menus:
       url: https://www.instagram.com/cecile.ricordeau/
       weight: 1
     - id: linkedin
-      name: Linkedin
+      name: LinkedIn
       url: https://www.linkedin.com/in/cecile-ricordeau/
       weight: 2
     - id: illustrations
@@ -43,10 +43,10 @@ languages:
     locale: fr_FR
   - code: en
     name: English
-    locale: en
+    locale: en_US
     config:
       baseline: Art direction, UI design, illustration
-      description: Cécile Ricordeau, freelance art director, ui design expert, illustrator.
+      description: Cécile Ricordeau, freelance art director, UI design expert, illustrator.
       menus:
         main:
           - id: index
@@ -62,7 +62,10 @@ languages:
             weight: 3
 
 metatags:
-  data: true
+  data:
+    enabled: true
+    publisher:
+      type: Person
 pages:
   body:
     images:
@@ -90,8 +93,8 @@ theme:
   - netlify
 netlify:
   redirects:
-    - from: https://cecillie.netlify.com/*
-      to: https://cecillie.fr/:splat
+    - from: https://cecillie.netlify.app/*
+      to: https://www.cecillie.fr/:splat
       status: 301
       force: true
   redirect_by_language: false
