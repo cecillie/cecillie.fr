@@ -1,6 +1,6 @@
 ---
 title: "Amaterasu, Susanoo et la grotte céleste • 天照とスサノオと天のいわと"
-description: "À l’époque des kami, Amaterasu, déesse du Soleil, gouverne le Ciel."
+description: "À l’époque des kami, Amaterasu, déesse du Soleil, gouverne le Ciel et son frangin Susanoo les tempêtes. Une BD décalée de l’épisode de la caverne céleste."
 date: 2026-06-19
 images:
   - file: 01.png

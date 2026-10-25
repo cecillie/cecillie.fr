@@ -14,7 +14,7 @@
             <a class="text-center" href="{{ url(p) }}">
               {%- set attributes = {alt: p.images[0].alt|e, width: 400, class: 'illustration-thumbnail'}|merge(loop.first ? {fetchpriority: 'high'} : {loading: 'lazy', decoding: 'async'}) -%}
               {%- set options = {placeholder: 'lqip'} -%}
-              {{ html(asset('images/' ~ p.id ~ '/' ~ p.images[0].file), attributes=attributes, options=options) ~}}
+              {{ html(asset('images/' ~ p.langref ~ '/' ~ p.images[0].file), attributes=attributes, options=options) ~}}
             </a>
           </article>
           {%- endfor ~%}

@@ -4,13 +4,13 @@ description: "Caché dans la montagne près de Chizu, se trouve un lieu magique 
 date: 2026-07-26
 images:
   - file: 01.png
-    alt: "Le ruisseau aux ramune 1"
+    alt: "Aquarelle signée : deux bouteilles de ramune marquées « ラムネ » rafraîchies dans un ruisseau limpide, entre des rameaux verts et des galets."
   - file: 02.png
-    alt: "Le ruisseau aux ramune 2"
+    alt: "Gros plan des bouteilles de ramune bleues immergées dans l’eau vive du ruisseau, sous des rameaux verts et entre deux rochers."
   - file: 03.png
-    alt: "Le ruisseau aux ramune 3"
+    alt: "Détail des rameaux verts et des reflets de lumière à la surface de l’eau, au-dessus du goulot d’une bouteille de ramune."
   - file: 04.png
-    alt: "Le ruisseau aux ramune 4"
+    alt: "Détail d’une bouteille de ramune à l’inscription rouge « ラムネ » et d’un rocher sous le courant clair du ruisseau."
 ---
 Caché dans la montagne près de Chizu, se trouve un lieu magique où les bouteilles de limonade prennent des bains de fraîcheur dans les ruisseaux…
 

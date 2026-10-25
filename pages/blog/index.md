@@ -4,7 +4,7 @@ description: "Billets de blog de Cécile Ricordeau, directrice artistique freela
 cascade:
   author:
     name: Cécile Ricordeau
-    url: https://cecillie.fr
+    url: https://www.cecillie.fr/
     email: hello@cecillie.fr
   social:
     mastodon: cecillie@eldritch.cafe

@@ -1,20 +1,20 @@
 ---
 title: "Abura sumashi • 油すまし"
-description: "Peut-être qu’en vous promenant sur un petit chemin montagneux, avez-vous déjà entendu « koko ni iruzo…"
+description: "Peut-être qu’en vous promenant sur un petit chemin montagneux, avez-vous déjà entendu « koko ni iruzo… » ? Voici l’abura sumashi, petit yōkai de Kumamoto."
 date: 2026-08-20
 images:
   - file: 01.png
-    alt: "Abura sumashi 1"
+    alt: "L’abura sumashi, yōkai à tête de pomme de terre vêtu d’un mino de paille, traverse une mare sous la pluie de pierre en pierre, bâton à la main."
   - file: 02.png
-    alt: "Abura sumashi 2"
+    alt: "Vue rapprochée de l’abura sumashi souriant, les yeux fermés, qui enjambe les pierres de la mare sous la pluie, appuyé sur son bâton en bois."
   - file: 03.png
-    alt: "Abura sumashi 3"
+    alt: "Gros plan sur le visage rond et rieur de l’abura sumashi, joues roses, son manteau de paille noué au cou par un ruban rose."
   - file: 04.png
-    alt: "Abura sumashi 4"
+    alt: "Détail de l’abura sumashi en plein pas, pieds nus, son mino de paille ébouriffé par le mouvement, au-dessus de l’eau battue par la pluie."
   - file: 05.png
-    alt: "Abura sumashi 5"
+    alt: "Détail de la mare : un pied nu posé sur une pierre moussue, des ronds dans l’eau et un nénuphar rose sur sa feuille verte."
   - file: 06.png
-    alt: "Abura sumashi 6"
+    alt: "Page de l’encyclopédie des yōkai de GeGeGe no Kitarō de Shigeru Mizuki : l’abura sumashi, bâton à la main, dans une forêt, criant « iruzo »."
 ---
 Peut-être qu’en vous promenant sur un petit chemin montagneux, avez-vous déjà entendu « koko ni iruzo… iruzooo ! »「ここにいるぞ。いるぞおお!」  
 Je suis là… la la !! 👀

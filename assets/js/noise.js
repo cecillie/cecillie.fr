@@ -33,14 +33,22 @@ const noise = () => {
       window.requestAnimationFrame(loop);
     }, (1000 / 25));
   };
+  // Respects the user's "reduce motion" setting: draws a single still frame
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
   // Setup
   const setup = () => {
     wWidth = window.innerWidth;
     wHeight = window.innerHeight;
     canvas.width = wWidth;
     canvas.height = wHeight;
+    noiseData = [];
+    frame = 0;
     for (let i = 0; i < 10; i++) {
       createNoise();
+    }
+    if (reducedMotion.matches) {
+      ctx.putImageData(noiseData[0], 0, 0);
+      return;
     }
     loop();
   };
@@ -54,12 +62,17 @@ const noise = () => {
         setup();
       }, 200);
     }, false);
+    reducedMotion.addEventListener('change', () => {
+      window.clearTimeout(loopTimeout);
+      setup();
+    });
   };
   // Init
   const init = (() => {
     canvas = document.getElementById('noise');
     ctx = canvas.getContext('2d');
     setup();
+    reset();
   })();
 };
 

@@ -1,10 +1,8 @@
 ---
 title: "Brève histoire du design"
-description: "De Thonet à Ikéa, les origines et les précurseurs du design d’objet."
+description: "De Thonet à Ikéa, les origines et les précurseurs du design d’objet : d’où vient le mot « design » et comment l’industrie a façonné nos objets."
 date: 2019-05-13
 image: /images/blog/breve-histoire-du-design/1rQNywLJTPT0N0I8dBne_1Q.png
-typora-copy-images-to: "../../assets/images/${filename}"
-typora-root-url: "../../assets"
 ---
 **De Thonet à Ikéa, les origines et les précurseurs du design d’objet.**
 

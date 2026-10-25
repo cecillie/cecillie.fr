@@ -1,18 +1,18 @@
 ---
 title: "Le mochi aux herbes • よもぎ餅"
-description: "Vous prendrez bien un petit mochi à l’armoise avec votre hojicha ?"
+description: "Vous prendrez bien un petit mochi à l’armoise avec votre hojicha ? Pages de carnet de voyage d’une dégustation au Mitaki-en, à Chizu (Tottori)."
 date: 2026-08-06
 images:
   - file: 01.png
-    alt: "Le mochi aux herbes 1"
+    alt: "Aquarelle signée vue de dessus : théière à anse en rotin, tasse de hojicha, fleurs jaunes et yomogi mochi sur une planchette en bois."
   - file: 02.png
-    alt: "Le mochi aux herbes 2"
+    alt: "Gros plan de l’aquarelle : théière blanche aux motifs bleus, tasse de thé, bouquet de fleurs jaunes et mochi posé sur une feuille verte."
   - file: 03.png
-    alt: "Le mochi aux herbes 3"
+    alt: "Détail de la tasse de hojicha et du mochi saupoudré de kinako sur une feuille d’érable, près du bec de la théière."
   - file: 04.png
-    alt: "Le mochi aux herbes 4"
+    alt: "Détail des fleurs jaunes au cœur brun dans leur vase, et de la table en bois clair peinte à l’aquarelle."
   - file: 05.png
-    alt: "Le mochi aux herbes 5"
+    alt: "Photo de la dégustation au Mitaki-en : théière bleue et blanche, tasse de hojicha, fleurs jaunes et mochi au kinako avec baguettes."
 ---
 Vous prendrez bien un petit mochi à l’armoise avec votre hojicha ? Généreusement saupoudré de kinako moulu à la meule de pierre, évidemment.
 

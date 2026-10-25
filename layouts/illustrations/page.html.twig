@@ -1,11 +1,11 @@
-{% set image = 'images/' ~ page.id ~ '/' ~ page.images[0].file %}
+{% set image = 'images/' ~ page.langref ~ '/' ~ page.images[0].file %}
 
 {% extends ['page.html.twig', '_default/page.html.twig'] %}
 
     {%- block head ~%}
     {{- parent() ~}}
+    <link rel="stylesheet" href="{{ asset('https://cdn.jsdelivr.net/npm/swiper@12.2.0/swiper-bundle.min.css', {minify: false}) }}">
     <style>{% apply minify_css ~%}
-      {{ asset('https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css', {minify: false})|inline }}
       :root {
         --swiper-navigation-color: #000;
         --swiper-pagination-color: #000;
@@ -15,7 +15,7 @@
     {%- set author = {'@type': 'Person', name: site.author, url: url(site.home, {canonical: true})} -%}
     {%- set images_ld = [] -%}
     {%- for img in page.images -%}
-      {%- set img_asset = asset('images/' ~ page.id ~ '/' ~ img.file) -%}
+      {%- set img_asset = asset('images/' ~ page.langref ~ '/' ~ img.file) -%}
       {%- set images_ld = images_ld|merge([{
         '@context': 'https://schema.org',
         '@type': 'ImageObject',
@@ -56,7 +56,7 @@
               {%- else -%}
                 {%- set attributes = attributes|merge({loading: 'lazy', decoding: 'async'}) -%}
               {%- endif ~%}
-              {{ html(asset('images/' ~ page.id ~ '/' ~ img.file), attributes=attributes, options=options) ~}}
+              {{ html(asset('images/' ~ page.langref ~ '/' ~ img.file), attributes=attributes, options=options) ~}}
             </div>
             {%- endfor ~%}
           </div>
@@ -87,8 +87,8 @@
 
     {%- block scripts ~%}
     {{- parent() ~}}
+    <script src="{{ asset('https://cdn.jsdelivr.net/npm/swiper@12.2.0/swiper-bundle.min.js', {minify: false}) }}"></script>
     <script>{% apply minify_js ~%}
-      {{ asset('https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js', {minify: false})|inline }}
       const swiper = new Swiper('.swiper', {
         navigation: {
           nextEl: '.swiper-button-next',

@@ -6,8 +6,8 @@
     "aligny/tailwind-builder": "^1.2"
   },
   "scripts": {
-    "css:build": "tailwind-builder assets/css/tailwind.css --output=assets/css/styles.css --minify",
-    "css:watch": "tailwind-builder assets/css/tailwind.css --output=assets/css/styles.css --watch"
+    "css:build": "tailwind-builder assets/css/tailwind.css --output=assets/css/styles.css --minify --tailwind-version=v4.3.3",
+    "css:watch": "tailwind-builder assets/css/tailwind.css --output=assets/css/styles.css --watch --tailwind-version=v4.3.3"
   },
   "config": {
     "allow-plugins": {

@@ -36,9 +36,9 @@ Structure du front matter :
 ```yaml
 ---
 title: "Titre du billet"
-description: "Description courte du billet."
+description: "Description du billet (idéalement 120 à 160 caractères)."
 date: AAAA-MM-JJ
-image: /images/<slug-du-billet>/image-principale.png
+image: /images/blog/<slug-du-billet>/image-principale.png
 ---
 ```
 
@@ -46,12 +46,12 @@ Puis rédiger le contenu en Markdown après le front matter.
 
 ### 2. Ajouter les images
 
-Placer les images dans `assets/images/<slug-du-billet>/` (le nom du dossier doit correspondre au nom du fichier Markdown).
+Placer les images dans `assets/images/blog/<slug-du-billet>/` (le nom du dossier doit correspondre au nom du fichier Markdown).
 
 Référencer une image dans le contenu :
 
 ```markdown
-![Texte alternatif](images/<slug-du-billet>/nom-image.png "Légende"){loading=eager}
+![Texte alternatif](images/blog/<slug-du-billet>/nom-image.png "Légende"){loading=eager}
 ```
 
 > `{loading=eager}` est recommandé pour l'image principale (au-dessus de la ligne de flottaison).
@@ -67,13 +67,13 @@ Structure du front matter :
 ```yaml
 ---
 title: Titre de l'illustration
-description: "Description de l'illustration."
+description: "Description de l’illustration (idéalement 120 à 160 caractères)."
 date: AAAA-MM-JJ
 images:
   - file: 01.png
-    alt: Description de l'image 1
+    alt: Ce que montre l’image 1 (personnages, décor, action…)
   - file: 02.png
-    alt: Description de l'image 2
+    alt: Ce que montre l’image 2
 ---
 ```
 
@@ -84,3 +84,11 @@ Puis rédiger le texte d'accompagnement en Markdown après le front matter.
 Placer les images dans `assets/images/illustrations/<slug-de-l-illustration>/`.
 
 Les nommer de manière séquentielle (`01.png`, `02.png`, etc.) et les lister dans le front matter `images`.
+
+> Le texte alternatif (`alt`) décrit ce que l’on voit sur l’image, pour les personnes qui ne la voient pas (lecteurs d’écran) et pour les moteurs de recherche : éviter « Titre 1 », « Titre 2 »…
+
+## Traduire une page en anglais
+
+Créer, à côté de la page française, un fichier avec le suffixe `.en` (ex. `pages/illustrations/kissaten.en.md`), avec le même front matter traduit (`title`, `description`, `alt` des images).
+
+La page traduite est publiée sous `/en/` et liée automatiquement à la version française. Pour qu'une rubrique apparaisse dans le menu anglais, ajouter son entrée dans `languages.en.config.menus.main` de `cecil.yml`.

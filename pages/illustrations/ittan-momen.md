@@ -1,20 +1,20 @@
 ---
 title: "Ittan momen • 一反木綿"
-description: "Avez-vous déjà aperçu une famille d’ittan momen au hasard d’une nuit sombre ?"
+description: "Avez-vous déjà aperçu une famille d’ittan momen au hasard d’une nuit sombre ? Ce yōkai en coton, star de GeGeGe no Kitarō, n’est pas si inoffensif…"
 date: 2026-09-03
 images:
   - file: 01.png
-    alt: "Ittan momen 1"
+    alt: "Une famille d’ittan momen, longues bandes de coton blanc souriantes, virevolte dans un ciel nocturne gris : un grand et quatre petits."
   - file: 02.png
-    alt: "Ittan momen 2"
+    alt: "Vue rapprochée de la famille d’ittan momen : le grand, bras écartés, flotte au milieu de quatre petits qui jouent dans le vent de la nuit."
   - file: 03.png
-    alt: "Ittan momen 3"
+    alt: "Gros plan sur le visage de l’ittan momen adulte, yeux plissés et sourire espiègle, joues légèrement rosées sur le tissu blanc."
   - file: 04.png
-    alt: "Ittan momen 4"
+    alt: "Détail de trois petits ittan momen qui volent joyeusement, l’un l’air déterminé, les deux autres riant les bras ouverts."
   - file: 05.png
-    alt: "Ittan momen 5"
+    alt: "Détail d’un petit ittan momen allongé dans les nuages sombres, les mains derrière la tête, l’air rêveur."
   - file: 06.png
-    alt: "Ittan momen 6"
+    alt: "Illustration de Shigeru Mizuki au musée de Sakaiminato : un ittan momen effraie trois enfants près d’une maison au toit de chaume."
 ---
 Avez-vous déjà aperçu une famille d’ittan momen au hasard d’une nuit sombre ? 👻🌙
 

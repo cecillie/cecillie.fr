@@ -1,20 +1,20 @@
 ---
 title: "Sagiotoko Sōsuke • 鷺男惣介"
-description: "Voici Sōsuke, l’étrange homme-héron."
+description: "Voici Sōsuke, l’étrange homme-héron du Chikuzen bakemono emaki (1859). Pêcheur tranquille et flâneur, il sait aussi se défendre à grands coups de bec."
 date: 2026-09-24
 images:
   - file: 01.png
-    alt: "Sagiotoko Sōsuke 1"
+    alt: "Aquarelle de Sōsuke, l’homme-héron au long bec jaune et à la queue de cheval, assis sur un rocher au bord de l’eau avec un onigiri, une brique de lait et un panier."
   - file: 02.png
-    alt: "Sagiotoko Sōsuke 2"
+    alt: "Plan rapproché de Sōsuke en short rouge et chaussettes bleues, assis en sandales sur un rocher, une brique de lait banane dans une main et un onigiri dans l’autre."
   - file: 03.png
-    alt: "Sagiotoko Sōsuke 3"
+    alt: "Détail de la tête de Sōsuke : long bec jaune entrouvert, sourcils épais, yeux cernés de violet et cheveux noirs noués en queue de cheval."
   - file: 04.png
-    alt: "Sagiotoko Sōsuke 4"
+    alt: "Détail de Sōsuke assis sur son rocher, son long cou de héron courbé, tenant sa brique de lait et son onigiri près d’un panier en osier."
   - file: 05.png
-    alt: "Sagiotoko Sōsuke 5"
+    alt: "Gros plan sur le visage de Sōsuke, bec grand ouvert, avec l’onomatopée en katakana « kuwa kuwa » (クワックワッ) qui imite son cri."
   - file: 06.png
-    alt: "Sagiotoko Sōsuke 6"
+    alt: "Planche : l’homme-héron peint dans le Chikuzen bakemono emaki (vers 1857-1859), avec un texte expliquant que ce rouleau rassemble plus de 40 récits et créatures étranges."
 ---
 Voici Sōsuke, l’étrange homme-héron 🪶.
 

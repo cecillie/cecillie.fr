@@ -1,20 +1,20 @@
 ---
 title: "Kissaten • 喫茶店"
-description: "Avez-vous déjà poussé la porte d’un kissaten ?"
+description: "Avez-vous déjà poussé la porte d’un kissaten ? À Kurayoshi, le café « Modern » est resté figé dans l’ère Shōwa : omurice, cream soda et banana split géant."
 date: 2026-08-27
 images:
   - file: 01.png
-    alt: "Kissaten 1"
+    alt: "Façade du kissaten Modern à Kurayoshi : store rayé rouge et blanc, mur de briques, chaises colorées, scooter bleu et câbles électriques."
   - file: 02.png
-    alt: "Kissaten 2"
+    alt: "Vue rapprochée du café Modern : enseigne « irasshaimase », vitrine de plats, affiche de cream soda, horloge et une femme qui salue à la fenêtre."
   - file: 03.png
-    alt: "Kissaten 3"
+    alt: "Détail de la devanture : enseigne « irasshaimase », lanterne rouge, vitrine de plats factices, affiche de cream soda et quatre chaises colorées."
   - file: 04.png
-    alt: "Kissaten 4"
+    alt: "Détail du scooter bleu garé devant la porte, à côté d’une horloge murale, de l’enseigne « Modern » et d’un congélateur à glaces Lotte."
   - file: 05.png
-    alt: "Kissaten 5"
+    alt: "Photo du vrai café Modern à Kurayoshi, avec son store rayé rouge et blanc, ses chaises colorées et son scooter bleu."
   - file: 06.png
-    alt: "Kissaten 6"
+    alt: "Banana split du kissaten : boules de glace, bananes, chantilly, cerise, flan et gaufrettes, avec des figurines de girafe et de panda."
 ---
 Avez-vous déjà poussé la porte d’un **kissaten** ? ☕️🍮
 

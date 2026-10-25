@@ -1,20 +1,20 @@
 ---
 title: "La Maiko & la Grue • 舞妓さんと鶴"
-description: "Les maiko sont des apprenties geiko (souvent appelées “geisha” en France)."
+description: "Les maiko sont des apprenties geiko (souvent appelées “geisha” en France). Portrait d’une maiko et d’une grue japonaise, symbole de grâce et de longévité."
 date: 2026-03-02
 images:
   - file: 01.png
-    alt: "La Maiko & la Grue 1"
+    alt: "Aquarelle signée : profil d’une maiko au chignon orné d’une grue dorée et de pins, accompagnée d’une grue japonaise à tête rouge."
   - file: 02.png
-    alt: "La Maiko & la Grue 2"
+    alt: "Gros plan sur la maiko de profil, yeux et lèvres maquillés de rouge, et sur la grue japonaise qui s’enroule autour de son épaule."
   - file: 03.png
-    alt: "La Maiko & la Grue 3"
+    alt: "Détail du visage de la maiko de profil et de sa coiffure noire ornée de pins, d’une petite grue dorée et d’un peigne à franges."
   - file: 04.png
-    alt: "La Maiko & la Grue 4"
+    alt: "Détail de la grue japonaise au plumage gris et blanc, à la tête rouge et au long bec noir, repliée contre la maiko."
   - file: 05.png
-    alt: "La Maiko & la Grue 5"
+    alt: "Très gros plan du profil de la maiko : sourcil et paupière soulignés de rouge, lèvres rouge vif sur un teint pâle."
   - file: 06.png
-    alt: "La Maiko & la Grue 6"
+    alt: "Photo de l’aquarelle originale de la maiko et la grue, posée sur une table en bois parmi des feuilles vertes et des fleurs roses."
 ---
 Les maiko sont des apprenties geiko 👘 (souvent appelées “geisha” en France).  
 Ces jeunes femmes entament dès l’âge de 15 ans une formation exigeante, rude et stricte. Pendant 5 années, elles apprennent les arts classiques japonais : cérémonie du thé 🍵, ikebana 🌸, danse, chant, musique 🎶, calligraphie … jusqu’à devenir geiko.

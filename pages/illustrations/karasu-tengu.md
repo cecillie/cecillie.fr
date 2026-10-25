@@ -4,23 +4,23 @@ description: "Le karasu tengu est un petit tengu à tête de corbeau. Le mont Da
 date: 2026-08-13
 images:
   - file: 01.png
-    alt: "Karasu tengu 1"
+    alt: "Un karasu tengu à tête de corbeau, en tenue blanche de yamabushi à pompons violets et bâton de bambou, entouré de deux petits karasu tengu."
   - file: 02.png
-    alt: "Karasu tengu 2"
+    alt: "Vue rapprochée du karasu tengu et de ses deux petits : l’un se cache derrière sa jambe, l’autre fait le signe de la victoire."
   - file: 03.png
-    alt: "Karasu tengu 3"
+    alt: "Gros plan sur le karasu tengu : visage bleu, bec noir, yeux rouges, petit bonnet tokin et yuigesa à pompons violets sur la poitrine."
   - file: 04.png
-    alt: "Karasu tengu 4"
+    alt: "Détail des deux petits karasu tengu au bec jaune, vêtus comme des yamabushi, de part et d’autre des jambes du grand tengu en sandales."
   - file: 05.png
-    alt: "Karasu tengu 5"
+    alt: "Détail d’un petit karasu tengu souriant, les yeux fermés, qui s’agrippe au bâton de bambou."
   - file: 06.png
-    alt: "Karasu tengu 6"
+    alt: "Statue géante de karasu tengu ailé, bâton en main, au parc Niodo à Hira, près du mont Daisen : 8,88 mètres pour près de 10 tonnes."
   - file: 07.png
-    alt: "Karasu tengu 7"
+    alt: "Peinture circulaire d’un karasu tengu ailé par Shigeru Mizuki, au plafond du sanctuaire Enryūin du mont Daisen, entourée d’autres yōkai."
   - file: 08.png
-    alt: "Karasu tengu 8"
+    alt: "Masque ancien de karasu tengu au mont Daisen : visage gris au bec crochu, sourcils blancs et petit bonnet rouge."
   - file: 09.png
-    alt: "Karasu tengu 9"
+    alt: "Une femme pointe du doigt le plafond aux yōkai de Shigeru Mizuki du sanctuaire Enryūin ; une flèche désigne le karasu tengu, avec « Mata ne ! »."
 ---
 Le karasu tengu est un petit tengu à tête de corbeau 🐦‍⬛. Le mont Daisen, situé dans la préfecture de Tottori ⛰️, est considéré comme la demeure traditionnelle de ces puissants yōkai 👺.
 

@@ -1,10 +1,8 @@
 ---
 title: "Design à la chaîne"
-description: "De directeur artistique à designer UI, comment les besoins et les outils ont fordisé les créatifs du web."
+description: "De directeur artistique à designer UI, comment les besoins et les outils ont fordisé les créatifs du web. Un article écrit pour les 24 Jours du Web 2021."
 date: 2021-12-21
 image: /images/blog/design-a-la-chaine/1CyvxrS6jB5K9HWBHCOBUzg.png
-typora-copy-images-to: "../../assets/images/${filename}"
-typora-root-url: "../../assets"
 ---
 **De directeur artistique à designer UI, comment les besoins et les outils ont fordisé les créatifs du web.**
 

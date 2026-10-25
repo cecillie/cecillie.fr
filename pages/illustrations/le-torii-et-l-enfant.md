@@ -4,15 +4,15 @@ description: "Accompagnée d’un nekomata indécis, d’un jeune chōchin obake
 date: 2026-01-26
 images:
   - file: 01.png
-    alt: "Le torii et l’enfant 1"
+    alt: "Aquarelle : une fillette en t-shirt rayé fait le signe de la paix devant un torii de pierre moussu, entourée d’un chat en haori, d’une lanterne rieuse et d’une flamme."
   - file: 02.png
-    alt: "Le torii et l’enfant 2"
+    alt: "Plan rapproché : la fillette porte sur l’épaule un bâton où pend un chōchin obake rieur, à côté du kitsunebi souriant et du nekomata sous le grand torii."
   - file: 03.png
-    alt: "Le torii et l’enfant 3"
+    alt: "Détail du nekomata : un chat blanc dressé sur ses pattes arrière, vêtu d’un haori bleu et jaune, se gratte le menton d’un air perplexe et renfrogné."
   - file: 04.png
-    alt: "Le torii et l’enfant 4"
+    alt: "Détail : la fillette fait un clin d’œil, à côté d’une lanterne rouge en papier à visage hilare et d’un kitsunebi, flamme jaune orangé au sourire paisible."
   - file: 05.png
-    alt: "Le torii et l’enfant 5"
+    alt: "L’aquarelle originale posée sur un tissu japonais rouge et noir, avec des feuilles vertes au premier plan."
 ---
 Accompagnée d’un nekomata indécis, d’un jeune chōchin obake et d’un kitsunebi rutilant, une petite fille s’aventure sur le sentier d’une montagne sacrée ⛰️. Un grand torii de pierre se dresse sur le chemin ⛩️. A-t-elle déjà pénétré dans le monde des kami 🍃 ? Et surtout… est-ce vraiment une simple petite fille ✨ ?
 

@@ -1,0 +1,23 @@
+# English translations of the templates UI strings (source strings are in French)
+# 404.html.twig
+'Page non trouvée.': 'Page not found.'
+# 404.html.twig, page.html.twig
+'Accueil': 'Home'
+# blog/list.html.twig, blog/page.html.twig
+'%readtime% min': '%readtime% min'
+# blog/page.html.twig
+'(Passez ou appuyez sur l’image pour jouer l’animation)': '(Hover or tap the image to play the animation)'
+'Navigation entre les billets': 'Posts navigation'
+# home.html.twig
+'Hello': 'Hey there'
+# illustrations/page.html.twig
+'Navigation entre les illustrations': 'Illustrations navigation'
+'Précédente': 'Previous'
+'Suivante': 'Next'
+# page.html.twig
+'Fil d’Ariane': 'Breadcrumb'
+'Site généré avec': 'Site generated with'
+# partials/paginator.html.twig
+'Pagination': 'Pagination'
+'Précédent': 'Previous'
+'Suivant': 'Next'
