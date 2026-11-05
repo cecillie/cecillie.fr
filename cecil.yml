@@ -67,6 +67,26 @@ metatags:
     publisher:
       type: Person
 pages:
+  # front matter validation: https://cecil.app/documentation/configuration/pages/#pages-schema
+  validation: strict # fail the build (and the deploy) instead of silently skipping an invalid page
+  schema:
+    '*':
+      title: {type: string, required: true}
+      description: string
+      published: bool
+    blog:
+      description: {type: string, required: true}
+      image: {type: string, pattern: '^/images/blog/.+\.(png|jpe?g|gif|webp)$'}
+    illustrations:
+      description: {type: string, required: true}
+      images:
+        type: list
+        min: 1
+        items:
+          type: map
+          fields:
+            file: {type: string, required: true, pattern: '^[\w-]+\.(png|jpe?g|gif|webp)$'} # file name only, in assets/images/illustrations/<page>/
+            alt: {type: string, required: true, min: 1}
   body:
     images:
       formats: [webp]
